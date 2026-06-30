@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "ent_1",
+    "question": "A 24-year-old male presents with a progressive history of unilateral nasal obstruction and recurrent epistaxis from the right side. On anterior rhinoscopy, a smooth, pinkish-red, vascular mass is noted in the right nasal cavity. On probing, the mass is found to be non-tender, bleeding on touch, and attached to the posterior part of the nasal septum. What is the most likely diagnosis?",
+    "options": [
+      "Antrochoanal polyp",
+      "Rhinosporidiosis",
+      "Juvenile Nasopharyngeal Angiofibroma (JNA)",
+      "Inverted Papilloma"
+    ],
+    "correct": 0,
+    "explanation": "Bleeding and unilateral blockage points directly to a vascular mass. In young males, JNA must be ruled out, but a solitary mass localized specifically to the septum on probing without nasopharyngeal extension matches an angioadenomatous presentation or an antrochoanal polyp tracking forward."
+  },
+  {
+    "id": "ent_2",
+    "question": "A 45-year-old female presents with persistent bilateral foul-smelling nasal discharge, crusting, and a progressive loss of sensation of smell. On clinical examination, the nasal cavities are remarkably roomy with marked atrophy of the inferior turbinates. The patient herself is completely unaware of the foul odor, which is highly offensive to bystanders. This specific phenomenon of lack of awareness of one's own foul odor is called:",
+    "options": [
+      "Anosmia",
+      "Kakosmia",
+      "Autanosmia",
+      "Mercaptan effect"
+    ],
+    "correct": 1,
+    "explanation": "Kakosmia is the specific perception of a bad odor that others may or may not notice, but in atrophic rhinitis, the degeneration of nerve endings leaves the patient anosmic to their own objective foul odor (Ozaena), while surrounding individuals suffer from the smell."
+  },
+  {
+    "id": "ent_3",
+    "question": "During a Functional Endoscopic Sinus Surgery (FESS) to clear a chronically diseased maxillary sinus, the surgeon identifies the natural ostium of the maxillary sinus. Which specific anatomical sub-structure of the lateral nasal wall forms the immediate superior boundary of the maxillary sinus ostium?",
+    "options": [
+      "Uncinate process",
+      "Bulla ethmoidalis",
+      "Inferior turbinate",
+      "Fontanelle"
+    ],
+    "correct": 1,
+    "explanation": "The bulla ethmoidalis represents the largest anterior ethmoidal air cell and sits directly superior to the hiatus semilunaris and the natural ostium of the maxillary sinus, serving as a protective ceiling boundary."
+  },
+  {
+    "id": "ent_4",
+    "question": "A 35-year-old male working in an agricultural field presents with a granular, strawberry-like mass hanging from the nasal septum into the left nasal cavity. He reports frequent bathing in local village ponds. Histopathological examination reveals multiple sporangia containing thousands of endospores. What is the causative organism?",
+    "options": [
+      "Rhinosporidium seeberi",
+      "Klebsiella ozaenae",
+      "Aspergillus fumigatus",
+      "Histoplasma capsulatum"
+    ],
+    "correct": 0,
+    "explanation": "Stagnant water history combined with a raspberry/strawberry friable nasal mass showing endospore-filled sporangia is pathognomonic for Rhinosporidiosis caused by Rhinosporidium seeberi."
+  },
+  {
+    "id": "ent_5",
+    "question": "A 60-year-old known diabetic patient presents with a 3-day history of severe unilateral facial pain, periorbital swelling, and a black, necrotic eschar on the right middle turbinate and hard palate. Microscopic evaluation of a tissue scrap show broad, ribbon-like, aseptate hyphae branching at right angles (90 degrees). What is the first-line medical treatment of choice for this condition?",
+    "options": [
+      "Oral Fluconazole",
+      "Intravenous Liposomal Amphotericin B",
+      "Intravenous Voriconazole",
+      "Topical Nystatin"
+    ],
+    "correct": 1,
+    "explanation": "Rhinocerebral Mucormycosis presents with broad, ribbon-like aseptate hyphae with 90 degrees branching in diabetic patients. Liposomal Amphotericin B combined with urgent surgical debridement is life-saving."
+  },
+  {
+    "id": 6,
+    "question": "A 14-year-old boy presents with sudden, recurrent, unprovoked profuse epistaxis from the left nasal cavity, accompanied by a progressive left-sided nasal mass. A diagnostic CT scan shows a soft tissue mass in the nasopharynx extending through the sphenopalatine foramen, causing anterior bowing of the posterior wall of the maxillary sinus. This specific radiological finding is known as:",
+    "options": [
+      "Holman-Miller sign",
+      "Puddle sign",
+      "Crescent sign",
+      "Steeple sign"
+    ],
+    "correct": 0,
+    "explanation": "The Holman-Miller sign (or antral sign) is the forward/anterior bowing of the posterior wall of the maxillary sinus seen on lateral X-rays or CT scans, classic for an expanding JNA."
+  },
+  {
+    "id": 7,
+    "question": "A 28-year-old pregnant female presents with a rapidly growing, painless, red vascular nodule on the anterior nasal septum that bleeds easily on touch. She is in her third trimester. The mass is excised and histopathologically verified as a lobular capillary hemangioma. What is this condition traditionally known as?",
+    "options": [
+      "Granuloma gravidarum",
+      "Osler-Weber-Rendu disease",
+      "Angiomatous polyp",
+      "Rhinoscleroma"
+    ],
+    "correct": 0,
+    "explanation": "Granuloma gravidarum is a highly vascular, lobular capillary hemangioma that develops on the nasal septum during pregnancy due to hormonal influences and typically regresses post-partum."
+  },
+  {
+    "id": 8,
+    "question": "A 52-year-old male presents with continuous clear, watery fluid dripping from his left nostril, which increases when he bends forward. He notes a history of a motor vehicle accident 2 months ago. To confirm if this fluid is cerebrospinal fluid (CSF), which highly specific biomarker should be tested in the laboratory?",
+    "options": [
+      "Glucose content",
+      "Beta-2 transferrin",
+      "Total protein concentration",
+      "Sodium-potassium ratio"
+    ],
+    "correct": 1,
+    "explanation": "Beta-2 transferrin is highly specific to CSF, perilymph, and vitreous humor. It is not found in normal nasal secretions, making it the diagnostic gold standard for confirming CSF leaks."
+  },
+  {
+    "id": 9,
+    "question": "A 40-year-old patient presents with bilateral nasal obstruction and multi-lobulated, smooth, pale, translucent, grape-like masses filling both nasal cavities. The patient has a history of adult-onset asthma and experiences severe bronchospasm after consuming aspirin. What is the name given to this specific clinical triad?",
+    "options": [
+      "Kartagener's triad",
+      "Samter's triad",
+      "Gradenigo's triad",
+      "Trotter's triad"
+    ],
+    "correct": 1,
+    "explanation": "Samter's Triad consists of intrinsic asthma, aspirin hypersensitivity, and nasal/ethmoidal polyposis."
+  },
+  {
+    "id": 10,
+    "question": "A 68-year-old patient presents with a hard, irregular mass involving the anterior nasal septum. Biopsy confirms squamous cell carcinoma. The surgeon plans a radical clearance. Which lymphatic chain is the primary site for metastasis from the anterior structures of the nasal cavity and the external nose?",
+    "options": [
+      "Retropharyngeal lymph nodes",
+      "Submandibular lymph nodes",
+      "Jugulodigastric lymph nodes",
+      "Deep supraclavicular lymph nodes"
+    ],
+    "correct": 1,
+    "explanation": "The anterior parts of the nasal cavity and skin of the external nose drain into the submandibular lymph nodes, while the posterior parts drain primarily into retropharyngeal and deep cervical nodes."
+  },
+  {
+    "id": 11,
+    "question": "A 30-year-old female presents with progressive thickening of the nasal skin, leading to a woody-hard, painless induration of the entire nose and upper lip. Biopsy of the subepithelial tissue reveals large, pale, vacuolated histiocytes containing causative bacilli, known as Mikulicz cells, alongside Russell bodies. What is the diagnostic organism?",
+    "options": [
+      "Klebsiella rhinoscleromatis",
+      "Mycobacterium leprae",
+      "Treponema pallidum",
+      "Rhinosporidium seeberi"
+    ],
+    "correct": 0,
+    "explanation": "Rhinoscleroma is characterized by three distinct clinical stages (catarrhal, granulomatous, cicatricial). Histopathology showing foamy Mikulicz cells and Russell bodies confirms Klebsiella rhinoscleromatis."
+  },
+  {
+    "id": 12,
+    "question": "The olfactory epithelium contains specialized bipolar sensory neurons. Where exactly are the primary cell bodies of these olfactory receptor neurons located within the nasal cavity structures?",
+    "options": [
+      "Sphenopalatine ganglion",
+      "Mucosa covering the cribriform plate, superior turbinate, and upper septum",
+      "Middle meatus lateral wall",
+      "Nasopharyngeal vault roof"
+    ],
+    "correct": 1,
+    "explanation": "The primary cell bodies of the first-order olfactory neurons occupy the superior nasal mucosa, encompassing the cribriform plate, superior turbinate, and corresponding high nasal septum."
+  },
+  {
+    "id": 13,
+    "question": "A 19-year-old boxer presents to the emergency room immediately after an injury to his nose. Examination reveals a smooth, reddish, bilateral, soft fluctuant swelling of the nasal septum, causing total nasal obstruction. There is no bony crepitus. What is the most appropriate next step in management?",
+    "options": [
+      "Watchful waiting for spontaneous resolution",
+      "Immediate aspiration or incision and drainage under sterile conditions",
+      "High-dose oral corticosteroids",
+      "Delayed septoplasty after 3 weeks"
+    ],
+    "correct": 1,
+    "explanation": "A septal hematoma requires immediate incision and drainage to prevent pressure necrosis of the avascular septal cartilage, which would otherwise lead to a saddle nose deformity."
+  },
+  {
+    "id": 14,
+    "question": "A 50-year-old female presents with chronic facial pain, nasal stuffiness, and a dark brown, clay-like mass in the left maxillary sinus. A CT scan shows complete opacification of the sinus with hyperdense central calcifications. Functional Endoscopic Sinus Surgery is performed, and a mass resembling a \"wet newspaper\" is extracted. What is the diagnosis?",
+    "options": [
+      "Maxillary Sinus Carcinoma",
+      "Mycetoma (Fungal Ball)",
+      "Inverted Papilloma",
+      "Mucocele"
+    ],
+    "correct": 1,
+    "explanation": "A non-invasive mycetoma (fungal ball) produces dense, clay-like debris (\"wet newspaper\" appearance) with central calcification spots on CT within an opacified maxillary sinus."
+  },
+  {
+    "id": 15,
+    "question": "An anatomical variation is noted on a coronal CT scan of the paranasal sinuses. An air-filled, pneumatized cell is seen extending into the most superior aspect of the nasal septum from the ethmoid complex, compressing the middle turbinate. This specific type of concha bullosa variant is technically called:",
+    "options": [
+      "Interlamellar cell",
+      "Concha bullosa of the middle turbinate",
+      "Agger nasi cell",
+      "Haller cell"
+    ],
+    "correct": 0,
+    "explanation": "When pneumatization tracks specifically between the lamellae or into the septum rather than the bulbous portion of the middle turbinate alone, it constitutes an interlamellar cell variants of hyper-pneumatization."
+  },
+  {
+    "id": 16,
+    "question": "A 23-year-old male undergoes septoplasty for a severely deviated nasal septum. Following the surgery, he develops an unexpected, persistent sag or depression of the cartilaginous nasal dorsum, resulting in a cosmetic \"saddle nose\" appearance. This complication indicates that the surgeon failed to preserve a sufficient caudal and dorsal strut of the septal cartilage. What is the minimum recommended width of this L-shaped cartilage strut that must be preserved?",
+    "options": [
+      "5 mm",
+      "10 mm to 15 mm",
+      "2 mm",
+      "25 mm"
+    ],
+    "correct": 1,
+    "explanation": "To maintain stable tip projection and avoid the dorsum dropping down, a conservative minimum structural margin of 10 mm to 15 mm must be preserved along both the caudal and dorsal aspects of the septal cartilage template."
+  },
+  {
+    "id": 17,
+    "question": "A 55-year-old male with a history of chronic epistaxis undergoes endoscopic evaluation. The surgeon visualizes an arterial plexus located on the anteroinferior part of the nasal septum, which is the most common site for anterior epistaxis. Which of the following arteries does NOT contribute to the formation of this plexus (Kiesselbach's plexus)?",
+    "options": [
+      "Sphenopalatine artery",
+      "Greater palatine artery",
+      "Superior labial artery",
+      "Posterior ethmoidal artery"
+    ],
+    "correct": 3,
+    "explanation": "Kiesselbach's Plexus (Little's area) involves the sphenopalatine, greater palatine, superior labial, and anterior ethmoidal arteries. The Posterior Ethmoidal Artery does not participate in this plexus."
+  },
+  {
+    "id": 18,
+    "question": "A 34-year-old female presents with a progressive mass involving the right lateral nasal wall that causes unilateral nasal obstruction and recurrent epiphora. A biopsy confirms a benign inverted papilloma. What is the widely documented rate of malignant transformation into synchronous or metachronous squamous cell carcinoma for inverted papillomas?",
+    "options": [
+      "0%",
+      "1% to 2%",
+      "10% to 15%",
+      "75% to 80%"
+    ],
+    "correct": 2,
+    "explanation": "Inverted papillomas are benign but locally aggressive epithelial tumors with a well-documented risk of malignant transformation into Squamous Cell Carcinoma (10-15%)."
+  },
+  {
+    "id": 19,
+    "question": "A 5-year-old child is brought to the clinic by his mother due to a unilateral, foul-smelling, purulent nasal discharge from the right side of one week's duration. The child is otherwise healthy and afebrile. What should be the first suspicion in any case of unilateral foul-smelling nasal discharge in a young child?",
+    "options": [
+      "Acute maxillary sinusitis",
+      "Impacted nasal foreign body",
+      "Choanal atresia",
+      "Nasal diphtheria"
+    ],
+    "correct": 1,
+    "explanation": "Any pediatric patient presenting with unilateral, foul-smelling nasal discharge must be assumed to have an impacted foreign body until proven otherwise by thorough examination."
+  },
+  {
+    "id": 20,
+    "question": "A neonate is born with severe respiratory distress and immediate cyanosis that dramatically improves whenever the child cries. Attempting to pass a 6 Fr suction catheter through the nares into the nasopharynx fails on both sides. What is the primary diagnosis?",
+    "options": [
+      "Laryngeal web",
+      "Bilateral choanal atresia",
+      "Tracheoesophageal fistula",
+      "Laryngomalacia"
+    ],
+    "correct": 1,
+    "explanation": "Neonates are obligate nasal breathers. Bilateral choanal atresia causes cyclic distress: cyanosis when resting/feeding (mouth closed), which clears instantly upon crying (breathing through the oral cavity)."
+  },
+  {
+    "id": 21,
+    "question": "During an endoscopic sinus surgery, the surgeon opens the ethmoid bulla and notes an air-filled cell migrating along the roof of the maxillary sinus and the floor of the orbit, lateral to the uncinate process. This infraorbital ethmoid cell is prone to causing recurrent maxillary sinusitis by obstructing the natural ostium. What is this cell called?",
+    "options": [
+      "Haller cell",
+      "Onodi cell",
+      "Agger nasi cell",
+      "Kuhn cell"
+    ],
+    "correct": 0,
+    "explanation": "Haller cells are infraorbital ethmoid air cells that project along the orbital floor and maxillary sinus roof, directly impinging on the infundibulum channels."
+  },
+  {
+    "id": 22,
+    "question": "A 35-year-old male patient presents with chronic nasal blockage and headaches. On anterior rhinoscopy, a large, solitary, pale, smooth, trilobed mass is seen emerging from the middle meatus, extending posteriorly into the choana and hanging down into the nasopharynx. It does not bleed on touch. What is the definitive treatment of choice for this condition?",
+    "options": [
+      "High-dose antihistamines for 3 months",
+      "Endoscopic sinus surgery with complete excision of the polyp from its site of origin",
+      "Corticosteroid nasal spray alone",
+      "Radical total maxillectomy"
+    ],
+    "correct": 1,
+    "explanation": "An antrochoanal polyp is completely solitary and benign but non-responsive to medications long term. Complete endoscopic sinus surgery tracking its precise stalk back to the maxillary sinus wall is required."
+  },
+  {
+    "id": 23,
+    "question": "A 48-year-old male presents with persistent nasal crusting, saddle nose deformity, and microscopic hematuria. Laboratory investigations reveal a positive c-ANCA (anti-neutrophil cytoplasmic antibody) titer. A biopsy of the nasal mucosa shows necrotizing granulomas with vasculitis. What is the diagnosis?",
+    "options": [
+      "Sarcoidosis",
+      "Granulomatosis with Polyangiitis (Wegener's Granulomatosis)",
+      "Tuberculosis",
+      "Churg-Strauss syndrome"
+    ],
+    "correct": 1,
+    "explanation": "Granulomatosis with Polyangiitis (Wegener's) targets the upper airways (crusting, saddle nose), lower lungs, and kidneys, presenting with necrotizing vasculitis and c-ANCA positivity."
+  },
+  {
+    "id": 24,
+    "question": "A patient undergoes an open rhinoplasty procedure. To address a bulbous nasal tip and adjust the rotation and projection, the surgeon works extensively on the structure that links the medial and lateral crura and dictates the highlight of the tip. This structure is known as the:",
+    "options": [
+      "Septal angle",
+      "Nasal sill",
+      "Dome of lower lateral cartilage",
+      "Alar base"
+    ],
+    "correct": 2,
+    "explanation": "The dome of the lower lateral (alar) cartilage links the medial and lateral crura and directly dictates the projection, definition, and highlights of the structural nasal tip."
+  },
+  {
+    "id": 25,
+    "question": "A 22-year-old male presents with recurrent episodes of paroxysmal sneezing, severe watery rhinorrhea, and bilateral nasal congestion triggered by cold winds and spicy food. Skin prick testing and IgE levels are completely normal. Which autonomic nerve pathway carries the postganglionic parasympathetic secretomotor fibers to the nasal mucosa, responsible for these hypersecretory symptoms?",
+    "options": [
+      "Deep petrosal nerve",
+      "Vidian nerve",
+      "Lesser palatine nerve",
+      "Long ciliary nerve"
+    ],
+    "correct": 1,
+    "explanation": "The Vidian Nerve (formed by deep and greater superficial petrosal nerves) carries the primary parasympathetic secretomotor fibers to the sphenopalatine ganglion, driving rhinorrhea in vasomotor flare-ups."
+  },
+  {
+    "id": "ent_26",
+    "question": "A 65-year-old male presents with a 6-month history of progressive right-sided nasal obstruction, facial pain, and recurrent epistaxis. On examination, a friable mass is seen in the right nasal cavity. Coronal CT shows an opacified right maxillary sinus with erosion of its bony walls. What is the most common histological type of malignant tumor arising from the paranasal sinuses?",
+    "options": [
+      "Adenocarcinoma",
+      "Squamous cell carcinoma",
+      "Adenoid cystic carcinoma",
+      "Olfactory neuroblastoma"
+    ],
+    "correct": 1,
+    "explanation": "Squamous cell carcinoma represents more than 80% of all primary malignancies arising within the paranasal sinus mucous linings, most commonly localized within the maxillary antrum."
+  },
+  {
+    "id": "ent_27",
+    "question": "A 14-year-old boy presents with progressive, bilateral nasal obstruction and snoring. On posterior rhinoscopy, a large, smooth, pale mass is seen completely occupying the nasopharynx. A lateral plain X-ray of the nasopharynx reveals a soft tissue mass. On CT scan, the mass is found to originate from the lateral nasal wall near the sphenopalatine foramen, without any bony erosion. What is the most likely diagnosis?",
+    "options": [
+      "Juvenile Nasopharyngeal Angiofibroma",
+      "Antrochoanal polyp",
+      "Tornwaldt's cyst",
+      "Inverted papilloma"
+    ],
+    "correct": 1,
+    "explanation": "A large, benign, solitary, translucent mass tracking smoothly from the middle meatus into the choana and nasopharynx without bony erosion in a teenager is an antrochoanal polyp. JNAs are highly vascular, lobulated, and typically expand into bones."
+  },
+  {
+    "id": "ent_28",
+    "question": "During a skull base dissection, the surgeon visualizes the sphenoid sinus. Which of the following vital structures runs in close relation to the lateral wall of the sphenoid sinus and is at high risk of injury during surgery in this region?",
+    "options": [
+      "Internal carotid artery",
+      "Facial nerve",
+      "Internal jugular vein",
+      "Middle meningeal artery"
+    ],
+    "correct": 0,
+    "explanation": "The Internal Carotid Artery and the Optic Nerve are the two most critical structures running directly adjacent to or indented within the thin lateral osseous wall of the sphenoid sinus."
+  },
+  {
+    "id": "ent_29",
+    "question": "A 22-year-old male presents to the clinic with an external deformity of the nose following a trauma sustained during a cricket match 6 months ago. On examination, the cartilaginous dorsum of the nose is significantly deviated to the left side, and there is an anterior septal dislocation. What is the ideal surgical procedure to correct both the external deformity and the internal septal deviation?",
+    "options": [
+      "Submucous Resection (SMR)",
+      "Septoplasty",
+      "Septorhinoplasty",
+      "Rhinophyma excision"
+    ],
+    "correct": 2,
+    "explanation": "When both internal breathing dynamics (septum deviation) and external aesthetic alignment (nasal bone deviation) are compromised, a combined septorhinoplasty is indicated."
+  },
+  {
+    "id": "ent_30",
+    "question": "A 45-year-old male presentation with chronic rhinosinusitis undergoes an emergency functional endoscopic sinus surgery due to impending orbital complications. During the procedure, the surgeon unintentionally breaches the thin bony lateral wall of the ethmoid sinus. Which structural layer is breached first upon entering the orbit from the ethmoid air cells?",
+    "options": [
+      "Periorbita",
+      "Medial rectus muscle",
+      "Lamina papyracea",
+      "Orbital fat"
+    ],
+    "correct": 2,
+    "explanation": "The lamina papyracea is the ultra-thin, paper-like lateral bone plate of the ethmoid sinus that forms the direct barrier boundary separating the sinus cells from the periorbital soft tissue space."
+  },
+  {
+    "id": "ent_31",
+    "question": "A 38-year-old female presents with persistent clear, watery nasal discharge that increases upon straining or coughing. The fluid is collected and sent for analysis. It reveals a glucose level of 65 mg/dL and is positive for beta-2 transferrin. A high-resolution CT (HRCT) scan of the paranasal sinuses confirms a defect in the skull base. What is the most common site for a spontaneous or traumatic cerebrospinal fluid (CSF) rhinorrhea leak?",
+    "options": [
+      "Cribriform plate / Ethmoid roof",
+      "Lateral wall of sphenoid sinus",
+      "Posterior wall of frontal sinus",
+      "Clivus"
+    ],
+    "correct": 0,
+    "explanation": "The delicate cribriform plate and the thin fovea ethmoidalis roof represent the highest-frequency regions for both traumatic and spontaneous CSF leaks in rhinology."
+  },
+  {
+    "id": "ent_32",
+    "question": "A 60-year-old male with a history of long-standing tobacco smoking presents with a progressive, painless swelling over his right cheek, loosening of the upper right molar teeth, and occasional blood-stained nasal discharge. On examination, there is expansion of the right cheek and flattening of the nasolabial fold. Which imaging modality is best suited for assessing early bone erosion in paranasal sinus malignancies?",
+    "options": [
+      "Plain Radiography (Water's view)",
+      "High-Resolution Computed Tomography (HRCT)",
+      "Magnetic Resonance Imaging (MRI)",
+      "Ultrasonography"
+    ],
+    "correct": 1,
+    "explanation": "High-Resolution CT (HRCT) provides the finest detail for bone architecture, allowing clinicians to detect early, subtle erosion of thin sinus walls caused by micro-invasive tumors."
+  },
+  {
+    "id": "ent_33",
+    "question": "A 12-year-old child presents with high fever, severe headache, periorbital edema, proptosis, and restriction of extraocular movements in the left eye following an episode of acute ethmoid sinusitis. Within 24 hours, similar symptoms develop in the right eye, accompanied by altered sensorium. What is the most likely intracranial complication?",
+    "options": [
+      "Subdural empyema",
+      "Cavernous sinus thrombosis",
+      "Brain abscess",
+      "Meningitis"
+    ],
+    "correct": 1,
+    "explanation": "Rapid bilateral progression of orbital symptoms (proptosis, chemosis) accompanied by systemic toxicity and cranial nerve palsies points directly to Cavernous Sinus Thrombosis via retrograde ophthalmic vein tracking."
+  },
+  {
+    "id": "ent_34",
+    "question": "A 32-year-old male presents with recurrent episodes of facial pain, pressure, and purulent nasal discharge for the past 4 months. On endoscopic examination, mucopurulent discharge is seen draining from the middle meatus. Which of the following groups of paranasal sinuses drain directly into the middle meatus of the nasal cavity?",
+    "options": [
+      "Frontal, maxillary, and anterior ethmoidal sinuses",
+      "Posterior ethmoidal and sphenoid sinuses",
+      "Sphenoid and maxillary sinuses",
+      "Frontal and posterior ethmoidal sinuses"
+    ],
+    "correct": 0,
+    "explanation": "The middle meatus receives the primary drainage outflow from the frontal sinus, maxillary sinus, and the anterior ethmoidal air cell cluster."
+  },
+  {
+    "id": "ent_35",
+    "question": "During an endoscopic sinus surgery, the surgeon successfully removes the uncinate process to gain access to the ethmoid infundibulum. Which anatomical structure is visualized immediately posterior to the uncinate process and serves as the next major landmark in FESS?",
+    "options": [
+      "Agger nasi cell",
+      "Bulla ethmoidalis",
+      "Frontal recess",
+      "Sphenoid ostium"
+    ],
+    "correct": 1,
+    "explanation": "Removing the uncinate process during FESS reveals the retro-uncinate space, where the prominent dome of the bulla ethmoidalis serves as the next primary surgical landmark."
+  },
+  {
+    "id": "ent_36",
+    "question": "A 70-year-old male presents with severe, intractable posterior epistaxis that could not be controlled by anterior nasal packing. The surgeon decides to perform a posterior nasal packing. Which nerve plexus or vascular anatomical region is the most common source of posterior epistaxis?",
+    "options": [
+      "Kiesselbach's plexus",
+      "Woodruff's plexus",
+      "Little's area",
+      "Retrocolumellar vein"
+    ],
+    "correct": 1,
+    "explanation": "Woodruff's Plexus, located over the posteroinferior aspect of the lateral nasal wall, handles the majority of high-pressure venous and arterial posterior epistaxis episodes."
+  },
+  {
+    "id": "ent_37",
+    "question": "A 26-year-old male presents with a history of recurrent nasal obstruction and a whistling sound from his nose during quiet respiration. He had undergone a septoplasty operation 1 year ago. On anterior rhinoscopy, a circular defect of approximately 1 cm is noted in the anterior cartilaginous septum. What is the most likely cause of this presentation?",
+    "options": [
+      "Nasal septal perforation secondary to surgical trauma",
+      "Relapsing polychondritis",
+      "Systemic lupus erythematosus",
+      "Chromium toxicity"
+    ],
+    "correct": 0,
+    "explanation": "Whistling post-septoplasty indicates a small septal perforation, which typically occurs when corresponding tears are accidentally created in both mucoperichondrial flaps during surgery."
+  },
+  {
+    "id": "ent_38",
+    "question": "A 50-year-old male presenting with a destructive midline nasal lesion is suspected of having Rhinoscleroma. The tissue biopsy is stained with Hematoxylin and Eosin (H&E). Which characteristic histopathological features are diagnostic of the chronic granulomatous stage of Rhinoscleroma?",
+    "options": [
+      "Mikulicz cells and Russell bodies",
+      "Langhans giant cells and caseating necrosis",
+      "Reed-Sternberg cells",
+      "Schaumann bodies and Asteroid bodies"
+    ],
+    "correct": 0,
+    "explanation": "Diagnostic histopathology of the active granulomatous phase of Rhinoscleroma requires the detection of foamy, vacuolated Mikulicz cells along with Ig-filled, pink Russell bodies."
+  },
+  {
+    "id": "ent_39",
+    "question": "A 21-year-old male college student presents with severe facial pain, periorbital edema, and diplopia following a direct blow to his right orbit by a baseball. A CT scan reveals a fracture of the orbital floor with herniation of orbital contents into the underlying sinus. Which paranasal sinus forms the floor of the orbit?",
+    "options": [
+      "Ethmoid sinus",
+      "Frontal sinus",
+      "Maxillary sinus",
+      "Sphenoid sinus"
+    ],
+    "correct": 2,
+    "explanation": "The maxillary sinus sits directly below the orbit, meaning an orbital floor 'blowout' fracture results in the herniation of orbital fat and the inferior rectus muscle into the maxillary antrum."
+  },
+  {
+    "id": "ent_40",
+    "question": "A 30-year-old female presents with bilateral nasal obstruction, an altered sense of smell, and a history of recurrent watery nasal discharge for the past 2 years. Anterior rhinoscopy reveals multiple, pale, smooth, pedunculated, insensitive masses in both nasal cavities. Skin prick testing is positive for various aeroallergens. What is the underlying pathophysiology of these ethmoidal nasal polyps?",
+    "options": [
+      "Chronic mucosal inflammation and extracellular fluid edema",
+      "Neoplastic proliferation of respiratory epithelium",
+      "True adenomatous hyperplasia of mucous glands",
+      "Chronic venous stasis and localized thrombosis"
+    ],
+    "correct": 0,
+    "explanation": "Ethmoidal polyps are benign, inflammatory outgrowths driven by chronic mucosal allergy, eosinophilia, and subsequent extracellular fluid entrapment within the submucosa. They are not true neoplasms."
+  },
+  {
+    "id": "ent_41",
+    "question": "A 42-year-old male presents with progressive unilateral nasal obstruction and occasional blood-streaked rhinorrhea. Endoscopic examination shows a single, fleshy, red mass filling the right nasal cavity and originating from the lateral nasal wall. Biopsy shows an inverted papilloma. What is the risk of malignant transformation associated with inverted papilloma of the nose?",
+    "options": [
+      "0%",
+      "1% to 2%",
+      "10% to 15%",
+      "80% to 90%"
+    ],
+    "correct": 2,
+    "explanation": "Inverted papillomas carry a substantial 10% to 15% risk of synchronous or metachronous transformation into frank, invasive squamous cell carcinoma, requiring complete margin clearance."
+  },
+  {
+    "id": "ent_42",
+    "question": "A neonate born at 39 weeks of gestation presents with severe cyclic cyanosis at birth. The infant turns blue during feeding but becomes completely pink and comfortable while crying. On attempting to pass a soft suction catheter through the nose, resistance is encountered at 3 cm from the alar rim. What is the definitive diagnostic investigation of choice for this condition?",
+    "options": [
+      "High-Resolution CT (HRCT) of the paranasal sinuses and skull base",
+      "Plain X-ray lateral view of the neck",
+      "Diagnostic nasal endoscopy under general anesthesia",
+      "Magnetic Resonance Imaging (MRI) of the brain"
+    ],
+    "correct": 0,
+    "explanation": "To completely map the precise anatomical details (membranous vs. osseous composition) of a suspected choanal atresia, a high-resolution axial/coronal CT scan is the diagnostic gold standard."
+  },
+  {
+    "id": "ent_43",
+    "question": "A 13-year-old boy presents with a history of progressive, severe bilateral nasal obstruction and a hyponasal voice. Posterior rhinoscopy and digital palpation reveal a firm, smooth, pale mass filling the nasopharynx. Skull radiographs show a soft tissue mass in the nasopharynx without any associated bone destruction. What is the most likely diagnosis?",
+    "options": [
+      "Juvenile Nasopharyngeal Angiofibroma",
+      "Adenoid Hypertrophy",
+      "Antrochoanal polyp",
+      "Tornwaldt's cyst"
+    ],
+    "correct": 1,
+    "explanation": "Adenoid Hypertrophy is the most common cause of nasopharyngeal airway obstruction in children, presenting with a smooth, firm mass, mouth breathing, and a hyponasal voice. It does not cause bone destruction on imaging."
+  },
+  {
+    "id": "ent_44",
+    "question": "A 40-year-old man presents with chronic unilateral nasal obstruction and occasional epistaxis. Anterior rhinoscopy shows a fleshy, red, friable, polypoid mass in the left nasal cavity that bleeds easily on touch. On detailed history, he mentions he is a resident of a coastal village in Odisha and frequently bathes in local ponds. Histopathology reveals large sporangia containing numerous endospores. What is the most appropriate definitive management?",
+    "options": [
+      "Wide local excision with electrocautery of the base",
+      "Long-term systemic Ketoconazole therapy",
+      "Radiotherapy",
+      "Radical maxillectomy"
+    ],
+    "correct": 0,
+    "explanation": "The primary treatment for Rhinosporidiosis is wide local surgical excision of the polypoid mass along with thorough electrocauterization of its mucosal base to prevent recurrence."
+  },
+  {
+    "id": "ent_45",
+    "question": "During a coronal plane CT scan assessment of a patient with chronic frontal sinus disease, the surgeon notes a highly pneumatized ethmoid air cell located within the roof of the maxillary sinus, forming the inferomedial orbital rim. This structural variant is known to cause FESS failure if unrecognized. What is this cell called?",
+    "options": [
+      "Haller cell",
+      "Onodi cell",
+      "Agger nasi cell",
+      "Bulla frontalis"
+    ],
+    "correct": 0,
+    "explanation": "An infraorbital ethmoid cell tracking along the roof of the maxillary antrum is a Haller cell. If enlarged, it directly pinches the infundibulum canal, causing surgery failure if left unopened."
+  },
+  {
+    "id": "ent_46",
+    "question": "A 25-year-old male is brought to the emergency department following a physical assault. He has severe ecchymosis around both eyes (\"raccoon eyes\") and persistent clear fluid dripping from his nose. On examination, there is a step-off palpable at the nasal root and mobility of the nasal bones along with the medial orbital walls. Which specific facial bone fracture complex is highly associated with CSF rhinorrhea and raccoon eyes?",
+    "options": [
+      "Isolated nasal bone fracture",
+      "Naso-orbito-ethmoid (NOE) complex fracture",
+      "Le Fort I fracture",
+      "Zygomaticomaxillary complex fracture"
+    ],
+    "correct": 1,
+    "explanation": "A Naso-orbito-ethmoid (NOE) fracture disrupts the central nasal-orbital junction, causing damage to the cribriform plate (CSF leak) and tearing local vessels, leading to bilateral periorbital ecchymosis ('raccoon eyes')."
+  },
+  {
+    "id": "ent_47",
+    "question": "A 55-year-old male patient presents with chronic, bilateral nasal discharge that has a very foul, offensive odor. The patient claims he cannot smell the odor himself. On examination, large greenish-black crusts are seen lining the entire nasal cavity. When the crusts are removed, the nasal cavity appears spacious, and the underlying turbinates are found to be severely atrophied. What is the first-line medical conservative management for this condition?",
+    "options": [
+      "Immediate radical surgical narrowing of the nasal cavity",
+      "Nasal douching with alkaline solution and application of 25% glucose in glycerin",
+      "Systemic high-dose corticosteroid therapy",
+      "Long-term broad-spectrum intravenous antibiotics"
+    ],
+    "correct": 1,
+    "explanation": "First-line conservative management of Atrophic Rhinitis focuses on mechanical cleansing using alkaline douching solutions to clear crusts, combined with 25% glucose in glycerin to inhibit foul-smelling proteolytic saprophytic bacteria."
+  },
+  {
+    "id": "ent_48",
+    "question": "A 28-year-old male presenting with chronic nasal obstruction undergoes a diagnostic nasal endoscopy. The surgeon observes that the nasal mucous blanket moves in a specific, predetermined directional pattern toward the nasopharynx due to the coordinated beating of the ciliated epithelium. In the maxillary sinus, what is the direction of mucociliary clearance?",
+    "options": [
+      "Gravity-dependent toward the sinus floor",
+      "Stellately outward from the center",
+      "Circularly toward the natural ostium regardless of gravity",
+      "Downward toward the accessory ostium"
+    ],
+    "correct": 2,
+    "explanation": "Maxillary sinus mucociliary pathways beat in a mandatory, genetically determined circular pattern directed solely toward the natural ostium, even if it requires moving mucus vertically against gravity."
+  },
+  {
+    "id": "ent_49",
+    "question": "A 63-year-old male presents with a persistent ulcerated lesion on the right ala of the nose. The lesion has a rolled-out, pearly border with telangiectasia over the surface. The patient is a retired construction worker with a history of significant chronic sun exposure. What is the most likely diagnosis?",
+    "options": [
+      "Squamous cell carcinoma",
+      "Basal cell carcinoma",
+      "Melanoma",
+      "Lupus vulgaris"
+    ],
+    "correct": 1,
+    "explanation": "A chronic, slow-growing ulcerated skin lesion on the sun-exposed nose ala displaying a rolled, pearly border with telangiectasia is a classic presentation of Basal Cell Carcinoma ('rodent ulcer')."
+  },
+  {
+    "id": "ent_50",
+    "question": "A 34-year-old female presents with a history of worsening unilateral left-sided nasal obstruction, intermittent epistaxis, and a progressive mass in the left nasal cavity. On examination, a firm, non-translucent mass is noted. A biopsy is performed, and histopathology reveals a true inverted papilloma. Which paranasal sinus is the most common site of origin for an inverted papilloma when it extends beyond the lateral nasal wall?",
+    "options": [
+      "Maxillary sinus",
+      "Frontal sinus",
+      "Ethmoid sinus",
+      "Sphenoid sinus"
+    ],
+    "correct": 0,
+    "explanation": "While it typically manifests along the lateral nasal wall, when an inverted papilloma expands into the paranasal sinus network, its most frequent primary site of origin or extension is the maxillary sinus."
+  },
+  {
+    "id": "ent_51",
+    "question": "A 24-year-old male is brought to the emergency department after being struck in the face with a hockey stick. He has a severe deformity of the nasal bridge, epistaxis, and bilateral periorbital hematomas. On palpation, multiple bony fragments are mobile and tender. What is the ideal timing for the closed reduction of a freshly fractured nasal bone?",
+    "options": [
+      "Within 7 to 14 days after the injury, once the acute soft tissue edema subsides",
+      "Instantly within the first 10 minutes, before any edema forms",
+      "Always delayed by 6 weeks to allow fibrous tissue stability",
+      "At 6 months along with a formal open rhinoplasty"
+    ],
+    "correct": 0,
+    "explanation": "Closed reduction of nasal fractures is ideally timed within 7 to 14 days in adults. This allows post-injury soft tissue swelling to resolve, enabling accurate structural assessment before early fibrous union sets in."
+  },
+  {
+    "id": "ent_52",
+    "question": "A 45-year-old male with a history of chronic purulent nasal discharge, facial pain, and dynamic visual disturbances undergoes a paranasal sinus CT scan. The scan reveals a highly posterior ethmoid air cell that has pneumatized laterally and superiorly into the sphenoid sinus, running in close anatomical relationship with the optic nerve and internal carotid artery. What is this specialized cell called?",
+    "options": [
+      "Haller cell",
+      "Onodi cell",
+      "Agger nasi cell",
+      "Bulla ethmoidalis"
+    ],
+    "correct": 1,
+    "explanation": "An Onodi cell is a sphenoethmoidal air cell that tracks far posteriorly and superiorly, surrounding the optic nerve channel and exposing it to risk during aggressive posterior ethmoid dissecting steps."
+  },
+  {
+    "id": "ent_53",
+    "question": "A 50-year-old male presenting with chronic systemic symptoms is suspected of having a necrotizing granulomatous lesion of the midface. Which of the following conditions is characterized by a positive c-ANCA test and classically affects the upper respiratory tract, lower respiratory tract, and kidneys?",
+    "options": [
+      "Granulomatosis with Polyangiitis (Wegener's)",
+      "Sarcoidosis",
+      "Rhinoscleroma",
+      "Tertiary Syphilis"
+    ],
+    "correct": 0,
+    "explanation": "Granulomatosis with Polyangiitis (Wegener's) is a classic systemic small-vessel vasculitis characterized by upper/lower respiratory granulomas, glomerulonephritis, and a highly specific c-ANCA marker profile."
+  },
+  {
+    "id": "ent_54",
+    "question": "During a functional endoscopic sinus surgery (FESS), the surgeon utilizes the uncinate process as a critical landmark to safeguard the orbit. Which anatomical structure lies immediately lateral to the uncinate process and forms the paper-thin medial wall of the orbit?",
+    "options": [
+      "Lamina papyracea",
+      "Perpendicular plate of ethmoid",
+      "Vomer",
+      "Lacrimal bone"
+    ],
+    "correct": 0,
+    "explanation": "The thin lamina papyracea plate of the ethmoid bone sits directly lateral to the uncinate process and the infundibulum space, making it a critical anatomical structure to preserve to avoid orbital entry."
+  },
+  {
+    "id": "ent_55",
+    "question": "A 16-year-old boy presents with progressive right-sided nasal obstruction, facial asymmetry, and intermittent unprovoked epistaxis. A contrast-enhanced CT scan shows a mass in the pterygopalatine fossa that expands into the nasopharynx, demonstrating the classic \"Holman-Miller\" sign. What is the absolute contraindication in the management of this suspected Juvenile Nasopharyngeal Angiofibroma (JNA)?",
+    "options": [
+      "Pre-operative embolization",
+      "Transpalatal surgical approach",
+      "Diagnostic outpatient punch biopsy",
+      "Hormonal therapy with flutamide"
+    ],
+    "correct": 2,
+    "explanation": "Outpatient punch biopsy of a suspected JNA is strictly contraindicated. Its extreme vascularity and lack of a muscular coat in its blood vessels can lead to catastrophic, uncontrollable hemorrhage."
+  },
+  {
+    "id": "ent_56",
+    "question": "A 38-year-old female presents with persistent, clear, unilateral nasal discharge that increases when she bends over. She has no history of trauma. The fluid tests positive for beta-2 transferrin. A high-resolution CT (HRCT) cisternography confirms a cerebrospinal fluid (CSF) leak localized to the cribriform plate. What is the initial line of management for an uncomplicated, spontaneous CSF rhinorrhea?",
+    "options": [
+      "Immediate neurosurgical craniotomy and repair",
+      "Conservative management including bed rest, head elevation, stool softeners, and avoidance of straining",
+      "Immediate endoscopic placement of a vascularized nasoseptal flap",
+      "Long-term prophylactic intravenous antibiotics"
+    ],
+    "correct": 1,
+    "explanation": "Uncomplicated, low-flow, or spontaneous leaks are initially managed conservatively with strict bed rest, elevation of the head of the bed, stool softeners to prevent spikes in ICP, and avoidance of blowing the nose."
+  },
+  {
+    "id": "ent_57",
+    "question": "A 42-year-old male presents with persistent bilateral nasal obstruction, crusting, and a raw sensation in his nose. On anterior rhinoscopy, a well-defined 0.5 cm perforation is noted in the anterior cartilaginous nasal septum. He notes a history of working in an industrial chemical plant with heavy chromium exposure. What is the most common cause of non-traumatic nasal septal perforation?",
+    "options": [
+      "Chronic cocaine abuse or occupational chemical exposure",
+      "Syphilis infection",
+      "Fungal rhinosinusitis",
+      "Sarcoidosis"
+    ],
+    "correct": 0,
+    "explanation": "Chronic mucosal irritation from cocaine abuse (causing severe vasoconstriction and ischemic necrosis) or occupational exposure to chromic acid fumes are the leading non-traumatic causes of septal perforations."
+  },
+  {
+    "id": "ent_58",
+    "question": "A 30-year-old female experiences severe paroxysmal sneezing, watery rhinorrhea, and nasal pruritus every year during the spring season. Her symptoms significantly impair her daily activities. What is the primary mediator released by mast cells during the early-phase response of this allergic rhinitis condition?",
+    "options": [
+      "Histamine",
+      "Leukotriene D4",
+      "Interleukin-5",
+      "Prostaglandin D2"
+    ],
+    "correct": 0,
+    "explanation": "Pre-formed histamine stored within mast cell granules is released immediately upon IgE cross-linking, driving the hyperacute early-phase symptoms of allergic rhinitis (sneezing, itching, rhinorrhea)."
+  },
+  {
+    "id": "ent_59",
+    "question": "A 60-year-old male chronic smoker presents with a 3-month history of progressive left-sided cheek swelling, left-sided nasal obstruction, and occasional blood-stained nasal discharge. On examination, there is expansion of the anterior wall of the maxillary sinus and hypoesthesia over the left cheek. Which nerve's involvement is responsible for the cheek numbness in this patient?",
+    "options": [
+      "Infraorbital nerve",
+      "Greater palatine nerve",
+      "Nasopalatine nerve",
+      "Frontal nerve"
+    ],
+    "correct": 0,
+    "explanation": "Malignancies of the maxillary sinus infrastructure routinely grow superiorly into the orbital floor, directly compressing or invading the infraorbital nerve within its canal, causing cheek numbness."
+  },
+  {
+    "id": "ent_60",
+    "question": "A 9-year-old child presents with a high fever, severe left-sided eye pain, proptosis, and restricted extraocular movements. He had a history of severe left-sided nasal discharge and congestion for the past week. A CT scan confirms acute ethmoid sinusitis with a collection of pus between the lamina papyracea and the periorbita. This condition represents which stage of Chandler's classification of orbital complications?",
+    "options": [
+      "Stage I: Preseptal cellulitis",
+      "Stage II: Orbital cellulitis",
+      "Stage III: Subperiosteal abscess",
+      "Stage IV: Orbital abscess"
+    ],
+    "correct": 2,
+    "explanation": "According to Chandler's criteria, the presence of an organized collection of pus situated between the bony lamina papyracea and the periorbital lining fascia represents a Stage III: Subperiosteal Abscess."
+  },
+  {
+    "id": "ent_61",
+    "question": "A 48-year-old female undergoes a total maxillectomy for a biopsy-proven squamous cell carcinoma of the right maxillary sinus. The tumor was located in the anteroinferior part of the sinus. The surgeon uses Ohngren's line to determine the prognosis. Ohngren's line is an imaginary plane extending between which two anatomical landmarks?",
+    "options": [
+      "Medial canthus of the eye and the angle of the mandible",
+      "Lateral canthus of the eye and the tragus of the ear",
+      "Nasal tip and the external occipital protuberance",
+      "Subnasale and the external auditory meatus"
+    ],
+    "correct": 0,
+    "explanation": "Ohngren's Line cuts a theoretical plane from the medial canthus to the mandibular angle, separating the maxilla into an anteroinferior infrastructure and a posterosuperior suprastructure."
+  },
+  {
+    "id": "ent_62",
+    "question": "A 35-year-old female presents with progressive nasal obstruction and an expanding external nasal mass. Biopsy reveals Rhinoscleroma. On histopathological examination, large, foam-like, vacuolated histiocytes containing the causative organism are visualized. These specific cells are termed:",
+    "options": [
+      "Mikulicz cells",
+      "Russell bodies",
+      "Touton giant cells",
+      "Sternberg-Reed cells"
+    ],
+    "correct": 0,
+    "explanation": "Mikulicz cells are large, foamy histiocytes with a clear cytoplasm containing the causative Frisch bacillus (Klebsiella rhinoscleromatis), pathognomonic of rhinoscleroma."
+  },
+  {
+    "id": "ent_63",
+    "question": "A 22-year-old male presents with recurrent epistaxis. On anterior rhinoscopy, a prominent, dilated network of mucosal blood vessels is seen on the anteroinferior part of the nasal septum (Little's area). Which specific vascular structure represents the anastomosis of multiple mucosal arteries in this region?",
+    "options": [
+      "Kiesselbach's plexus",
+      "Woodruff's plexus",
+      "Sphenopalatine sinus",
+      "Haller's confluence"
+    ],
+    "correct": 0,
+    "explanation": "Kiesselbach's Plexus sits within Little's area on the anteroinferior nasal septum, serving as the primary site of anterior epistaxis due to its rich, superficial multi-arterial network."
+  },
+  {
+    "id": "ent_64",
+    "question": "During an endoscopic sinus surgery workshop, a resident is asked to locate the natural drainage ostium of the nasolacrimal duct. In which specific location along the lateral nasal wall does the nasolacrimal duct open?",
+    "options": [
+      "Inferior meatus, under cover of the inferior turbinate",
+      "Middle meatus, within the hiatus semilunaris",
+      "Superior meatus",
+      "Sphenoethmoidal recess"
+    ],
+    "correct": 0,
+    "explanation": "The nasolacrimal duct drains directly into the inferior meatus, guarded by the mucosal valve of Hasner, under cover of the inferior turbinate bone."
+  },
+  {
+    "id": "ent_65",
+    "question": "A 52-year-old male patient presents with chronic headaches, facial pressure, and a progressive reduction in his sense of smell. A coronal CT scan of the paranasal sinuses reveals an anatomical variant characterized by a highly pneumatized middle turbinate that is obstructing the middle meatus drainage pathway. What is this clinical entity called?",
+    "options": [
+      "Concha bullosa",
+      "Paradoxical middle turbinate",
+      "Agger nasi cell",
+      "Haller cell"
+    ],
+    "correct": 0,
+    "explanation": "A concha bullosa is defined as the physiological pneumatization or presence of an air cell within the turbinate bone, most commonly involving the middle turbinate."
+  },
+  {
+    "id": "ent_66",
+    "question": "A 14-year-old boy presents with progressive, unilateral left-sided nasal obstruction and snoring. On anterior rhinoscopy, a large, smooth, pale-greyish, insensitive mass is visualized emerging from the middle meatus and extending into the choana. A CT scan demonstrates an antrochoanal polyp. What is the classic site of origin/attachment for an antrochoanal polyp?",
+    "options": [
+      "Lateral wall or floor of the maxillary sinus",
+      "Cribriform plate of the ethmoid bone",
+      "Roof of the nasopharynx",
+      "Posterior border of the nasal septum"
+    ],
+    "correct": 0,
+    "explanation": "An antrochoanal polyp originates within the maxillary sinus (typically from its lateral wall, floor, or medial wall mucosa), exits through the natural or accessory ostium, and tracks backward toward the choana."
+  },
+  {
+    "id": "ent_67",
+    "question": "A 45-year-old female presents with persistent, foul-smelling nasal discharge, crusting, and a wide, spacious nasal cavity with severe atrophy of the nasal mucosa. The patient is diagnosed with primary atrophic rhinitis (Ozaena). Which of the following organisms is traditionally associated with this specific condition?",
+    "options": [
+      "Klebsiella ozaenae (Abel's bacillus)",
+      "Pseudomonas aeruginosa",
+      "Staphylococcus aureus",
+      "Haemophilus influenzae"
+    ],
+    "correct": 0,
+    "explanation": "Atrophic rhinitis (Ozaena) is characteristically associated with Klebsiella ozaenae (Abel's bacillus) as the main isolated bacterial agent."
+  },
+  {
+    "id": "ent_68",
+    "question": "A 28-year-old female presents with recurrent episodes of profuse watery rhinorrhea, sneezing, and nasal blockage that are triggered by changes in environmental temperature and humidity. Skin prick tests and serum specific IgE levels for common allergens are completely negative. Eosinophils are absent on nasal cytology. What is the most likely diagnosis?",
+    "options": [
+      "Allergic rhinitis",
+      "Vasomotor rhinitis (Non-allergic rhinitis)",
+      "Atrophic rhinitis",
+      "NARES (Non-allergic rhinitis with eosinophilia syndrome)"
+    ],
+    "correct": 1,
+    "explanation": "Vasomotor Rhinitis (non-allergic rhinopathy) is characterized by chronic nasal symptoms triggered by non-specific temperature or humidity changes without IgE or eosinophilic infiltration."
+  },
+  {
+    "id": "ent_69",
+    "question": "A 35-year-old male with a history of recurrent sinonasal polyposis and severe asthma experiences a life-threatening episode of bronchospasm within an hour of taking an over-the-counter analgesic for a headache. Which of the following medications is most likely responsible for triggering this reaction?",
+    "options": [
+      "Aspirin",
+      "Acetaminophen",
+      "Montelukast",
+      "Loratadine"
+    ],
+    "correct": 0,
+    "explanation": "NSAIDs like aspirin block the cyclooxygenase (COX-1) pathway, shunting arachidonic acid metabolism to the lipoxygenase pathway and triggering severe bronchospasm in Samter's triad."
+  },
+  {
+    "id": "ent_70",
+    "question": "During a multi-disciplinary skull base dissection, the neurosurgeon and ENT surgeon map the relations of the sphenoid sinus. They observe that a very thin bony plate separates the lateral wall of the sphenoid sinus from an important nerve that runs superior to the internal carotid artery. Which cranial nerve is this?",
+    "options": [
+      "Optic nerve (CN II)",
+      "Oculomotor nerve (CN III)",
+      "Trochlear nerve (CN IV)",
+      "Abducens nerve (CN VI)"
+    ],
+    "correct": 0,
+    "explanation": "The Optic Nerve (CN II) and the Internal Carotid Artery (ICA) run immediately adjacent to the thin lateral wall of the sphenoid sinus."
+  },
+  {
+    "id": "ent_71",
+    "question": "A 65-year-old chronic smoker presents with severe posterior epistaxis that could not be controlled by anterior nasal packing. The surgeon plans an endoscopic arterial ligation. Which artery should be isolated as it exits the sphenopalatine foramen on the lateral nasal wall to stop the bleed?",
+    "options": [
+      "Sphenopalatine artery",
+      "Greater palatine artery",
+      "Anterior ethmoidal artery",
+      "Superior labial artery"
+    ],
+    "correct": 0,
+    "explanation": "The sphenopalatine artery (a branch of the maxillary artery) exits through the sphenopalatine foramen and is the main arterial supply responsible for severe posterior epistaxis."
+  },
+  {
+    "id": "ent_72",
+    "question": "A 58-year-old male presents with unilateral nasal obstruction, epistaxis, and a friable mass in the left nasal cavity. A biopsy reveals an Inverted Papilloma (Schneiderian papilloma). Which statement is true regarding this tumor?",
+    "options": [
+      "It is a completely benign tumor with no risk of malignant transformation.",
+      "It characteristically arises from the nasal septum.",
+      "Histology shows neoplastic epithelium invaginating into the underlying stroma with an intact basement membrane.",
+      "It is best managed by conservative medical management."
+    ],
+    "correct": 2,
+    "explanation": "Inverted Papilloma is characterized by hyperplastic squamous or transitional epithelium that invaginates endophytically into the underlying stroma while maintaining a strictly continuous, intact basement membrane."
+  },
+  {
+    "id": "ent_73",
+    "question": "A 42-year-old female presents with persistent nasal crusting, occasional epistaxis, and a progressive change in the shape of her nose, which now demonstrates a sunken appearance along the mid-dorsum (saddle nose deformity). Laboratory results show a positive c-ANCA titer. What is the classic histopathological triad seen on biopsy in this condition?",
+    "options": [
+      "Necrotizing granulomas, vasculitis, and tissue necrosis",
+      "Non-caseating granulomas, asteroid bodies, and minimal inflammation",
+      "Caseating granulomas, Langhans giant cells, and acid-fast bacilli",
+      "Intense eosinophilic infiltrate, Charcot-Leyden crystals, and microabscesses"
+    ],
+    "correct": 0,
+    "explanation": "The pathognomonic diagnostic histopathological triad of Granulomatosis with Polyangiitis consists of necrotizing granulomatous inflammation, small-to-medium vessel vasculitis, and extensive tissue necrosis."
+  },
+  {
+    "id": "ent_74",
+    "question": "A 12-year-old boy presents to the emergency room with severe epistaxis and midfacial pain after colliding with another player during a soccer match. On examination, there is a prominent flattening of the nasal bridge and mobility of the maxilla along with the nasal bones and orbital floors relative to the zygoma. This presentation is characteristic of which type of fracture?",
+    "options": [
+      "Le Fort I fracture",
+      "Le Fort II fracture",
+      "Le Fort III fracture",
+      "Mandibular condyle fracture"
+    ],
+    "correct": 1,
+    "explanation": "A Le Fort II (pyramidal) fracture line runs through the nasal bones, maxillary frontal processes, infraorbital rims, and down through the pterygoid plates, causing the central face and nose to move as a single pyramid block."
+  },
+  {
+    "id": "ent_75",
+    "question": "A 30-year-old male undergoes a standard submucous resection (SMR) for a deviated nasal septum. One week post-operatively, he presents with a small, circular septal perforation that creates an audible whistling sound during quiet breathing. What is the primary cause of a septal perforation following a septal surgery?",
+    "options": [
+      "Bilateral, tears of the mucoperichondrial flaps at corresponding points",
+      "Unilateral tear of the mucoperichondrium",
+      "Inadequate removal of the bony vomer",
+      "Use of excessive packing post-operatively"
+    ],
+    "correct": 0,
+    "explanation": "A postoperative septal perforation is primarily caused by creating accidental tears at corresponding, overlapping points in both the right and left mucoperichondrial flaps during the septal resection."
+  },
+  {
+    "id": "ent_76",
+    "question": "A 28-year-old female presents with primary infertility, chronic productive cough, and recurrent bouts of maxillofascial pain. A chest X-ray confirms dextrocardia with complete situs inversus. On nasal mucosal biopsy, electron microscopy demonstrates a structural defect in the microtubular arrangement of the respiratory ciliated epithelium. Which specific component is characteristically absent or dysfunctional in this patient's nasal cilia?",
+    "options": [
+      "Dynein arms",
+      "Central singlet microtubules",
+      "Plasma membrane receptor anchors",
+      "Nexin links"
+    ],
+    "correct": 0,
+    "explanation": "Kartagener's syndrome (Primary Ciliary Dyskinesia) features a genetic defect causing the absence or dysfunction of the outer and/or inner dynein arms within the axoneme core, paralyzing the mucociliary blanket."
+  },
+  {
+    "id": "ent_77",
+    "question": "A 34-year-old male presents with persistent, offensive nasal discharge from the right side. On diagnostic nasal endoscopy, the surgeon notes an active flow of mucopurulent material exiting from a large accessory ostium in the middle meatus, while a simultaneous retrograde movement of mucus is observed entering back into the natural ostium of the maxillary sinus. This circular, inefficient recycling of mucus is known as:",
+    "options": [
+      "Recirculation phenomenon",
+      "Bernouilli's vortex effect",
+      "Venturi recycling",
+      "Ciliary inversion"
+    ],
+    "correct": 0,
+    "explanation": "The recirculation phenomenon occurs when an accessory maxillary ostium exists alongside the natural ostium. Mucus cleared from the natural ostium is drawn back into the sinus through the accessory ostium, creating an inefficient recycling loop."
+  },
+  {
+    "id": "ent_78",
+    "question": "A 42-year-old male factory supervisor presents with progressive bilateral nasal obstruction and a whistling sound during deep inspiration. On examination, a clean-cut, round 0.8 cm perforation is noted in the anterior cartilaginous nasal septum. He notes a long-standing history of industrial chromium exposure. What is the most common site for a non-traumatic, occupational chemical-induced nasal septal perforation?",
+    "options": [
+      "Perpendicular plate of the ethmoid",
+      "Vomer bone",
+      "Quadrangular cartilage (Little's area region)",
+      "Posterior choana border"
+    ],
+    "correct": 2,
+    "explanation": "Industrial chemical fumes (like chromium) follow inhaled airflow currents, impacting directly against the anterior cartilaginous septum (quadrangular cartilage). This causes localized ulceration, ischemia, and subsequent perforation."
+  },
+  {
+    "id": "ent_79",
+    "question": "A 54-year-old female presents with progressive unilateral nasal obstruction, epiphora (overflow of tears), and a recurrent pinkish-red mass bulging from her left middle meatus. A biopsy is performed, and histopathological evaluation shows a benign inverted papilloma. Which chromosomal abnormality or viral integration site is frequently studied and associated with a higher risk of its transformation into frank squamous cell carcinoma?",
+    "options": [
+      "HPV-16 and 18 integration",
+      "EBV latent membrane protein-1 activation",
+      "HHV-6 replication",
+      "CMV late gene expression"
+    ],
+    "correct": 0,
+    "explanation": "High-risk Human Papillomavirus (HPV-16 and HPV-18) integration into the host genome is strongly linked to a higher risk of malignant transformation of an inverted papilloma into invasive squamous cell carcinoma."
+  },
+  {
+    "id": "ent_80",
+    "question": "A 10-year-old child presents to the emergency room after falling face-forward from a bicycle. There is visible ecchymosis and minor swelling across the nasal bridge. On palpation, no bony crepitus or step-off is detected. However, anterior rhinoscopy reveals a soft, doughy, compressible, reddish swelling on both sides of the anterior septum that completely blocks the nasal airway. What is the most critical and time-sensitive reason for immediate surgical evacuation of this lesion?",
+    "options": [
+      "To prevent cosmetic broadening of the bony nasal bridge",
+      "To avoid ischemic necrosis of the septal cartilage and subsequent saddle nose deformity",
+      "To prevent the development of localized atrophic rhinitis",
+      "To restore the olfactory nerve pathways instantly"
+    ],
+    "correct": 1,
+    "explanation": "A septal hematoma separates the septal cartilage from its only blood supply (the perichondrium). Immediate drainage is required to prevent ischemic necrosis and secondary liquefaction, which would lead to a sunken saddle nose deformity."
+  },
+  {
+    "id": "ent_81",
+    "question": "A 35-year-old female presents with chronic progressive destruction of the nasal midline structures, including the septum and the soft palate, over a 1-year period. Repeated mucosal biopsies show an intense polymorphous inflammatory infiltrate around blood vessels, with marked necrosis. Immunohistochemical staining is strongly positive for CD56, CD3, and Granzyme B. What is the most likely diagnosis?",
+    "options": [
+      "Extranodal NK/T-cell lymphoma, nasal type",
+      "Granulomatosis with polyangiitis",
+      "Lepromatous leprosy",
+      "Tertiary syphilis"
+    ],
+    "correct": 0,
+    "explanation": "Extranodal NK/T-cell lymphoma, nasal type presents with progressive midline destruction, an angiocentric polymorphous infiltrate, and strong immunohistochemical positivity for CD56, CD3, and cytotoxic markers like Granzyme B."
+  },
+  {
+    "id": "ent_82",
+    "question": "A 48-year-old female patient presents with chronic headaches and facial pressure. A non-contrast coronal CT scan of the paranasal sinuses is performed. The surgeon notes a highly developed air-filled space located within the most anterior ethmoidal cell, directly forming a prominent bulge on the lateral nasal wall anterior to the middle turbinate attachment. This cell serves as an important landmark in FESS and is known as:",
+    "options": [
+      "Agger nasi cell",
+      "Haller cell",
+      "Onodi cell",
+      "Bulla ethmoidalis"
+    ],
+    "correct": 0,
+    "explanation": "The agger nasi cell is the most anterior ethmoidal air cell. It forms a key anatomical boundary and landmark during FESS for identifying the frontal recess pathways."
+  },
+  {
+    "id": "ent_83",
+    "question": "Which of the following surgical procedures is an open external approach historically used to clear extensive benign tumors or severe disease from the frontal sinus by creating a forehead scalp flap and osteoplastic bone flap?",
+    "options": [
+      "Lynch-Howarth operation",
+      "Osteoplastic flap operation",
+      "Caldwell-Luc operation",
+      "Jansen-Ritter procedure"
+    ],
+    "correct": 1,
+    "explanation": "The osteoplastic flap operation involves making a forehead scalp incision, mapping the frontal sinus boundaries, reflecting a bone flap of the anterior sinus wall downward, and radically clearing extensive frontal sinus disease."
+  },
+  {
+    "id": "ent_84",
+    "question": "A 22-year-old male is brought to the emergency department following a physical altercation. He has periorbital edema, epistaxis, and a prominent flattening of the nasal dorsum. On physical manipulation of the midface, the maxilla is stable, but the entire bony nasal vault moves along with the medial orbital walls as a single pyramid-shaped unit. Which fracture line matches this clinical presentation?",
+    "options": [
+      "Le Fort I",
+      "Le Fort II",
+      "Le Fort III",
+      "Naso-orbito-ethmoid (NOE) complex fracture alone"
+    ],
+    "correct": 1,
+    "explanation": "Mobility of the maxilla and nasal bones as a single pyramid-shaped unit relative to stable zygomas is the clinical hallmark of a Le Fort II fracture."
+  },
+  {
+    "id": "ent_85",
+    "question": "A 65-year-old male presenting with epistaxis is discovered to have a severe bleeding point located along the posterior-inferior aspect of the lateral nasal wall, underneath the posterior half of the inferior turbinate. Bleeding from this specific structural plexus is highly challenging to manage via simple anterior cauterization. This plexus is named:",
+    "options": [
+      "Kiesselbach's plexus",
+      "Woodruff's plexus",
+      "Blaisdell's plexus",
+      "Haller's confluence"
+    ],
+    "correct": 1,
+    "explanation": "Woodruff's plexus is a venous-arterial network located on the posteroinferior aspect of the lateral nasal wall, underneath the posterior end of the inferior turbinate. It is the primary source of severe posterior epistaxis."
+  },
+  {
+    "id": "ent_86",
+    "question": "During an endoscopic sinus surgery workshop, a resident is asked to identify the structure that acts as the primary lateral boundary of the ethmoid infundibulum. Which anatomical structure forms this lateral wall?",
+    "options": [
+      "Uncinate process",
+      "Lamina papyracea of the ethmoid bone",
+      "Middle turbinate",
+      "Perpendicular plate of the palatine bone"
+    ],
+    "correct": 1,
+    "explanation": "The lamina papyracea forms the thin lateral osseous boundary of the ethmoid infundibulum channel, separating the ethmoid sinus from the orbit."
+  },
+  {
+    "id": "ent_87",
+    "question": "A 30-year-old male presents with recurrent episodes of foul-smelling, thick nasal discharge and left-sided facial pain. Anterior rhinoscopy shows an impacted dental root casing projecting into the floor of the left nasal cavity. A CT scan confirms localized opacification of the left maxillary sinus secondary to an oroantral fistula. Which tooth root is most frequently responsible for a dental-induced maxillary sinusitis?",
+    "options": [
+      "Upper first molar",
+      "Lower first molar",
+      "Upper central incisor",
+      "Upper canine"
+    ],
+    "correct": 0,
+    "explanation": "The root apex of the maxillary first molar lies closest to the floor of the maxillary sinus, making it the most common source of odontogenic maxillary sinusitis and oroantral fistulas."
+  },
+  {
+    "id": "ent_88",
+    "question": "A 45-year-old female presents with persistent bilateral nasal crusting, severe anosmia, and a constant broad roominess in her nasal passages. Biopsy of her nasal mucosa reveals a marked chronic inflammatory response with squamous metaplasia of the respiratory epithelium. Her doctor explains that this condition can be treated surgically using modified implant techniques. This patient is suffering from:",
+    "options": [
+      "Chronic hypertrophic rhinitis",
+      "Atrophic rhinitis",
+      "Rhinosporidiosis",
+      "Allergic fungal rhinosinusitis"
+    ],
+    "correct": 1,
+    "explanation": "Atrophic rhinitis causes progressive atrophy of the nasal mucosa and turbinates, resulting in a paradoxically wide, roomy nasal cavity filled with foul-smelling crusts and squamous metaplasia."
+  },
+  {
+    "id": "ent_89",
+    "question": "A 38-year-old male returns to the ENT clinic with recurrent clear rhinorrhea from the right side following a FESS procedure performed 1 month ago. The discharge is verified to be cerebrospinal fluid. To localize the high-flow skull base defect accurately before a revision endoscopic repair, the surgeon orders a specialized imaging test involving the intrathecal injection of a non-ionic contrast medium followed by thin-slice CT scanning. This test is called:",
+    "options": [
+      "CT Cisternography",
+      "Radionuclide bone scan",
+      "Contrast-enhanced MRI brain",
+      "MR Angiography"
+    ],
+    "correct": 0,
+    "explanation": "CT Cisternography is the diagnostic standard for localizing high-flow cerebrospinal fluid (CSF) leaks. It involves the intrathecal injection of a non-ionic contrast medium followed by thin-slice CT imaging to visualize the bony defect."
+  },
+  {
+    "id": "ent_90",
+    "question": "A 15-year-old boy presents with progressive, severe unilateral nasal obstruction and a large, smooth, pale-greyish mass completely occupying his left choana and expanding into the nasopharynx. On CT imaging, the mass is seen expanding out of the left maxillary sinus through an accessory ostium. What is the classic surgical intervention recommended for this recurrent, expansive lesion if endoscopic methods are unavailable or contraindicated?",
+    "options": [
+      "Caldwell-Luc operation",
+      "Ethmoidectomy",
+      "Lateral rhinotomy",
+      "Maxillectomy"
+    ],
+    "correct": 0,
+    "explanation": "The Caldwell-Luc operation provides direct open access to the floor and walls of the maxillary sinus, making it the classic surgical approach for addressing a highly recurrent antrochoanal polyp when endoscopic methods are unavailable."
+  },
+  {
+    "id": "ent_91",
+    "question": "A 50-year-old chronic smoker presents with left-sided proptosis, cheek numbness, and blood-stained nasal discharge. Maxillary sinus squamous cell carcinoma is suspected. The surgeon marks a hypothetical line extending from the medial canthus of the eye to the angle of the mandible to classify the prognosis of tumors in this region. This line is known as:",
+    "options": [
+      "Ohngren's line",
+      "Sebileau's line",
+      "Lederman's lines",
+      "Frankfurt horizontal line"
+    ],
+    "correct": 0,
+    "explanation": "Ohngren's line connects the medial canthus of the eye to the angle of the mandible. Tumors located posterosuperior to this line (suprastructure) have a poorer prognosis due to early spread into the orbit and skull base."
+  },
+  {
+    "id": "ent_92",
+    "question": "A 25-year-old male presents with acute onset of severe left-sided frontal headache, high fever, and significant edema over his left forehead (\"Pott's puffy tumor\"). This clinical presentation is a direct manifestation of which underlying complication of acute frontal sinusitis?",
+    "options": [
+      "Osteomyelitis of the anterior wall of the frontal bone",
+      "Cavernous sinus thrombosis",
+      "Orbital cellulitis",
+      "Subdural empyema"
+    ],
+    "correct": 0,
+    "explanation": "Pott's puffy tumor is a localized subperiosteal abscess of the forehead. It arises from osteomyelitis of the anterior wall of the frontal bone, which develops via retrograde thrombophlebitis of the diploic veins during acute frontal sinusitis."
+  },
+  {
+    "id": "ent_93",
+    "question": "A 60-year-old male with a long-standing history of nasal stuffiness presents with a visible firm, flesh-colored nodular distortion over the lower half of his nose, giving it a prominent, bulbous \"potato-like\" appearance. Biopsy shows massive hypertrophy and hyperplasia of the sebaceous glands along with chronic lymphedema. This advanced stage of acne rosacea is called:",
+    "options": [
+      "Rhinophyma",
+      "Rhinoscleroma",
+      "Lupus vulgaris",
+      "Rhinosporidiosis"
+    ],
+    "correct": 0,
+    "explanation": "Rhinophyma is an advanced complication of acne rosacea characterized by massive hypertrophy and hyperplasia of the sebaceous glands, connective tissue overgrowth, and chronic lymphedema, resulting in a bulbous nose."
+  },
+  {
+    "id": "ent_94",
+    "question": "A 4-year-old child presents with a history of recurrent left-sided purulent rhinorrhea that is remarkably foul-smelling. The child has no systemic symptoms. On anterior rhinoscopy, a greenish-grey impacted entity is visualized deep within the left middle meatus. The first-line immediate plan of action is:",
+    "options": [
+      "High-dose oral antibiotic therapy for 10 days",
+      "Controlled examination and removal of the foreign body under general or local anesthesia using a blunt hook",
+      "Urgent performance of Functional Endoscopic Sinus Surgery (FESS)",
+      "Referral to an allergist for skin patch testing"
+    ],
+    "correct": 1,
+    "explanation": "Unilateral, foul-smelling nasal discharge in a young child indicates a nasal foreign body until proven otherwise. Management requires controlled removal using a blunt hook passed behind the object under adequate stabilization."
+  },
+  {
+    "id": "ent_95",
+    "question": "A 32-year-old pregnant patient develops a discrete, lobulated, dusky-red vascular nodule on her right inferior turbinate that bleeds profusely on minimal touch. Histological analysis indicates it is a lobular capillary hemangioma. Which hormone is predominantly responsible for the increased vascular proliferation and development of this \"pregnancy tumor\" within the nasal cavity?",
+    "options": [
+      "Estrogen",
+      "Progesterone",
+      "Human Chorionic Gonadotropin (hCG)",
+      "Prolactin"
+    ],
+    "correct": 0,
+    "explanation": "Elevated levels of circulating estrogen during pregnancy induce endothelial proliferation and vascular hypertrophy, driving the development of lobular capillary hemangiomas (pregnancy tumors) on the nasal mucosa."
+  },
+  {
+    "id": "ent_96",
+    "question": "Which of the following structures drain directly into the superior meatus of the lateral nasal wall?",
+    "options": [
+      "Posterior ethmoidal air cells",
+      "Anterior ethmoidal air cells",
+      "Maxillary sinus",
+      "Nasolacrimal duct"
+    ],
+    "correct": 0,
+    "explanation": "The posterior ethmoidal air cells drain directly into the superior meatus of the lateral nasal wall, whereas the anterior ethmoidal cells, frontal sinus, and maxillary sinus drain into the middle meatus."
+  },
+  {
+    "id": "ent_97",
+    "question": "A 30-year-old female experiences severe bouts of sneezing, rhinorrhea, and eye itching when exposed to house dust mites. Her nasal symptoms do not improve with oral antihistamines. She is started on an intranasal corticosteroid spray. What is the primary mechanism of action of topical corticosteroids in controlling the late-phase response of allergic rhinitis?",
+    "options": [
+      "Direct mechanical vasoconstriction of the microvessels",
+      "Inhibition of arachidonic acid metabolism and downregulation of pro-inflammatory cytokine expression",
+      "Immediate competitive block of histamine H1 receptors",
+      "Selective destruction of the respiratory ciliated epithelium"
+    ],
+    "correct": 1,
+    "explanation": "Topical intranasal corticosteroids bind to intracellular glucocorticoid receptors, inhibiting arachidonic acid metabolism and downregulating pro-inflammatory cytokines, which suppresses eosinophil recruitment and controls the late-phase allergic response."
+  },
+  {
+    "id": "ent_98",
+    "question": "A 23-year-old male athlete presents with a severe nasal injury sustained during a basketball game. On examination, there is no external skin breach, but there is a classic step-off palpable at the junction of the nasal bones and the upper lateral cartilage, with significant lateral deviation of the osseous vault. What is the optimal time window for closed reduction of an uncomplicated nasal bone fracture before early fibrous union takes place?",
+    "options": [
+      "Within 7 to 14 days in adults",
+      "Instantly within 30 minutes only",
+      "Always delayed until 6 weeks post-injury",
+      "Between 3 to 4 months"
+    ],
+    "correct": 0,
+    "explanation": "The optimal time window for closed reduction of an uncomplicated nasal bone fracture in adults is 7 to 14 days post-injury. This allows acute soft tissue edema to subside while avoiding early fibrous malunion."
+  },
+  {
+    "id": "ent_99",
+    "question": "A 55-year-old male with poorly controlled diabetes mellitus is hospitalized with acute, fulminant orbital apex syndrome secondary to rhino-orbitocerebral mucormycosis. Histopathology of the debrided nasal tissue shows broad, ribbon-like, aseptate hyphae. What is the key pathophysiological hallmark of Mucorales that explains the extensive, rapid tissue necrosis and black eschar formation?",
+    "options": [
+      "Production of potent exotoxins",
+      "Angioinvasion leading to intravascular thrombosis and ischemic infarction",
+      "Selective destruction of osteoblasts within the facial bones",
+      "Blockade of localized lymphatic drainage pathways"
+    ],
+    "correct": 1,
+    "explanation": "Mucorales species are highly angioinvasive, directly invading local blood vessels to cause extensive endothelial damage, thrombosis, and secondary ischemic infarction. This rapid ischemia results in extensive tissue necrosis and black eschar formation."
+  },
+  {
+    "id": "ent_100",
+    "question": "During a multi-disciplinary skull base dissection, the neurosurgeon and ENT surgeon map the relations of the sphenoid sinus. They observe that a very thin bony plate separates the lateral wall of the sphenoid sinus from an important vascular channel. Which major vessel runs immediately adjacent to the lateral wall of the sphenoid sinus?",
+    "options": [
+      "Internal Carotid Artery",
+      "Facial Artery",
+      "Middle Meningeal Artery",
+      "Sphenopalatine Artery"
+    ],
+    "correct": 0,
+    "explanation": "The Internal Carotid Artery (ICA) and the optic nerve run immediately adjacent to the thin lateral wall of the sphenoid sinus, making them vulnerable to injury during sphenoid sinus instrumentation."
+  },
+  {
+    "id": "ent_101",
+    "question": "A 24-year-old male presents to the emergency department 3 hours after sustaining trauma to his mid-face during a basketball game. On examination, there is mild external nasal deformity and bilateral, smooth, fluctuant, reddish-blue swelling of the nasal septum that completely occludes both nasal cavities. The swelling does not shrink after the application of topical vasoconstrictors and is exquisitely tender to touch. What is the most immediate and appropriate step in management?",
+    "options": [
+      "Urgent broad-spectrum intravenous antibiotic coverage and reassessment in 48 hours",
+      "Immediate bilateral wide-bore needle aspiration followed by an anterior nasal pack",
+      "Urgent bilateral incision and drainage under sterile conditions, placement of a small drain, and firm bilateral anterior nasal packing",
+      "Closed reduction of the nasal bone fracture under local anesthesia"
+    ],
+    "correct": 2,
+    "explanation": "A septal hematoma blocks the blood supply from the mucoperichondrium to the septal cartilage. Immediate treatment requires wide surgical incision and drainage, drainage placement, and bilateral anterior packing to re-approximate flaps."
+  },
+  {
+    "id": "ent_102",
+    "question": "During a Functional Endoscopic Sinus Surgery (FESS), the surgeon utilizes an uncinate process infundibulotomy to gain access to the natural ostium of the maxillary sinus. Which specific anatomical structure forms the immediate posterior boundary of the hiatus semilunaris inferior?",
+    "options": [
+      "Ethmoid bulla (Bulla ethmoidalis)",
+      "Agger nasi cell",
+      "Uncinate process",
+      "Perpendicular plate of the ethmoid bone"
+    ],
+    "correct": 0,
+    "explanation": "The hiatus semilunaris inferior is bounded anteriorly/inferiorly by the uncinate process, and its immediate posterior/superior wall is formed by the convex surface of the ethmoid bulla (Bulla ethmoidalis)."
+  },
+  {
+    "id": "ent_103",
+    "question": "A 14-year-old boy presents with a history of recurrent, severe, unprovoked, unilateral right-sided nasal bleeding (epistaxis) over the past 6 months, accompanied by progressive right-sided nasal obstruction. Anterior rhinoscopy reveals a smooth, lobulated, purplish, expansile mass occupying the posterior aspect of the right nasal cavity. Contrast-enhanced CT (CECT) of the paranasal sinuses reveals an intensely enhancing vascular mass centered at the sphenopalatine foramen, causing anterior displacement of the posterior wall of the maxillary sinus (Holman-Miller sign). What is the most likely diagnosis?",
+    "options": [
+      "Inverted Papilloma",
+      "Juvenile Nasopharyngeal Angiofibroma (JNA)",
+      "Antrochoanal Polyp",
+      "Esthesioneuroblastoma"
+    ],
+    "correct": 1,
+    "explanation": "JNA is a highly vascular, benign but aggressive tumor arising near the sphenopalatine foramen in adolescent males. The Holman-Miller sign (anterior bowing of the posterior maxillary wall) is pathognomonic."
+  },
+  {
+    "id": "ent_104",
+    "question": "A 45-year-old poorly controlled diabetic male presents with acute, severe unilateral facial pain, periorbital edema, proptosis, and low-grade fever for 3 days. On diagnostic nasal endoscopy, black, necrotic debris and eschar are visualized over the middle turbinate and nasal septum. A biopsy is taken, and histopathological evaluation with KOH mount reveals broad, ribbon-like, aseptate hyphae branching at right angles (90 degrees). What is the organism responsible for this life-threatening condition?",
+    "options": [
+      "Aspergillus fumigatus",
+      "Mucorales species",
+      "Candida albicans",
+      "Rhinosporidium seeberi"
+    ],
+    "correct": 1,
+    "explanation": "Rhinocerebral Mucormycosis (caused by Mucorales order fungi) classically presents in diabetic patients with black necrotic eschars and exhibits broad, ribbon-like, aseptate hyphae with 90-degree branching."
+  },
+  {
+    "id": "ent_105",
+    "question": "A 28-year-old female presents with clear, watery fluid dripping exclusively from her left nostril for 2 weeks. The discharge is noted to increase significantly when she bends forward or strains (positive reservoir sign). She reports a history of a minor motor vehicle accident 1 month ago. To confirm that the fluid is cerebrospinal fluid (CSF) and not allergic rhinitis secretions, which biochemical marker test is considered the most specific?",
+    "options": [
+      "Glucose content greater than 40 mg/dL",
+      "Beta-2 transferrin assay",
+      "Total protein concentration",
+      "Potassium and sodium ratio"
+    ],
+    "correct": 1,
+    "explanation": "Beta-2 transferrin is produced in the central nervous system and is highly specific for CSF, perilymph, and vitreous humor. It is completely absent in regular tears, saliva, or nasal secretions."
+  },
+  {
+    "id": "ent_106",
+    "question": "A 34-year-old male presents with persistent bilateral nasal obstruction and a reduced sense of smell (hyposmia). Anterior rhinoscopy reveals multiple, bilateral, pale, translucent, grape-like prolapsed masses that are insensitive to touch and do not bleed on manipulation. The patient has a known history of bronchial asthma and severe hypersensitivity to aspirin. What is this clinical triad known as?",
+    "options": [
+      "Kartagener’s Triad",
+      "Samter’s Triad (Aspirin-Exacerbated Respiratory Disease)",
+      "Gradenigo’s Triad",
+      "Trotter’s Triad"
+    ],
+    "correct": 1,
+    "explanation": "Samter's Triad (AERD) represents the clinical association of bilateral ethmoidal nasal polyps, intrinsic bronchial asthma, and acute hypersensitivity to aspirin and other NSAIDs."
+  },
+  {
+    "id": "ent_107",
+    "question": "An arterial arcade located on the anterior-inferior portion of the nasal septum is the most common site for anterior epistaxis. Which of the following arteries does NOT contribute to the formation of this vascular anastomosis, known as Kiesselbach’s plexus or Little's area?",
+    "options": [
+      "Septal branch of the sphenopalatine artery",
+      "Septal branch of the superior labial artery",
+      "Anterior ethmoidal artery",
+      "Posterior ethmoidal artery"
+    ],
+    "correct": 3,
+    "explanation": "Kiesselbach's plexus is formed by the anastomosis of 4 arteries: Sphenopalatine, Greater palatine, Superior labial, and Anterior ethmoidal. The posterior ethmoidal artery does not contribute."
+  },
+  {
+    "id": "ent_108",
+    "question": "A 50-year-old female patient from rural northern India presents with a long history of chronic nasal discharge, which has recently become foul-smelling and crusty. On examination, the nasal cavity is wide, roomier than normal, and filled with greenish-black offensive crusts. The nasal mucosa appears thin and atrophic, and the turbinates are severely shrunken. Interestingly, despite the highly roomy nasal cavity, the patient complains of a subjective sensation of nasal obstruction. What is the most likely diagnosis?",
+    "options": [
+      "Rhinoscleroma",
+      "Atrophic Rhinitis (Ozaena)",
+      "Lupus vulgaris of the nose",
+      "Syphilitic rhinitis"
+    ],
+    "correct": 1,
+    "explanation": "Atrophic Rhinitis (Ozaena) causes progressive atrophy of the mucosa and turbinates. The patient experiences a paradoxical subjective nasal obstruction because the mechanoreceptors in the mucosa have atrophied and can no longer feel airflow."
+  },
+  {
+    "id": "ent_109",
+    "question": "A 38-year-old male undergoes a functional endoscopic sinus surgery (FESS) for chronic rhinosinusitis. During the clearance of cells around the skull base, the surgeon accidentally breaches the thinnest, most vulnerable bony portion of the medial orbital wall. This bone separates the ethmoid air cells from the orbital periosteum. Injury to this layer leads to orbital hematoma and proptosis. What is the anatomical name of this thin bony sheet?",
+    "options": [
+      "Lamina papyracea",
+      "Cribriform plate",
+      "Planum sphenoidale",
+      "Uncinate process"
+    ],
+    "correct": 0,
+    "explanation": "The Lamina papyracea is the paper-thin lateral osseous plate of the ethmoid bone that forms the medial wall of the orbit. It lies lateral to the uncinate process and ethmoid infundibulum."
+  },
+  {
+    "id": "ent_110",
+    "question": "A 30-year-old male native of a coastal district in Tamil Nadu presents with a painless, slowly growing, red, leafy, hypervascular mass in his left nasal cavity that occasionally bleeds on touch. Surface examination reveals multiple tiny white spots giving it a strawberry-like appearance. Histopathological examination shows numerous large, thick-walled sporangia filled with thousands of endospores. What is the definitive treatment of choice?",
+    "options": [
+      "High-dose oral ketoconazole for 6 months",
+      "Wide surgical excision of the mass along with electrocautery of its base",
+      "Intravenous Amphotericin B therapy",
+      "External beam radiation therapy"
+    ],
+    "correct": 1,
+    "explanation": "Rhinosporidiosis is treated by wide surgical excision of the polypoid mass along with electrocauterization of its base. It does not respond well to standard systemic antifungals."
+  },
+  {
+    "id": "ent_111",
+    "question": "A 52-year-old female presents with unilateral, progressive left-sided nasal obstruction and intermittent epistaxis. Diagnostic nasal endoscopy reveals a single, irregular, fleshy, lobulated mass arising from the lateral nasal wall in the region of the middle meatus. A biopsy is obtained. Histopathology reveals a benign epithelial tumor characterized by the invagination of hyperplastic schneiderian epithelium into the underlying stroma (endophytic growth pattern) with an intact basement membrane. What is the diagnosis?",
+    "options": [
+      "Antrochoanal Polyp",
+      "Inverted Papilloma",
+      "Squamous cell carcinoma",
+      "Olfactory Neuroblastoma"
+    ],
+    "correct": 1,
+    "explanation": "Inverted Papilloma features hyperplastic epithelium that invaginates endophytitically into the underlying stroma while maintaining a strictly continuous, intact basement membrane."
+  },
+  {
+    "id": "ent_112",
+    "question": "A patient presents with severe epistaxis originating from the posterior nasal cavity that cannot be controlled with standard anterior nasal packing. A posterior pack is placed, but bleeding continues from the posterior-lateral nasal wall. The decision is made to perform endoscopic surgical ligation of the primary artery responsible for supplying the vast majority of the posterior nasal cavity mucosa. Which artery should be isolated at its exit from the pterygopalatine fossa?",
+    "options": [
+      "Greater palatine artery",
+      "Sphenopalatine artery",
+      "Anterior ethmoidal artery",
+      "Ascending pharyngeal artery"
+    ],
+    "correct": 1,
+    "explanation": "The sphenopalatine artery supplies the vast majority of the posterior nasal cavity and is the primary target for endoscopic ligation in refractory posterior epistaxis."
+  },
+  {
+    "id": "ent_113",
+    "question": "A 29-year-old male presents with a progressive change in the shape of his nose over 1 year. On examination, there is a distinct woody, painless, non-pitting induration and swelling involving the upper lip, nasal alae, and septum, resulting in a characteristic \"Tapir-like\" facies. Anterior rhinoscopy shows granular, nodular masses occluding both nostrils. Biopsy shows large, foamy, vacuolated histiocytes containing Gram-negative bacilli (Mikulicz cells) and Russell bodies. What is the causative organism?",
+    "options": [
+      "Klebsiella pneumoniae subsp. ozaenae",
+      "Klebsiella pneumoniae subsp. rhinoscleromatis",
+      "Mycobacterium leprae",
+      "Treponema pallidum"
+    ],
+    "correct": 1,
+    "explanation": "Rhinoscleroma is a chronic granulomatous bacterial disease of the respiratory tract caused by Klebsiella pneumoniae subsp. rhinoscleromatis, presenting with tapir-like facies, Mikulicz cells, and Russell bodies."
+  },
+  {
+    "id": "ent_114",
+    "question": "A 26-year-old pregnant female at 32 weeks of gestation presents to the clinic with severe, persistent, bilateral nasal congestion that began during her second trimester. She uses no over-the-counter nasal sprays and has no history of allergies, sneezing, or ocular symptoms. Nasal endoscopy shows diffuse hyperemia and edema of the nasal mucosa without polyps or purulent discharge. What is the primary pathophysiological driver of this condition?",
+    "options": [
+      "Chronic bacterial colonization of the ethmoid sinuses",
+      "Estrogen-induced nasal mucosal hypertrophy and vascular engorgement",
+      "IgE-mediated type 1 hypersensitivity reaction",
+      "Sympathetic overactivity causing mucosal vasoconstriction failure"
+    ],
+    "correct": 1,
+    "explanation": "Pregnancy Rhinitis is driven by elevated systemic estrogen/progesterone levels, causing vascular engorgement of nasal sinusoids and mucosal hyperemia/edema."
+  },
+  {
+    "id": "ent_115",
+    "question": "A 10-year-old child presents with a single, unilateral, large, pale-greyish mass emerging from the middle meatus and extending into the choana and nasopharynx, causing complete unilateral nasal blockage. A coronal CT scan shows opacification of the maxillary sinus with an hourglass-shaped soft tissue mass herniating through the accessory maxillary ostium into the nasal cavity. What is the diagnosis?",
+    "options": [
+      "Ethmoidal Polyp",
+      "Antrochoanal Polyp",
+      "Encephalocele",
+      "Angiofibroma"
+    ],
+    "correct": 1,
+    "explanation": "An Antrochoanal Polyp is a benign, unilateral mass arising from the maxillary sinus floor, exiting through the natural/accessory ostium, and tracking toward the choana and nasopharynx."
+  },
+  {
+    "id": "ent_116",
+    "question": "During an anterior ethmoidectomy, a surgeon must be cautious while working medial to the middle turbinate. The vertical plate of bone that hangs down from the roof of the nasal cavity, forming part of the nasal septum and articulating inferiorly with the vomer, is known as the:",
+    "options": [
+      "Perpendicular plate of the ethmoid",
+      "Cribriform plate",
+      "Crista galli",
+      "Vomerine cartilage"
+    ],
+    "correct": 0,
+    "explanation": "The Perpendicular plate of the ethmoid bone is a thin vertical sheet of bone that descends from the cribriform plate to form the superior portion of the bony septum."
+  },
+  {
+    "id": "ent_117",
+    "question": "A 60-year-old male with a history of chronic rhinosinusitis undergoes an emergency sinus CT scan due to sudden-onset severe right-sided retro-orbital pain, diplopia, ophthalmoplegia, and a dilated, unreactive right pupil. Imaging shows a massive pyocele of the sphenoid sinus compressing the structures traversing the adjacent cavernous sinus. Which of the following cranial nerves traversing the cavernous sinus is most vulnerable to direct compression along its lateral wall or within its lumen?",
+    "options": [
+      "Optic nerve (CN II)",
+      "Abducens nerve (CN VI)",
+      "Maxillary nerve (CN V2)",
+      "Facial nerve (CN VII)"
+    ],
+    "correct": 1,
+    "explanation": "The Abducens nerve (CN VI) runs directly within the central venous lumen of the cavernous sinus next to the internal carotid artery, making it highly susceptible to compression during adjacent sphenoid sinus infections."
+  },
+  {
+    "id": "ent_118",
+    "question": "A 22-year-old male presents to the outpatient clinic with complaints of severe facial pressure, nasal obstruction, and discolored nasal discharge for 12 days following a cold. He has a history of high-grade fever (102 F) for the first 3 days. What is the most appropriate initial pharmacological choice according to current IDSA/AAO-HNS guidelines for acute bacterial rhinosinusitis (ABRS)?",
+    "options": [
+      "Oral Macrolide (Azithromycin)",
+      "Oral Amoxicillin-Clavulanate",
+      "Oral Antihistamines alone",
+      "Topical Corticosteroid monotherapy without antibiotics"
+    ],
+    "correct": 1,
+    "explanation": "According to AAO-HNS guidelines, the first-line empirical antibiotic choice for ABRS is oral Amoxicillin-Clavulanate to cover Streptococcus pneumoniae, Haemophilus influenzae, and Moraxella catarrhalis."
+  },
+  {
+    "id": "ent_119",
+    "question": "A 35-year-old male presents with severe epistaxis following a motor vehicle collision. Bleeding is found to originate from the posterior-inferior aspect of the nasal cavity, a region supplied by the vascular plexus of Woodruff. Which major vessel primarily forms Woodruff’s plexus?",
+    "options": [
+      "Anterior ethmoidal artery",
+      "Sphenopalatine artery and pharyngeal branches of the maxillary artery",
+      "Greater palatine artery",
+      "Superior labial artery"
+    ],
+    "correct": 1,
+    "explanation": "Woodruff's plexus is located posteroinferiorly on the lateral nasal wall and is formed by the anastomosing terminal branches of the Sphenopalatine artery and pharyngeal branches of the maxillary artery."
+  },
+  {
+    "id": "ent_120",
+    "question": "A 40-year-old female presents with persistent, thick, peanut-butter-like nasal secretions, bilateral nasal polyposis, and a history of poorly controlled asthma. A coronal CT scan of the paranasal sinuses demonstrates pan-sinusitis with characteristic hyperdense, central, ground-glass opacities within the sinuses (\"double density sign\"). Sinus cultures grow Aspergillus flavus, and histopathology of the mucin shows dense clusters of eosinophils and Charcot-Leyden crystals without tissue invasion. What is the diagnosis?",
+    "options": [
+      "Invasive Fungal Sinusitis",
+      "Mycetoma (Fungal Ball)",
+      "Allergic Fungal Rhinosinusitis (AFRS)",
+      "Chronic Granulomatous Sinusitis"
+    ],
+    "correct": 2,
+    "explanation": "AFRS is a non-invasive fungal hypersensitivity disease. CT shows a double density sign (hyperdense ground-glass centers within opacified sinuses) due to concentrated heavy metals in allergic mucin filled with non-invasive hyphae."
+  },
+  {
+    "id": "ent_121",
+    "question": "A 33-year-old male presents with persistent clear fluid rhinorrhea from the right side of his nose. To localize the exact site of a suspected anterior skull base cerebrospinal fluid (CSF) leak prior to endoscopic repair, which imaging modality is considered the gold standard for high-resolution anatomical visualization of bony defects?",
+    "options": [
+      "Contrast-enhanced Magnetic Resonance Imaging (CE-MRI) of the brain",
+      "High-Resolution Computed Tomography (HRCT) of the paranasal sinuses and skull base",
+      "Radionuclide Cisternography",
+      "Routine X-ray skull lateral view"
+    ],
+    "correct": 1,
+    "explanation": "HRCT using thin, 1 mm cuts is the diagnostic gold standard to delineate fine osseous defects in the anterior cranial fossa floor (such as the cribriform plate or fovea ethmoidalis) causing a CSF leak."
+  },
+  {
+    "id": "ent_122",
+    "question": "A 50-year-old patient presents with a chronic ulcerated lesion on the anterior cartilaginous nasal septum that has slowly led to a perforation. A biopsy of the ulcer margin shows necrotizing granulomas with geographic necrosis and leukocytoclastic vasculitis. Serum testing reveals a highly positive c-ANCA (anti-proteinase 3). Which systemic condition matches this rhinological presentation?",
+    "options": [
+      "Sarcoidosis",
+      "Granulomatosis with Polyangiitis (Wegener's)",
+      "Extranodal NK/T-cell lymphoma, nasal type",
+      "Rhinoscleroma"
+    ],
+    "correct": 1,
+    "explanation": "Granulomatosis with Polyangiitis (Wegener's) classically presents with necrotizing small-to-medium vessel vasculitis, septal perforation, saddle nose deformity, and highly elevated c-ANCA titers."
+  },
+  {
+    "id": "ent_123",
+    "question": "During a step-by-step endoscopic endonasal approach to the pituitary gland, the neurosurgeon and ENT surgeon must first identify the natural ostium of the sphenoid sinus. In which anatomical space does the sphenoid sinus drain?",
+    "options": [
+      "Middle meatus",
+      "Inferior meatus",
+      "Sphenoethmoidal recess",
+      "Superior meatus"
+    ],
+    "correct": 2,
+    "explanation": "The sphenoid sinus opens directly into the sphenoethmoidal recess, which lies superior and posterior to the superior turbinate."
+  },
+  {
+    "id": "ent_124",
+    "question": "A 60-year-old male presents with a 3-month history of a rapidly expanding, painful mass in his left cheek, accompanied by left-sided nasal obstruction, intermittent epistaxis, and numbness over the left infraorbital skin region. Anterior rhinoscopy shows an irregular, friable mass bulging through the lateral nasal wall. A CT scan confirms an osteolytic mass arising from the left maxillary sinus invading the anterior facial skin and orbital floor. What is the most common histological type of malignancy found in the maxillary sinus?",
+    "options": [
+      "Adenocarcinoma",
+      "Adenoid Cystic Carcinoma",
+      "Squamous Cell Carcinoma",
+      "Esthesioneuroblastoma"
+    ],
+    "correct": 2,
+    "explanation": "Squamous Cell Carcinoma (SCC) is the most common histological variant (representing 70-80% of cases) of paranasal sinus malignancies, most frequently originating in the maxillary sinus."
+  },
+  {
+    "id": "ent_125",
+    "question": "A 45-year-old patient presents with chronic frontal headaches and recurrent rhinosinusitis. Nasal endoscopy and CT scans identify a prominent anatomical variant where the most anterior ethmoid air cells undergo hyper-pneumatization, encroaching upon the frontal recess and obstructing frontal sinus drainage. These cells are located superior to the agger nasi cells. What are these cells called?",
+    "options": [
+      "Haller cells",
+      "Onodi cells",
+      "Frontal ethmoidal cells (Kuhn cells)",
+      "Bulla frontalis"
+    ],
+    "correct": 2,
+    "explanation": "Frontal ethmoidal cells (Kuhn cells) are anterior ethmoid air cells that pneumatize into the frontal recess, located superior to agger nasi cells. When enlarged, they narrow or block frontal outflow tracts."
+  },
+  {
+    "id": "ent_126",
+    "question": "A 23-year-old female presents with severe seasonal sneezing, watery rhinorrhea, and itchy eyes every spring. She is diagnosed with Allergic Rhinitis. Which of the following pharmacological agents acts as a potent mast cell stabilizer and is commonly used as a prophylactic nasal spray to prevent degranulation and mediator release?",
+    "options": [
+      "Fluticasone propionate",
+      "Sodium cromoglycate",
+      "Azelastine hydrochloride",
+      "Oxymetazoline"
+    ],
+    "correct": 1,
+    "explanation": "Sodium Cromoglycate acts by inhibiting calcium influx across the mast cell membrane, preventing degranulation and release of histamine/mediators in response to allergens."
+  },
+  {
+    "id": "ent_127",
+    "question": "A 19-year-old male undergoes a septoplasty for a severe caudal septal deviation causing mechanical nasal obstruction. Postoperatively, the surgeon fails to place proper septal splints or quilting sutures. Twenty-four hours later, a massive septal hematoma develops, which goes untreated. Which classic long-term cosmetic deformity of the external nasal framework is most likely to occur as a direct result of ischemic necrosis of the septal cartilage?",
+    "options": [
+      "Crooked nose",
+      "Saddle nose deformity",
+      "Hump nose deformity",
+      "Pinot-nose appearance"
+    ],
+    "correct": 1,
+    "explanation": "Cartilage depends entirely on the perichondrium for nutrition. Stripping the perichondrium by a hematoma leads to ischemic necrosis and structural dissolution, collapsing the nasal bridge into a saddle nose deformity."
+  },
+  {
+    "id": "ent_128",
+    "question": "A 7-year-old child is brought to the emergency department by his mother who states that the child was playing with small beads and suddenly developed complete right-sided nasal obstruction, unilateral foul-smelling, purulent, yellowish-green nasal discharge, and localized pain. No other upper respiratory symptoms are present. What is the most likely diagnosis?",
+    "options": [
+      "Acute unilateral ethmoid sinusitis",
+      "Unilateral choanal atresia",
+      "Retained nasal foreign body",
+      "Nasal diphtheria"
+    ],
+    "correct": 2,
+    "explanation": "Unilateral, foul-smelling purulent nasal discharge in a child indicates an impacted nasal foreign body until proven otherwise."
+  },
+  {
+    "id": "ent_129",
+    "question": "During an endoscopic sinus surgery, a surgeon accidentally extends the dissection too far superiorly in the roof of the nasal cavity, just lateral to the crista galli. The patient develops an immediate clear fluid leak. Which anatomical bone was most likely breached?",
+    "options": [
+      "Fovea ethmoidalis",
+      "Cribriform plate",
+      "Planum sphenoidale",
+      "Lamina papyracea"
+    ],
+    "correct": 1,
+    "explanation": "Dissecting too far superiorly and medially adjacent to the crista galli can breach the thin cribriform plate of the ethmoid, tearing the closely adherent dura/arachnoid layers and causing a CSF leak."
+  },
+  {
+    "id": "ent_130",
+    "question": "A 55-year-old male presents with unilateral right-sided nasal obstruction, hyposmia, and a visible mass in the roof of the right nasal cavity. A biopsy reveals a malignant neuroectodermal tumor arising from the specialized olfactory epithelium. Immunohistochemical staining is strongly positive for S-100, Synaptophysin, and Chromogranin, showing a characteristic Homer-Wright rosette pattern. What is the diagnosis?",
+    "options": [
+      "Inverted Papilloma",
+      "Esthesioneuroblastoma (Olfactory Neuroblastoma)",
+      "Sinonasal Undifferentiated Carcinoma (SNUC)",
+      "Malignant Melanoma"
+    ],
+    "correct": 1,
+    "explanation": "Esthesioneuroblastoma is a malignant neuroendocrine tumor arising from olfactory epithelium. Histologically, it shows small round blue cells with Homer-Wright rosettes, staining positive for S-100/Synaptophysin."
+  },
+  {
+    "id": "ent_131",
+    "question": "A 28-year-old male presents with recurrent acute episodes of maxillary and frontal sinusitis. A detailed anatomical evaluation using a cone-beam CT scan reveals an infraorbital ethmoid air cell that has pneumatized along the floor of the orbit and the roof of the maxillary sinus, narrowing the infundibulum and obstructing the natural maxillary ostium. What is this specific cell called?",
+    "options": [
+      "Onodi cell",
+      "Haller cell",
+      "Agger nasi cell",
+      "Bulla ethmoidalis"
+    ],
+    "correct": 1,
+    "explanation": "A Haller cell is an infraorbital ethmoid cell that has pneumatized along the floor of the orbit / roof of maxillary sinus, narrow the infundibulum and obstructing natural maxillary drainage."
+  },
+  {
+    "id": "ent_132",
+    "question": "A 16-year-old boy presents with progressive, severe bilateral nasal obstruction since birth. On examination, he is a chronic mouth breather. Attempts to pass a small, flexible size 6 French suction catheter through both nasal cavities into the nasopharynx are unsuccessful. A lateral skull radiograph obtained after instilling radiopaque dye into the nasal cavity confirms a complete block at the posterior choana. What is the initial immediate management required if this condition presents at birth?",
+    "options": [
+      "Elective surgical resection at age 18",
+      "Securing the oral airway immediately with an oral airway device (McGovern nipple) or endotracheal intubation",
+      "High-dose topical nasal steroids",
+      "Immediate posterior nasal packing"
+    ],
+    "correct": 1,
+    "explanation": "Newborns are obligate nasal breathers. Bilateral choanal atresia is a neonatal respiratory emergency. Immediate management requires securing the oral airway via a McGovern nipple or intubation."
+  },
+  {
+    "id": "ent_133",
+    "question": "A patient with chronic epistaxis undergoes formal angiographic embolization after conservative measures fail. The interventional radiologist intends to embolize the sphenopalatine artery. From which major systemic vascular trunk does the sphenopalatine artery ultimately originate?",
+    "options": [
+      "Internal Carotid Artery -> Ophthalmic Artery",
+      "External Carotid Artery -> Maxillary Artery",
+      "External Carotid Artery -> Facial Artery",
+      "External Carotid Artery -> Lingual Artery"
+    ],
+    "correct": 1,
+    "explanation": "The sphenopalatine artery is a terminal branch of the third part of the maxillary artery, which originates from the external carotid artery."
+  },
+  {
+    "id": "ent_134",
+    "question": "A 42-year-old female presents with chronic facial pain, pressure, and nasal congestion for over 4 months. She undergoes Functional Endoscopic Sinus Surgery (FESS) after failing maximal medical therapy. During the first step of the procedure, the surgeon performs an uncinatectomy. Which legal landmark of the lateral nasal wall must be resected to expose the infundibulum?",
+    "options": [
+      "Ethmoid bulla",
+      "Uncinate process",
+      "Inferior turbinate",
+      "Superior turbinate"
+    ],
+    "correct": 1,
+    "explanation": "An uncinatectomy (removal of the uncinate process) is the first procedure performed on the lateral nasal wall during FESS to uncover and gain access to the infundibulum and maxillary sinus ostium."
+  },
+  {
+    "id": "ent_135",
+    "question": "A 65-year-old postmenopausal female presents with a 6-month history of severe dry mouth, dry eyes, and chronic crusting inside both nasal cavities, causing nasal irritation and a reduced sense of smell. Biopsy of her minor salivary glands confirms Sjögren's syndrome. What type of rhinitis occurs secondary to systemic autoimmune diseases that cause a destruction of mucin-producing minor salivary glands?",
+    "options": [
+      "Atrophic Rhinitis (Secondary)",
+      "Vasomotor Rhinitis",
+      "Allergic Rhinitis",
+      "Hypertrophic Rhinitis"
+    ],
+    "correct": 0,
+    "explanation": "Secondary atrophic rhinitis occurs due to underlying systemic autoimmune disorders (like Sjögren's Syndrome) that destroy exocrine glands, leading to drying of nasal mucosa, crusting, and atrophy."
+  },
+  {
+    "id": "ent_136",
+    "question": "A 30-year-old male with a history of long-standing allergic rhinitis and nasal polyposis presents to the clinic. He reports that for the last two years, he has been using an over-the-counter topical vasoconstrictor nasal spray (oxymetazoline) multiple times every single day. He now complains that his nasal congestion is worse than ever and no longer responds to the spray. What is the diagnosis?",
+    "options": [
+      "Rhinitis sicca",
+      "Rhinitis medicamentosa",
+      "Vasomotor rhinitis",
+      "Atrophic rhinitis"
+    ],
+    "correct": 1,
+    "explanation": "Rhinitis Medicamentosa is a drug-induced non-allergic rhinitis caused by prolonged use of topical vasoconstrictor sprays (oxymetazoline), leading to downregulation of adrenergic receptors and severe rebound congestion."
+  },
+  {
+    "id": "ent_137",
+    "question": "A 22-year-old boxer presents to the clinic with persistent left-sided nasal obstruction following a facial injury 6 months ago. Anterior rhinoscopy reveals a severe cartilaginous nasal septal deviation to the left side with a prominent bony shelf projecting horizontally from the septal framework into the left middle meatus. This specific structural projection is termed a:",
+    "options": [
+      "Septal perforation",
+      "Septal spur",
+      "Septal hematoma",
+      "Subluxation"
+    ],
+    "correct": 1,
+    "explanation": "A septal spur is a sharp horizontal bony or cartilaginous projection forming along the junctional shelf where the septal cartilage meets the vomer or maxillary crest."
+  },
+  {
+    "id": "ent_138",
+    "question": "A 35-year-old male undergoes a trans-nasal endoscopic repair of a CSF leak located at the cribriform plate. Postoperatively, he is advised strict precautions to minimize intracranial pressure spikes and ensure healing of the mucosal graft. Which of the following recommendations is CONTRAINDICATED in this patient?",
+    "options": [
+      "Stool softeners to prevent straining",
+      "Keeping the head of the bed elevated to 30 to 45 degrees",
+      "Vigorous coughing and forceful nose-blowing to clear nasal secretions",
+      "Avoiding heavy lifting and Valsalva maneuvers"
+    ],
+    "correct": 2,
+    "explanation": "To prevent displacement of the mucosal/fascial graft, actions that mimic a Valsalva maneuver (vigorous coughing, sneezing with closed mouth, nose-blowing) are strictly contraindicated."
+  },
+  {
+    "id": "ent_139",
+    "question": "A 12-year-old male presents with acute high-grade fever, severe left-sided periorbital pain, swelling, and redness. He had a severe cold 5 days ago. On examination, there is marked edema of the eyelids, but his visual acuity is normal, extraocular eye movements are fully preserved, and there is no proptosis. A CT scan shows left ethmoiditis and inflammatory soft-tissue swelling anterior to the orbital septum. According to Chandler’s classification of orbital complications of sinusitis, what stage is this?",
+    "options": [
+      "Stage I: Preseptal cellulitis",
+      "Stage II: Orbital cellulitis",
+      "Stage III: Subperiosteal abscess",
+      "Stage IV: Orbital abscess"
+    ],
+    "correct": 0,
+    "explanation": "According to Chandler's criteria, inflammatory edema of the eyelids anterior to the orbital septum with normal vision and ocular motility is Stage I: Preseptal Cellulitis."
+  },
+  {
+    "id": "ent_140",
+    "question": "A 26-year-old female presents with persistent watery rhinorrhea, sneezing, and nasal congestion that occurs throughout the year without any specific seasonal pattern. Skin prick testing for common indoor and outdoor allergens is completely negative, and serum total IgE levels are within the normal range. Eosinophils are absent on nasal cytology. The congestion worsens with sudden changes in temperature, humidity, and exposure to strong odors or tobacco smoke. What is the most likely diagnosis?",
+    "options": [
+      "Seasonal Allergic Rhinitis",
+      "Perennial Allergic Rhinitis",
+      "Vasomotor Rhinitis (Non-allergic rhinopathy)",
+      "Chronic Rhinosinusitis"
+    ],
+    "correct": 2,
+    "explanation": "Vasomotor Rhinitis is a non-allergic, non-infectious condition driven by autonomic imbalance (parasympathetic hyper-reactivity) resulting in chronic vasodilation, triggered by non-specific environmental changes."
+  },
+  {
+    "id": "ent_141",
+    "question": "During an advanced skull base dissection, a neurotology fellow traces the course of the vidian nerve (nerve of the pterygoid canal) to understand its role in secretomotor innervation to the lacrimal and nasal glands. Which two nerves unite to form the vidian nerve?",
+    "options": [
+      "Greater petrosal nerve and Deep petrosal nerve",
+      "Lesser petrosal nerve and Chorda tympani",
+      "Greater petrosal nerve and Chorda tympani",
+      "Maxillary nerve and Mandibular nerve"
+    ],
+    "correct": 0,
+    "explanation": "The Vidian Nerve is formed by the union of the Greater Petrosal Nerve (preganglionic parasympathetic from CN VII) and the Deep Petrosal Nerve (postganglionic sympathetic fibers from the internal carotid plexus)."
+  },
+  {
+    "id": "ent_142",
+    "question": "A 58-year-old male patient presents with chronic bilateral nasal obstruction. On examination, he has massive, diffuse, fleshy, bilateral nasal polyposis. Histographical examination of the resected nasal tissue shows an abundance of eosinophils within a loose, edematous stroma covered by respiratory epithelium. This classic histological picture is diagnostic of:",
+    "options": [
+      "Antrochoanal polyp",
+      "Ethmoidal polyp (Bilateral ethmoidal polyposis)",
+      "Rhinosporidiosis",
+      "Sinonasal inverted papilloma"
+    ],
+    "correct": 1,
+    "explanation": "Ethmoidal polyps are benign, bilateral inflammatory outgrowths characterized histopathologically by a highly edematous stroma infiltrated predominantly with eosinophils."
+  },
+  {
+    "id": "ent_143",
+    "question": "A 19-year-old male presents with severe right-sided epistaxis after receiving a direct blow to the lateral aspect of his nose. Anterior rhinoscopy shows active, brisk, arterial pumping from the upper anterior roof of the nasal cavity, high above the middle turbinate. Anterior nasal packing fails to control the hemorrhage. Ligation of which of the following arteries via an ethmoid/orbital incision is indicated to stop this superiorly-sourced nasal bleed?",
+    "options": [
+      "Sphenopalatine artery",
+      "Greater palatine artery",
+      "Anterior ethmoidal artery",
+      "Internal maxillary artery"
+    ],
+    "correct": 2,
+    "explanation": "Brisk arterial bleed high in the anterior roof above the middle turbinate is driven by the Anterior Ethmoidal Artery (a branch of the ophthalmic artery, internal carotid system)."
+  },
+  {
+    "id": "ent_144",
+    "question": "A 48-year-old male with a history of chronic sinusitis presents with a slow-growing, painless, rock-hard swelling over his left forehead that has gradually caused minor downward displacement of his left globe. A CT scan of the brain and paranasal sinuses demonstrates a well-circumscribed, highly dense, cortical bone mass originating within the left frontal sinus cavity. What is the most likely diagnosis?",
+    "options": [
+      "Osteoma of the frontal sinus",
+      "Fibrous dysplasia",
+      "Osteosarcoma",
+      "Ameloblastoma"
+    ],
+    "correct": 0,
+    "explanation": "An Osteoma is the most common benign slow-growing tumor of the paranasal sinuses, composed of mature compact bone, most commonly localized within the frontal sinus."
+  },
+  {
+    "id": "ent_145",
+    "question": "A 3-year-old child presents with a soft, compressible, non-pulsatile, subcutaneous mass located over the dorsum of the nose. The mass does not transilluminate, but the parents notice that it swells and enlarges when the child cries or strains (positive Furstenberg sign). This finding confirms a direct intracranial connection. What is the most likely congenital anomaly?",
+    "options": [
+      "Nasal dermoid cyst",
+      "Nasal glioma",
+      "Nasal encephalocele",
+      "Congenital hemangioma"
+    ],
+    "correct": 2,
+    "explanation": "A Nasal Encephalocele is a congenital herniation of meninges/brain tissue. The pathognomonic sign is a positive Furstenberg sign (mass enlarges during jugular compression or straining), indicating patent intracranial communication."
+  },
+  {
+    "id": "ent_146",
+    "question": "A patient presents with a severe saddle nose deformity and a large septal perforation following a chronic intranasal disease process. The surgeon plans a reconstruction of the nasal framework. Which autologous cartilage graft source provides the greatest volume of straight, rigid structural support for reconstructing a severely collapsed dorsal nasal framework?",
+    "options": [
+      "Auricular cartilage (Conchal cartilage)",
+      "Costal cartilage (Rib cartilage)",
+      "Septal cartilage remnants",
+      "Alar cartilage"
+    ],
+    "correct": 1,
+    "explanation": "Costal cartilage (rib cartilage) provides a large, rigid, and durable volume of autologous tissue ideal for structural reconstruction of a severely collapsed dorsal nasal framework."
+  },
+  {
+    "id": "ent_147",
+    "question": "A 65-year-old male heavy smoker presents with a 2-month history of right-sided epistaxis, nasal airway obstruction, and localized facial pain. Anterior rhinoscopy reveals an irregular, ulcerated, necrotic greyish mass arising within the right nasal cavity. A biopsy reveals poorly differentiated sinonasal squamous cell carcinoma. What is the primary lymphatic drainage pathway for malignant lesions originating in the anterior portion of the nasal cavity?",
+    "options": [
+      "Retropharyngeal lymph nodes",
+      "Submandibular lymph nodes",
+      "Deep cervical lymph nodes (Level IV)",
+      "Jugulodigastric lymph nodes"
+    ],
+    "correct": 1,
+    "explanation": "Lymphatics from the vestibule and the anterior portion of the nasal cavity drain externally along the facial vessels into the Submandibular Lymph Nodes (Level IB)."
+  },
+  {
+    "id": "ent_148",
+    "question": "A 28-year-old male with long-standing allergic fungal rhinosinusitis undergoes an uneventful FESS. On postoperative day 2, during aggressive nasal packing removal and saline debridement, the patient suddenly develops massive, pulsatile arterial hemorrhage from the posterior nasal cavity. His blood pressure drops to 80/50 mmHg. After initial fluid resuscitation, what is the most definitive and effective treatment to manage this life-threatening refractory posterior epistaxis?",
+    "options": [
+      "Placement of another bilateral anterior nasal pack for 7 days",
+      "Endoscopic sphenopalatine artery ligation (ESPAL) or angiographic trans-catheter arterial embolization",
+      "External carotid artery ligation in the neck",
+      "High-dose intravenous tranexamic acid infusion alone"
+    ],
+    "correct": 1,
+    "explanation": "Endoscopic sphenopalatine artery ligation (ESPAL) or angiographic embolization is the gold-standard definitive treatment for life-threatening refractory posterior epistaxis."
+  },
+  {
+    "id": "ent_149",
+    "question": "During a forensic autopsy of a victim of face-forward blunt trauma, the cribriform plate of the ethmoid bone is found to be comminuted. Which cranial nerve filaments, responsible for the special somatic afferent pathway of smell, pass through the numerous foramina of the cribriform plate?",
+    "options": [
+      "Cranial Nerve I (Olfactory nerve)",
+      "Cranial Nerve II (Optic nerve)",
+      "Cranial Nerve V1 (Ophthalmic nerve)",
+      "Cranial Nerve VII (Facial nerve)"
+    ],
+    "correct": 0,
+    "explanation": "The cribriform plate is perforated by numerous tiny foramina that transmit the unmyelinated fibers of the Olfactory Nerve (CN I) from olfactory neurons to the olfactory bulb."
+  },
+  {
+    "id": "ent_150",
+    "question": "A 34-year-old female presents with persistent thick, purulent right-sided nasal discharge for 3 weeks. Nasal endoscopy reveals purulent discharge pooling exclusively within the middle meatus. Which of the following paranasal sinuses does NOT drain into the middle meatus via the ostiomeatal complex?",
+    "options": [
+      "Frontal sinus",
+      "Anterior ethmoid sinus",
+      "Maxillary sinus",
+      "Sphenoid sinus"
+    ],
+    "correct": 3,
+    "explanation": "The sphenoid sinus drains directly into the sphenoethmoidal recess, whereas the frontal, maxillary, and anterior ethmoidal sinuses drain into the middle meatus."
+  },
+  {
+    "id": "ent_151",
+    "question": "A 25-year-old male presents with a progressive cosmetic deformity of his external nose after a severe fistfight 1 year ago. On profile view, there is a prominent loss of dorsal nasal height just below the bony vault, creating a deep depression over the cartilaginous dorsum. This classic \"saddle nose\" appearance is primarily due to structural collapse of which cartilaginous component of the nose?",
+    "options": [
+      "Greater alar cartilage",
+      "Septal cartilage",
+      "Lateral nasal cartilage",
+      "Lesser alar cartilage"
+    ],
+    "correct": 1,
+    "explanation": "The septal cartilage (quadrangular cartilage) is the key structural support for the middle third of the external nasal vault. Its collapse/necrosis leads directly to a saddle nose deformity."
+  },
+  {
+    "id": "ent_152",
+    "question": "A 40-year-old male presents with an intracranial complication arising from chronic frontal sinusitis. A contrast-enhanced CT scan reveals a localized collection of pus situated between the inner table of the skull and the dura mater in the frontal region. What is this neurological complication called?",
+    "options": [
+      "Subdural empyema",
+      "Epidural (Extradural) abscess",
+      "Brain abscess (Intraparenchymal)",
+      "Cavernous sinus thrombosis"
+    ],
+    "correct": 1,
+    "explanation": "An Epidural (Extradural) Abscess represents a collection of pus between the inner table of the skull and the outer layer of the dura, typically arising as a complication of frontal sinusitis."
+  },
+  {
+    "id": "ent_153",
+    "question": "A 45-year-old patient presents with severe epistaxis that is difficult to control. The emergency physician decides to perform internal nasal packing. Which of the following statements regarding the risks associated with prolonged, bilateral anterior nasal packing left in place for more than 48–72 hours is TRUE?",
+    "options": [
+      "It eliminates the risk of toxic shock syndrome (TSS)",
+      "It can induce hypoxemia, hypercapnia, and local tissue necrosis, necessitating prophylactic oral antibiotic coverage",
+      "It permanently cures nasal septal deviations",
+      "It improves eustachian tube function immediately"
+    ],
+    "correct": 1,
+    "explanation": "Prolonged bilateral packing blocks nasal respiration, potentially causing hypoxia and hypercapnia. It also carries risks of pressure necrosis and Toxic Shock Syndrome (TSS), necessitating antibiotics."
+  },
+  {
+    "id": "ent_154",
+    "question": "A 35-year-old male with a history of recurrent nasal polyposis presents for an evaluation. A coronal CT scan shows a unique anatomical variant where a posterior ethmoid air cell extends superiorly and laterally into the sphenoid sinus cavity, running in close proximity to the optic nerve channel and the internal carotid artery. What is this high-risk cell called?",
+    "options": [
+      "Agger nasi cell",
+      "Onodi cell (Sphenoethmoidal cell)",
+      "Haller cell",
+      "Maxillary sinus cell"
+    ],
+    "correct": 1,
+    "explanation": "An Onodi cell is a posterior ethmoid cell that has pneumatized posterosuperiorly and laterally into the sphenoid bone, putting the optic nerve and ICA at high risk during FESS."
+  },
+  {
+    "id": "ent_155",
+    "question": "A 14-year-old boy presents to the ENT outpatient department with a history of progressive, painless widening of the nasal bridge, leading to an increased distance between his eyes (hypertelorism) and a characteristic \"frog-face\" appearance. Nasal endoscopy reveals massive, pale, bilateral ethmoidal polyps completely filling the nasal cavity. What is the primary cause of this facial structural remodeling?",
+    "options": [
+      "Malignant bony invasion by a sinonasal carcinoma",
+      "Chronic pressure necrosis and expansile remodeling of the thin ethmoid and nasal bones by benign polyps",
+      "Osteitis deformans (Paget's disease)",
+      "Congenital fibrous dysplasia"
+    ],
+    "correct": 1,
+    "explanation": "Chronic mechanical pressure of extensive bilateral ethmoidal polyps causes slow bone resorption and expansile remodeling of thin ethmoid/nasal bones, leading to a widened nose bridge ('frog-face' appearance)."
+  },
+  {
+    "id": "ent_156",
+    "question": "A 30-year-old pregnant female presenting with severe, intractable epistaxis from the anterior nasal septum undergoes a localized excision of a small, red, pedunculated vascular nodule on Little’s area. Histopathological examination shows a lobular arrangement of capillaries separated by fibrous septa, confirming a diagnosis of a Lobular Capillary Hemangioma. What is the common clinical term for this lesion?",
+    "options": [
+      "Pyogenic granuloma (Granuloma gravidarum)",
+      "Juvenile angiofibroma",
+      "Inverted papilloma",
+      "Squamous papilloma"
+    ],
+    "correct": 0,
+    "explanation": "Pyogenic Granuloma (Lobular Capillary Hemangioma) is a benign vascular lesion that commonly forms on the septum and has a propensity to grow during pregnancy (granuloma gravidarum) due to hormonal stimuli."
+  },
+  {
+    "id": "ent_157",
+    "question": "A 52-year-old male presents with chronic right-sided nasal obstruction and intermittent blood-stained nasal discharge. A CT scan shows an expansile, soft-tissue mass filling the right maxillary sinus and extending out through the natural ostium. A biopsy is performed, and histopathology demonstrates an \"inverted\" pattern of epithelial growth into the underlying stroma with an intact basement membrane. Which viral agent is strongly associated with the pathogenesis and malignant transformation risk of this sinonasal inverted papilloma?",
+    "options": [
+      "Epstein-Barr Virus (EBV)",
+      "Human Papillomavirus (HPV) types 6, 11, 16, and 18",
+      "Human Herpesvirus 8 (HHV-8)",
+      "Cytomegalovirus (CMV)"
+    ],
+    "correct": 1,
+    "explanation": "Human Papillomavirus (HPV), particularly types 6 and 11 (benign) and types 16 and 18 (high malignant potential), is strongly associated with the pathogenesis and malignant transformation risk of inverted papillomas."
+  },
+  {
+    "id": "ent_158",
+    "question": "A 29-year-old female presents with chronic rhinosinusitis with nasal polyps (CRSwNP). She is scheduled for endoscopic sinus surgery. During preoperative counselling, the surgeon explains that the fundamental objective of Functional Endoscopic Sinus Surgery (FESS) is based on restoring which natural physiological mechanism of the paranasal sinuses?",
+    "options": [
+      "Permanent obliteration of the sinus cavities with fat grafts",
+      "Restoring normal mucociliary clearance and ventilation through the natural sinus ostia",
+      "Stripping and removing the entire mucosal lining of all paranasal sinuses",
+      "Converting the multi-sinus system into a single large open cavity"
+    ],
+    "correct": 1,
+    "explanation": "The fundamental concept of FESS is to restore natural ventilation and mucociliary clearance loops through the natural sinus ostia by clearing micro-anatomical blocks within the ostiomeatal complex (OMC)."
+  },
+  {
+    "id": "ent_159",
+    "question": "A 60-year-old farmer from a dusty rural area presents with a chronic history of progressive unilateral left-sided nasal obstruction, facial pain, and an occasional foul-smelling, cheesy nasal discharge. Anterior rhinoscopy reveals a firm, gritty, stone-like foreign body deep within the left nasal fossa, embedded in granulation tissue. What is this calcareous concretion, formed by the gradual deposition of calcium and magnesium salts around a long-retained nasal foreign body or blood clot, called?",
+    "options": [
+      "Rhinolith",
+      "Otolith",
+      "Tonsillolith",
+      "Sialolith"
+    ],
+    "correct": 0,
+    "explanation": "A Rhinolith is a 'nasal stone' or calcareous concretion formed by the gradual deposition of calcium and magnesium salts around a retained foreign body, blood clot, or crust."
+  },
+  {
+    "id": "ent_160",
+    "question": "A 22-year-old male undergoes an endoscopic sinus surgery. Postoperatively, he notes a complete loss of his sense of smell (anosmia). This is due to direct surgical injury to the olfactory neuroepithelium. Which anatomical zones of the nasal cavity contain the primary distribution of this specialized sensory epithelium?",
+    "options": [
+      "Inferior turbinate and floor of the nose",
+      "Roof of the nasal cavity, cribriform plate, superior turbinate, and upper nasal septum",
+      "Vestibule of the nose and lower cartilaginous septum",
+      "Middle meatus and maxillary sinus infundibulum"
+    ],
+    "correct": 1,
+    "explanation": "The olfactory neuroepithelium is located superiorly in the nasal cavity, covering the cribriform plate, the superior turbinate, and the corresponding upper portion of the nasal septum."
+  },
+  {
+    "id": "ent_161",
+    "question": "A 48-year-old male presents with severe pain over his right cheek and upper teeth, accompanied by purulent nasal discharge and fever for 4 days. He mentions having a painful dental extraction of the right upper first molar one week ago. A panoramic radiograph and CT scan reveal mucosal thickening and an air-fluid level localized exclusively within the right maxillary sinus, along with a focal bony defect in the sinus floor. What is the diagnosis?",
+    "options": [
+      "Odontogenic maxillary sinusitis secondary to an oroantral fistula (OAF)",
+      "Acute frontal sinusitis",
+      "Inverted papilloma",
+      "Idiopathic trigeminal neuralgia"
+    ],
+    "correct": 0,
+    "explanation": "Odontogenic sinusitis is caused by dental infections or root fractures breaching the sinus floor. A post-extraction breach creates an oroantral fistula (OAF) allowing saliva/oral flora into the maxillary sinus."
+  },
+  {
+    "id": "ent_162",
+    "question": "A 24-year-old medical student develops a severe furuncle (abscess) of the nasal vestibule after plucking a nasal hair. Two days later, he presents to the emergency room with high-grade fever, severe headache, bilateral periorbital edema, chemosis, proptosis, and restriction of extraocular eye movements. This presentation is due to retrograde septic thrombophlebitis. Which intracranial venous structure has become thrombosed via valveless facial and ophthalmic veins draining the \"danger area\" of the face?",
+    "options": [
+      "Superior sagittal sinus",
+      "Cavernous sinus",
+      "Transverse sinus",
+      "Sigmoid sinus"
+    ],
+    "correct": 1,
+    "explanation": "Infections in the 'danger area' of the face (external nose, upper lip) can spread retrogradely via valveless facial and ophthalmic veins into the Cavernous Sinus, leading to septic Cavernous Sinus Thrombosis."
+  },
+  {
+    "id": "ent_163",
+    "question": "A 35-year-old female presents with persistent clear, watery nasal discharge from the right side of her nose that drips continuously when she bends forward. To confirm a CSF rhinorrhea leak, a sample of the nasal fluid is sent for immunofixation electrophoresis. The detection of which specific protein bands confirms the presence of CSF?",
+    "options": [
+      "Albumin bands",
+      "Beta-2 transferrin (tau protein) bands",
+      "Alpha-1 antitrypsin bands",
+      "Gamma globulin bands"
+    ],
+    "correct": 1,
+    "explanation": "The detection of Beta-2 transferrin (tau protein) via electrophoresis is the gold-standard diagnostic marker for CSF, as it is found only in CSF, perilymph, and vitreous humor."
+  },
+  {
+    "id": "ent_164",
+    "question": "A 13-year-old boy presents with a history of massive, recurrent epistaxis. A digital subtraction angiogram (DSA) is performed, confirming a highly vascular juvenile nasopharyngeal angiofibroma (JNA). The feeding vessel is identified as a terminal branch of the internal maxillary artery. Which specific surgical approach involves a sublabial incision to gain direct anterior access to the maxillary sinus and pterygopalatine fossa for tumor extirpation?",
+    "options": [
+      "Caldwell-Luc approach",
+      "Lynch-Howarth incision",
+      "Lateral rhinotomy",
+      "Midfacial translocation"
+    ],
+    "correct": 0,
+    "explanation": "The Caldwell-Luc approach uses a sublabial incision in the gingivobuccal sulcus to open the anterior maxillary sinus wall, providing an excellent anterior corridor to access the pterygopalatine fossa."
+  },
+  {
+    "id": "ent_165",
+    "question": "A 30-year-old male presents with a persistent, non-healing ulcer on his nasal septum that has slowly caused a complete structural perforation of the cartilaginous septum. He has a history of chronic industrial exposure. Exposure to which of the following chemical toxins is a classic occupational cause of nasal septal perforation?",
+    "options": [
+      "Chromium dust and electroplating fumes",
+      "Lead paint",
+      "Asbestos fibers",
+      "Silica dust"
+    ],
+    "correct": 0,
+    "explanation": "Occupational exposure to chromium dust and electroplating fumes causes chronic septal irritation, perichondrial vasoconstriction/ischemia, leading directly to a cartilaginous septal perforation."
+  },
+  {
+    "id": "ent_166",
+    "question": "A 42-year-old patient with chronic rhinosinusitis without nasal polyps fails to improve after 3 weeks of oral Amoxicillin-Clavulanate and topical saline rinses. A diagnostic nasal endoscopy reveals edematous mucosa and mucopurulent tracks in the middle meatus. According to clinical consensus guidelines, what is the next most appropriate medical management step before considering surgical intervention?",
+    "options": [
+      "Switch to a 3-week course of oral macrolides combined with high-dose intranasal corticosteroid sprays",
+      "Immediate referral for external frontoethmoidectomy",
+      "Long-term systemic aminoglycoside therapy",
+      "Antral lavage alone under local anesthesia"
+    ],
+    "correct": 0,
+    "explanation": "If initial short-course antibiotics fail, clinical consensus recommends a course of maximal medical therapy, consisting of low-dose oral macrolides (for anti-inflammatory effects) and topical intranasal steroid sprays."
+  },
+  {
+    "id": "ent_167",
+    "question": "During an endoscopic sinus surgery, a surgeon uses the middle turbinate as a critical anatomical landmark. The middle turbinate is a structural component of which cranial bone?",
+    "options": [
+      "Maxilla",
+      "Ethmoid bone",
+      "Sphenoid bone",
+      "Palatine bone"
+    ],
+    "correct": 1,
+    "explanation": "The middle turbinate (and superior turbinate) is an intrinsic anatomical projection of the Ethmoid Bone. The inferior turbinate, however, is a separate, independent cranial bone."
+  },
+  {
+    "id": "ent_168",
+    "question": "A 31-year-old female presents with severe facial pressure, nasal obstruction, and anosmia for 5 months. A coronal CT scan shows complete opacification of all paranasal sinuses bilaterally. The diagnostic criteria for Chronic Rhinosinusitis (CRS) require the continuous persistence of characteristic symptoms and objective evidence of mucosal inflammation for a minimum duration of how many consecutive weeks?",
+    "options": [
+      "4 weeks",
+      "6 weeks",
+      "8 weeks",
+      "12 weeks"
+    ],
+    "correct": 3,
+    "explanation": "According to AAO-HNS and EPOS criteria, Chronic Rhinosinusitis (CRS) requires the continuous presence of symptoms and mucosal inflammation for at least 12 consecutive weeks."
+  },
+  {
+    "id": "ent_169",
+    "question": "A 15-year-old boy presents with severe right-sided nasal obstruction and epistaxis. On examination, a red, vascular mass is seen in the right nasal cavity extending into the nasopharynx. A biopsy of this lesion is strictly CONTRAINDICATED in the outpatient clinic setting due to the risk of life-threatening hemorrhage. What is the diagnosis?",
+    "options": [
+      "Antrochoanal polyp",
+      "Juvenile Nasopharyngeal Angiofibroma (JNA)",
+      "Encephalocele",
+      "Inverted papilloma"
+    ],
+    "correct": 1,
+    "explanation": "JNA is highly vascular and lacks a muscular coat (tunica media) in its vessels, meaning biopsy can lead to catastrophic, uncontrollable bleeding. Outpatient biopsy is strictly contraindicated."
+  },
+  {
+    "id": "ent_170",
+    "question": "A 22-year-old male presents with severe nasal obstruction and a snoring history. On anterior rhinoscopy, the nasal septum is markedly deviated to the right side, compressing the right inferior turbinate, while the left nasal cavity shows a highly enlarged, hypertrophied inferior turbinate. This enlargement of the contralateral turbinate in a long-standing case of septal deviation is known as:",
+    "options": [
+      "Compensatory turbinate hypertrophy",
+      "Concha bullosa",
+      "Neoplastic transformation",
+      "Atrophic rhinitis"
+    ],
+    "correct": 0,
+    "explanation": "In long-standing cases of septal deviation, the contralateral roomy nasal cavity undergoes compensatory hypertrophy of the inferior turbinate to regulate airflow and prevent excessive mucosal drying."
+  },
+  {
+    "id": "ent_171",
+    "question": "A 36-year-old female presents with chronic rhinosinusitis. A coronal CT scan of the paranasal sinuses demonstrates a prominent gas-filled, pneumatized cell within the middle turbinate. This condition is termed:",
+    "options": [
+      "Paradoxical middle turbinate",
+      "Concha bullosa",
+      "Agger nasi pneumatization",
+      "Torus tubarius"
+    ],
+    "correct": 1,
+    "explanation": "Pneumatization or presence of an air-filled cell within the middle turbinate is known as a Concha Bullosa. If excessively large, it can block the ostiomeatal complex (OMC)."
+  },
+  {
+    "id": "ent_172",
+    "question": "A 29-year-old male presents with tapir-like facies, progressive nasal obstruction, and granular nodules in the nostrils. A biopsy shows large foamy Mikulicz cells and Russell bodies. These histopathological findings are characteristic of which stage of Rhinoscleroma?",
+    "options": [
+      "Catarrhal / Atrophic stage",
+      "Granulomatous / Proliferative stage",
+      "Cicatricial / Fibrotic stage",
+      "Malignant transformation stage"
+    ],
+    "correct": 1,
+    "explanation": "The Granulomatous (Proliferative) stage of Rhinoscleroma is histologically characterized by a rich granulomatous infiltrate featuring pathognomonic foamy Mikulicz cells and plasma cells with Russell bodies."
+  },
+  {
+    "id": "ent_173",
+    "question": "A 35-year-old male undergoes a standard septoplasty. On the second postoperative day, while a tight bilateral nasal packing is still in place, he develops high-grade fever, erythroderma (macular rash), hypotension, and vomiting. What life-threatening complication associated with nasal packing is the patient suffering from?",
+    "options": [
+      "Anaphylactic shock to packing material",
+      "Toxic Shock Syndrome (TSS)",
+      "Cerebrospinal fluid leak",
+      "Acute ascending ethmoiditis"
+    ],
+    "correct": 1,
+    "explanation": "Toxic Shock Syndrome (TSS) is a rare but life-threatening complication of prolonged nasal packing, caused by exotoxin (TSST-1) release from colonizing Staphylococcus aureus strains."
+  },
+  {
+    "id": "ent_174",
+    "question": "A 52-year-old uncontrolled diabetic male presents with acute onset of severe right-sided facial pain, periorbital swelling, low-grade fever, and a black necrotic turbinate visible on anterior rhinoscopy. Potassium hydroxide (KOH) mount of the nasal scraping reveals broad, aseptate, right-angle branching hyphae. What is the definitive initial drug of choice for this patient?",
+    "options": [
+      "Voriconazole",
+      "Liposomal Amphotericin B",
+      "Fluconazole",
+      "Caspofungin"
+    ],
+    "correct": 1,
+    "explanation": "Rhinocerebral Mucormycosis is an absolute emergency. The first-line medical therapy is intravenous Liposomal Amphotericin B, combined with urgent surgical debridement of necrotic tissues."
+  },
+  {
+    "id": "ent_175",
+    "question": "A 33-year-old male presents with persistent bilateral nasal obstruction and recurrent epistaxis. Diagnostic nasal endoscopy shows multiple pale, grape-like clusters filling both nasal cavities. Eosinophilia is prominent on smears. Which of the following conditions is NOT classically associated with this recurrent, bilateral nasal polyposis?",
+    "options": [
+      "Cystic Fibrosis",
+      "Kartagener’s Syndrome",
+      "Samter’s Triad",
+      "Isolated Rhinosporidiosis"
+    ],
+    "correct": 3,
+    "explanation": "Bilateral, recurrent ethmoidal polyposis is associated with systemic diseases like Cystic Fibrosis, Kartagener's, or Samter's. Rhinosporidiosis presents as an isolated unilateral vascular strawberry-like mass."
+  },
+  {
+    "id": "ent_176",
+    "question": "During an endonasal surgical procedure, a resident wants to locate the landmark that guides the surgeon to the nasolacrimal duct ostium. What is the uncinate process's inferior attachment that serves as a boundary landmark for FESS?",
+    "options": [
+      "Middle turbinate",
+      "Inferior turbinate",
+      "Lacrimal bone",
+      "Cribriform plate"
+    ],
+    "correct": 1,
+    "explanation": "The uncinate process is a thin bony hook on the lateral nasal wall. Its inferior attachment articulates with the ethmoidal process of the inferior turbinate."
+  },
+  {
+    "id": "ent_177",
+    "question": "A patient with a suspected CSF rhinorrhea undergoes a FESS procedure. To localize the exact site of the skull base breach intraoperatively, a small amount of a fluorescent dye is introduced into the subarachnoid space via a lumbar puncture. This diagnostic test is known as the:",
+    "options": [
+      "Intrathecal Fluorescein test",
+      "Beta-2 transferrin assay",
+      "Radionuclide cisternography",
+      "High-resolution CT cisternogram"
+    ],
+    "correct": 0,
+    "explanation": "The Intrathecal Fluorescein test involves lumbar subarachnoid injection of 5% sodium fluorescein, which flows superiorly and glows under a blue filter, pointing to the bone breach site."
+  },
+  {
+    "id": "ent_178",
+    "question": "A 35-year-old male farmer from a rural area presents with a painless, strawberry-like, bleeding polypoid mass in his right nostril. He has a history of swimming in stagnant ponds. Biopsy shows large sporangia filled with endospores. What is the modern taxological status of the causative organism (Rhinosporidium seeberi)?",
+    "options": [
+      "A true pathogenic fungus of the class Ascomycetes",
+      "An anaerobic Gram-negative bacterium",
+      "A protistan parasite belonging to the clade Mesomycetozoea",
+      "An aquatic DNA virus"
+    ],
+    "correct": 2,
+    "explanation": "Rhinosporidium seeberi has been reclassified using 18S rRNA sequencing under Mesomycetozoea, a group of fish/aquatic protistan parasites at the animal-fungal boundary."
+  },
+  {
+    "id": "ent_179",
+    "question": "A 35-year-old female presents with progressive unilateral enophthalmos and hypoglobus (downward displacement of the eye). She is completely asymptomatic nasally. A CT scan reveals a small, shrunken left maxillary sinus with inward bowing of its lateral, superior, and anterior walls, and a medially deviated uncinate process apposed to the orbital floor. This clinical entity is known as:",
+    "options": [
+      "Silent Sinus Syndrome",
+      "Maxillary Sinus Mucocele",
+      "Schneiderian papillomatosis",
+      "Acinic cell carcinoma"
+    ],
+    "correct": 0,
+    "explanation": "Silent Sinus Syndrome (Chronic Maxillary Atelectasis) results from chronic infundibular blockage leading to negative pressure within the maxillary sinus, causing gradual inward collapse of the bony sinus walls."
+  },
+  {
+    "id": "ent_180",
+    "question": "A resident is performing FESS and wishes to trace the drainage pathway of the posterior ethmoid air cells. Into which specific region of the lateral nasal wall do the posterior ethmoid air cells drain?",
+    "options": [
+      "Middle meatus, posterior part",
+      "Inferior meatus, under Hasner's valve",
+      "Superior meatus",
+      "Sphenoethmoidal recess"
+    ],
+    "correct": 2,
+    "explanation": "The posterior ethmoid air cells drain directly into the superior meatus. Frontal, anterior ethmoid, and maxillary sinuses drain into the middle meatus, while the sphenoid drains into the sphenoethmoidal recess."
+  },
+  {
+    "id": "ent_181",
+    "question": "A 70-year-old hypertensive male presents to the emergency room with severe posterior epistaxis. The physician decides to place a posterior nasal pack using a Foley catheter. Which of the following statements represents the correct clinical practice for this procedure?",
+    "options": [
+      "The Foley catheter is passed through the mouth and retrograded into the choana.",
+      "The catheter is passed along the floor of the nose into the nasopharynx, and the balloon is inflated with 5 to 10 mL of sterile water before pulling it firmly anteriorly.",
+      "The balloon is inflated with 30 mL of air to ensure tight mechanical compression.",
+      "The catheter must be left in place continuously for 2 weeks to prevent recurrence."
+    ],
+    "correct": 1,
+    "explanation": "A Foley catheter is passed along the nasal floor into the nasopharynx, inflated with 5-10 mL of water (not air, as air can slowly leak), and pulled anteriorly to seal the posterior choana."
+  },
+  {
+    "id": "ent_182",
+    "question": "A 35-year-old female presents with severe, persistent, primary Atrophic Rhinitis (Ozaena) that has failed conservative douching. Which surgical procedure is designed to permanently close or narrow the nasal cavities to eliminate airflow, allowing the atrophic, crusted mucosa to rest and regenerate?",
+    "options": [
+      "Young’s operation",
+      "Caldwell-Luc operation",
+      "FESS (Functional Endoscopic Sinus Surgery)",
+      "Killian's operation"
+    ],
+    "correct": 0,
+    "explanation": "Young's operation involves creating circumferential mucosal flaps inside the nasal vestibules and suturing them closed to eliminate drying airflow, allowing mucosal recovery."
+  },
+  {
+    "id": "ent_183",
+    "question": "A 50-year-old male presents with a tumor of the nasal floor. The surgeon plans a resection. Which of the following anatomical structures forms the primary skeletal barrier separating the nasal cavity from the oral cavity inferiorly?",
+    "options": [
+      "Hard palate (Palatine process of maxilla and horizontal plate of palatine bone)",
+      "Cribriform plate",
+      "Perpendicular plate of the ethmoid",
+      "Sphenoid rostrum"
+    ],
+    "correct": 0,
+    "explanation": "The hard palate, composed of the palatine process of the maxilla and the horizontal plate of the palatine bone, forms the floor of the nose and the roof of the mouth, separating the two cavities."
+  },
+  {
+    "id": "ent_184",
+    "question": "A patient is scheduled to undergo septal surgery for a deviated nasal septum. When discussing the differences between a Submucous Resection (SMR) and a Septoplasty, which of the following is a key advantage of Septoplasty?",
+    "options": [
+      "SMR is preferred in pediatric patients as it spares the growth centers of the septum.",
+      "Septoplasty is more conservative, involving targeted scoring and realignment of the cartilage while preserving the main cartilage plate.",
+      "SMR does not require any mucosal flaps to be raised.",
+      "Septoplasty has a significantly higher risk of postoperative saddle nose deformity than SMR."
+    ],
+    "correct": 1,
+    "explanation": "Septoplasty is a conservative, cartilage-preserving procedure focusing on mobilization, scoring, and targeted realignment, making it safe for children and reducing the risk of a saddle nose."
+  },
+  {
+    "id": "ent_185",
+    "question": "A 55-year-old male presents with a 3-month history of a slowly growing, painless swelling over his right cheek. A coronal CT scan demonstrates a thin-walled, fluid-filled expansile lesion completely filling the right maxillary sinus, causing thinning and outward bowing of the sinus walls without osteolytic bone destruction. What is the diagnosis?",
+    "options": [
+      "Maxillary sinus mucocele",
+      "Squamous cell carcinoma",
+      "Inverted papilloma",
+      "Osteoma"
+    ],
+    "correct": 0,
+    "explanation": "A maxillary mucocele is a sterile, fluid-filled, epithelial-lined expansile lesion arising from ostial block, causing thinning and outward bowing of sinus walls without osteolysis."
+  },
+  {
+    "id": "ent_186",
+    "question": "During an endoscopic approach to the frontal recess, the surgeon identifies a critical bony landmark on the lateral nasal wall that represents the most anterior ethmoid air cell. This cell sits immediately superior to the uncinate process attachment and forms the architectural floor of the frontal recess. What is the name of this cell?",
+    "options": [
+      "Agger nasi cell",
+      "Bulla ethmoidalis",
+      "Onodi cell",
+      "Haller cell"
+    ],
+    "correct": 0,
+    "explanation": "The Agger Nasi cell is the most anterior ethmoidal air cell, sitting superior to the uncinate process and anterior to the middle turbinate, forming the floor of the frontal recess."
+  },
+  {
+    "id": "ent_187",
+    "question": "A 30-year-old patient presents with severe epistaxis. On anterior rhinoscopy, a major bleeding point is identified on the anterior-inferior nasal septum. This area, known as Little's area, is highly vulnerable to epistaxis because it contains a confluence of vessels from both the internal and external carotid artery systems. Which of the following terminal branches represents the internal carotid artery system contribution to this plexus?",
+    "options": [
+      "Sphenopalatine artery",
+      "Greater palatine artery",
+      "Anterior ethmoidal artery",
+      "Superior labial artery"
+    ],
+    "correct": 2,
+    "explanation": "The Anterior Ethmoidal Artery is a branch of the ophthalmic artery (derived from the Internal Carotid Artery system). All other contributors to Kiesselbach's plexus are from the External Carotid system."
+  },
+  {
+    "id": "ent_188",
+    "question": "A 42-year-old male presents with chronic, bilateral, foul-smelling nasal discharge and facial pressure for 6 months. On nasal endoscopy, thick, green, cheesy material is seen in the middle meatus. A CT scan shows opacification of the right maxillary sinus with central, dense, calcified radiopaque gritty material (\"fungal ball\"). Histopathology shows dense networks of septate hyphae branching at 45 degrees without tissue or vascular invasion. What is the organism?",
+    "options": [
+      "Mucor",
+      "Aspergillus fumigatus",
+      "Candida",
+      "Rhinosporidium"
+    ],
+    "correct": 1,
+    "explanation": "A non-invasive sinus fungal ball (mycetoma) is most commonly caused by Aspergillus fumigatus, characterized by dense networks of septate hyphae branching at 45 degrees."
+  },
+  {
+    "id": "ent_189",
+    "question": "A 26-year-old female presents with persistent clear fluid dripping from her right nostril. Glucose testing of the fluid shows a value of 55 mg/dL. A skull base CSF leak is suspected. Which anatomical site is the most common location for an idiopathic, spontaneous CSF rhinorrhea leak, often associated with benign intracranial hypertension (pseudotumor cerebri) in obese females?",
+    "options": [
+      "Lateral wall of the sphenoid sinus (lateral craniopharyngeal canal) or cribriform plate",
+      "Posterior wall of the frontal sinus",
+      "Bony floor of the maxillary sinus",
+      "Inferior meatus wall"
+    ],
+    "correct": 0,
+    "explanation": "Spontaneous CSF leaks in patients with benign intracranial hypertension most commonly occur in the lateral wall of the sphenoid sinus (near Sternberg's canal) or across the thin cribriform plate."
+  },
+  {
+    "id": "ent_190",
+    "question": "A 14-year-old boy undergoes a successful surgical resection of a stage II Juvenile Nasopharyngeal Angiofibroma (JNA) via an endoscopic approach. Postoperatively, he develops a complete loss of sensation over his right cheek, upper lip, and upper teeth. This neurological deficit indicates intraoperative injury to which nerve?",
+    "options": [
+      "Maxillary nerve (CN V2 / Infraorbital nerve)",
+      "Mandibular nerve (CN V3)",
+      "Ophthalmic nerve (CN V1)",
+      "Facial nerve (CN VII)"
+    ],
+    "correct": 0,
+    "explanation": "The Maxillary nerve (CN V2) enters the pterygopalatine fossa and continues as the infraorbital nerve, providing sensory supply to the cheek, upper lip, and upper teeth. It is at risk during posterior/JNA surgery."
+  },
+  {
+    "id": "ent_191",
+    "question": "A 38-year-old female presents with severe seasonal allergic rhinitis. She has been prescribed an intranasal corticosteroid spray (mometasone furoate). To minimize the risk of a mucosal septal perforation or localized epistaxis, how should she be instructed to direct the nasal spray nozzle?",
+    "options": [
+      "Direct the spray straight medially toward the nasal septum",
+      "Direct the spray laterally toward the outer ear on the same side, away from the septum",
+      "Spray directly upward toward the cribriform plate",
+      "Snort the spray deeply while closing both eyes"
+    ],
+    "correct": 1,
+    "explanation": "Directing the steroid spray laterally (away from the septum) avoids mechanical mucosal irritation, thinning, bleeding, and eventual perforation of the septal cartilage in Little's area."
+  },
+  {
+    "id": "ent_192",
+    "question": "A 24-year-old male presents with complete nasal obstruction following an injury. On examination, the caudal edge of the septal cartilage has slipped completely out of its midline bony groove in the maxillary vomerine ridge, projecting prominently into the left nasal vestibule. This specific displacement of the anterior septal cartilage is termed:",
+    "options": [
+      "Septal spur",
+      "Caudal subluxation (Dislocation)",
+      "Septal perforation",
+      "Concha bullosa"
+    ],
+    "correct": 1,
+    "explanation": "Caudal subluxation (or dislocation) of the septal cartilage represents the slipping of the anterior-inferior cartilage boundary out of its midline maxillary bony groove into the nasal vestibule."
+  },
+  {
+    "id": "ent_193",
+    "question": "During a high-definition endoscopic sinus surgery, a surgeon works in the posterior ethmoid air cells. The surgeon identifies a large, highly pneumatized posterior ethmoid air cell that has expanded laterally and superiorly over the sphenoid sinus, directly exposing the sheath of the optic nerve. What is the clinical eponym for this cell?",
+    "options": [
+      "Onodi cell",
+      "Haller cell",
+      "Agger nasi cell",
+      "Bulla ethmoidalis"
+    ],
+    "correct": 0,
+    "explanation": "An Onodi cell is a posterior-most ethmoidal cell that pneumatizes superiorly and laterally into the sphenoid sinus, often bringing the optic nerve/ICA completely exposed along its wall."
+  },
+  {
+    "id": "ent_194",
+    "question": "A 68-year-old male presents with persistent right-sided nasal obstruction, recurrent epistaxis, and a mass in his right nasal cavity. A biopsy reveals a highly malignant, poorly differentiated neuroendocrine tumor. Immunohistochemical workup shows positivity for synaptophysin and CD56, but negativity for S100. It lacks the classic rosettes of an olfactory neuroblastoma. What is the diagnosis?",
+    "options": [
+      "Sinonasal Undifferentiated Carcinoma (SNUC)",
+      "Esthesioneuroblastoma",
+      "Inverted Papilloma",
+      "Lobular capillary hemangioma"
+    ],
+    "correct": 0,
+    "explanation": "SNUC is an aggressive, poorly differentiated paranasal sinus malignancy. On IHC, it displays positivity for neuroendocrine markers (synaptophysin, CD56) but is negative for S100 and lacks Homer-Wright rosettes."
+  },
+  {
+    "id": "ent_195",
+    "question": "A 35-year-old female presents with persistent rhinorrhea, sneezing, and nasal congestion. She undergoes a quantitative diagnostic test to confirm IgE-mediated allergic sensitization to specific inhalant allergens. Which of the following tests measures allergen-specific IgE antibodies in the patient's serum?",
+    "options": [
+      "Skin prick testing (SPT)",
+      "Radioallergosorbent Test (RAST) or ImmunoCAP assay",
+      "Total serum IgG levels",
+      "Patch testing"
+    ],
+    "correct": 1,
+    "explanation": "RAST and ImmunoCAP are quantitative, in vitro blood assays used to measure the specific concentration of allergen-specific IgE antibodies in a patient's serum."
+  },
+  {
+    "id": "ent_196",
+    "question": "A 50-year-old female presents with chronic bilateral nasal crusting, severe foul odor, and a roomy nasal cavity. On examination, she is diagnosed with primary Atrophic Rhinitis. Which of the following continuous nasal douching solutions is classically used to help clear offensive crusts, liquefy secretions, and inhibit saprophytic bacterial colonization?",
+    "options": [
+      "Concentrated hydrochloric acid solution",
+      "Alkaline nasal douching solution (Sodium bicarbonate, Sodium borate, and Sodium chloride in warm water)",
+      "Pure 100% ethanol solution",
+      "High-dose topical epinephrine solution"
+    ],
+    "correct": 1,
+    "explanation": "A classic Alkaline nasal douching solution (containing sodium bicarbonate to thin mucus, sodium borate as an antiseptic, and sodium chloride) is used to clear crusts in Atrophic Rhinitis."
+  },
+  {
+    "id": "ent_197",
+    "question": "During a FESS procedure, a surgeon clears the ethmoid air cells to expose the roof of the ethmoid labyrinth. This thin bone separates the ethmoid cells from the anterior cranial fossa and is a crucial landmark to avoid intracranial penetration. What is this structural roof called?",
+    "options": [
+      "Fovea ethmoidalis",
+      "Lamina papyracea",
+      "Uncinate process",
+      "Inferior turbinate"
+    ],
+    "correct": 0,
+    "explanation": "The Fovea Ethmoidalis is the lateral portion of the frontal bone that forms the structural roof of the ethmoid labyrinth, separating the ethmoid cells from the anterior cranial fossa."
+  },
+  {
+    "id": "ent_198",
+    "question": "A 16-year-old boy presents with severe, recurrent unilateral epistaxis and right-sided nasal obstruction. A contrast-enhanced CT scan reveals an expansile, vascular mass centered at the sphenopalatine foramen. The mass demonstrates a classic extension through the pterygopalatine fossa into the infratemporal fossa, producing a characteristic \"dumbbell\" shape. What is the staging of this Juvenile Nasopharyngeal Angiofibroma (JNA) under the Fisch Staging System?",
+    "options": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV"
+    ],
+    "correct": 1,
+    "explanation": "Under the Fisch Staging System for JNA, Type II tumors invade the pterygopalatine fossa, maxillary sinus, or infratemporal fossa with bone destruction."
+  },
+  {
+    "id": "ent_199",
+    "question": "A 23-year-old female presents with an acute, highly painful, red, fluctuant abscess localized to the nasal tip and columella. The physician notes that the venous drainage of this area connects directly to the cavernous sinus via ophthalmic veins. This area of the face is universally referred to as the:",
+    "options": [
+      "Kiesselbach's triangle",
+      "Danger triangle of the face",
+      "Woodruff's space",
+      "Macewen's triangle"
+    ],
+    "correct": 1,
+    "explanation": "The 'danger triangle of the face' extends from the corners of the mouth to the bridge of the nose. Its veins lack valves, allowing retrograde spread of infection to the cavernous sinus."
+  },
+  {
+    "id": "ent_200",
+    "question": "A 45-year-old male presents with chronic left-sided facial pressure and nasal obstruction. A coronal CT scan demonstrates a completely opacified left maxillary sinus. During FESS, the surgeon identifies a congenital opening situated in the thin fontanelle tissue posterior to the natural ostium of the maxillary sinus, through which mucus is recirculating. What is this accessory opening called?",
+    "options": [
+      "Accessory maxillary ostium",
+      "Sphenoid ostium",
+      "Frontal infundibulum",
+      "Recessus terminalis"
+    ],
+    "correct": 0,
+    "explanation": "An accessory maxillary ostium is a congenital opening in the lateral nasal wall fontanelle tissue. It can cause a circular mucociliary recirculation trap if not incorporated during an antrostomy."
+  }
+]
