@@ -1,0 +1,6 @@
+{
+  "name": "Medical PG Prep Portal",
+  "description": "An interactive PG medical exam preparation portal with customizable themes (including a special Lilac mode), adaptive quizzes, and detailed performance analytics across Cardiology, Neurology, and Obstetrics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
