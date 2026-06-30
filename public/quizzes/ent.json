@@ -60,7 +60,7 @@
     "explanation": "Rhinocerebral Mucormycosis presents with broad, ribbon-like aseptate hyphae with 90 degrees branching in diabetic patients. Liposomal Amphotericin B combined with urgent surgical debridement is life-saving."
   },
   {
-    "id": 6,
+    "id": "ent_6",
     "question": "A 14-year-old boy presents with sudden, recurrent, unprovoked profuse epistaxis from the left nasal cavity, accompanied by a progressive left-sided nasal mass. A diagnostic CT scan shows a soft tissue mass in the nasopharynx extending through the sphenopalatine foramen, causing anterior bowing of the posterior wall of the maxillary sinus. This specific radiological finding is known as:",
     "options": [
       "Holman-Miller sign",
@@ -72,7 +72,7 @@
     "explanation": "The Holman-Miller sign (or antral sign) is the forward/anterior bowing of the posterior wall of the maxillary sinus seen on lateral X-rays or CT scans, classic for an expanding JNA."
   },
   {
-    "id": 7,
+    "id": "ent_7",
     "question": "A 28-year-old pregnant female presents with a rapidly growing, painless, red vascular nodule on the anterior nasal septum that bleeds easily on touch. She is in her third trimester. The mass is excised and histopathologically verified as a lobular capillary hemangioma. What is this condition traditionally known as?",
     "options": [
       "Granuloma gravidarum",
@@ -84,7 +84,7 @@
     "explanation": "Granuloma gravidarum is a highly vascular, lobular capillary hemangioma that develops on the nasal septum during pregnancy due to hormonal influences and typically regresses post-partum."
   },
   {
-    "id": 8,
+    "id": "ent_8",
     "question": "A 52-year-old male presents with continuous clear, watery fluid dripping from his left nostril, which increases when he bends forward. He notes a history of a motor vehicle accident 2 months ago. To confirm if this fluid is cerebrospinal fluid (CSF), which highly specific biomarker should be tested in the laboratory?",
     "options": [
       "Glucose content",
@@ -96,7 +96,7 @@
     "explanation": "Beta-2 transferrin is highly specific to CSF, perilymph, and vitreous humor. It is not found in normal nasal secretions, making it the diagnostic gold standard for confirming CSF leaks."
   },
   {
-    "id": 9,
+    "id": "ent_9",
     "question": "A 40-year-old patient presents with bilateral nasal obstruction and multi-lobulated, smooth, pale, translucent, grape-like masses filling both nasal cavities. The patient has a history of adult-onset asthma and experiences severe bronchospasm after consuming aspirin. What is the name given to this specific clinical triad?",
     "options": [
       "Kartagener's triad",
@@ -108,7 +108,7 @@
     "explanation": "Samter's Triad consists of intrinsic asthma, aspirin hypersensitivity, and nasal/ethmoidal polyposis."
   },
   {
-    "id": 10,
+    "id": "ent_10",
     "question": "A 68-year-old patient presents with a hard, irregular mass involving the anterior nasal septum. Biopsy confirms squamous cell carcinoma. The surgeon plans a radical clearance. Which lymphatic chain is the primary site for metastasis from the anterior structures of the nasal cavity and the external nose?",
     "options": [
       "Retropharyngeal lymph nodes",
@@ -120,7 +120,7 @@
     "explanation": "The anterior parts of the nasal cavity and skin of the external nose drain into the submandibular lymph nodes, while the posterior parts drain primarily into retropharyngeal and deep cervical nodes."
   },
   {
-    "id": 11,
+    "id": "ent_11",
     "question": "A 30-year-old female presents with progressive thickening of the nasal skin, leading to a woody-hard, painless induration of the entire nose and upper lip. Biopsy of the subepithelial tissue reveals large, pale, vacuolated histiocytes containing causative bacilli, known as Mikulicz cells, alongside Russell bodies. What is the diagnostic organism?",
     "options": [
       "Klebsiella rhinoscleromatis",
@@ -132,7 +132,7 @@
     "explanation": "Rhinoscleroma is characterized by three distinct clinical stages (catarrhal, granulomatous, cicatricial). Histopathology showing foamy Mikulicz cells and Russell bodies confirms Klebsiella rhinoscleromatis."
   },
   {
-    "id": 12,
+    "id": "ent_12",
     "question": "The olfactory epithelium contains specialized bipolar sensory neurons. Where exactly are the primary cell bodies of these olfactory receptor neurons located within the nasal cavity structures?",
     "options": [
       "Sphenopalatine ganglion",
@@ -144,7 +144,7 @@
     "explanation": "The primary cell bodies of the first-order olfactory neurons occupy the superior nasal mucosa, encompassing the cribriform plate, superior turbinate, and corresponding high nasal septum."
   },
   {
-    "id": 13,
+    "id": "ent_13",
     "question": "A 19-year-old boxer presents to the emergency room immediately after an injury to his nose. Examination reveals a smooth, reddish, bilateral, soft fluctuant swelling of the nasal septum, causing total nasal obstruction. There is no bony crepitus. What is the most appropriate next step in management?",
     "options": [
       "Watchful waiting for spontaneous resolution",
@@ -156,7 +156,7 @@
     "explanation": "A septal hematoma requires immediate incision and drainage to prevent pressure necrosis of the avascular septal cartilage, which would otherwise lead to a saddle nose deformity."
   },
   {
-    "id": 14,
+    "id": "ent_14",
     "question": "A 50-year-old female presents with chronic facial pain, nasal stuffiness, and a dark brown, clay-like mass in the left maxillary sinus. A CT scan shows complete opacification of the sinus with hyperdense central calcifications. Functional Endoscopic Sinus Surgery is performed, and a mass resembling a \"wet newspaper\" is extracted. What is the diagnosis?",
     "options": [
       "Maxillary Sinus Carcinoma",
@@ -168,7 +168,7 @@
     "explanation": "A non-invasive mycetoma (fungal ball) produces dense, clay-like debris (\"wet newspaper\" appearance) with central calcification spots on CT within an opacified maxillary sinus."
   },
   {
-    "id": 15,
+    "id": "ent_15",
     "question": "An anatomical variation is noted on a coronal CT scan of the paranasal sinuses. An air-filled, pneumatized cell is seen extending into the most superior aspect of the nasal septum from the ethmoid complex, compressing the middle turbinate. This specific type of concha bullosa variant is technically called:",
     "options": [
       "Interlamellar cell",
@@ -180,7 +180,7 @@
     "explanation": "When pneumatization tracks specifically between the lamellae or into the septum rather than the bulbous portion of the middle turbinate alone, it constitutes an interlamellar cell variants of hyper-pneumatization."
   },
   {
-    "id": 16,
+    "id": "ent_16",
     "question": "A 23-year-old male undergoes septoplasty for a severely deviated nasal septum. Following the surgery, he develops an unexpected, persistent sag or depression of the cartilaginous nasal dorsum, resulting in a cosmetic \"saddle nose\" appearance. This complication indicates that the surgeon failed to preserve a sufficient caudal and dorsal strut of the septal cartilage. What is the minimum recommended width of this L-shaped cartilage strut that must be preserved?",
     "options": [
       "5 mm",
@@ -192,7 +192,7 @@
     "explanation": "To maintain stable tip projection and avoid the dorsum dropping down, a conservative minimum structural margin of 10 mm to 15 mm must be preserved along both the caudal and dorsal aspects of the septal cartilage template."
   },
   {
-    "id": 17,
+    "id": "ent_17",
     "question": "A 55-year-old male with a history of chronic epistaxis undergoes endoscopic evaluation. The surgeon visualizes an arterial plexus located on the anteroinferior part of the nasal septum, which is the most common site for anterior epistaxis. Which of the following arteries does NOT contribute to the formation of this plexus (Kiesselbach's plexus)?",
     "options": [
       "Sphenopalatine artery",
@@ -204,7 +204,7 @@
     "explanation": "Kiesselbach's Plexus (Little's area) involves the sphenopalatine, greater palatine, superior labial, and anterior ethmoidal arteries. The Posterior Ethmoidal Artery does not participate in this plexus."
   },
   {
-    "id": 18,
+    "id": "ent_18",
     "question": "A 34-year-old female presents with a progressive mass involving the right lateral nasal wall that causes unilateral nasal obstruction and recurrent epiphora. A biopsy confirms a benign inverted papilloma. What is the widely documented rate of malignant transformation into synchronous or metachronous squamous cell carcinoma for inverted papillomas?",
     "options": [
       "0%",
@@ -216,7 +216,7 @@
     "explanation": "Inverted papillomas are benign but locally aggressive epithelial tumors with a well-documented risk of malignant transformation into Squamous Cell Carcinoma (10-15%)."
   },
   {
-    "id": 19,
+    "id": "ent_19",
     "question": "A 5-year-old child is brought to the clinic by his mother due to a unilateral, foul-smelling, purulent nasal discharge from the right side of one week's duration. The child is otherwise healthy and afebrile. What should be the first suspicion in any case of unilateral foul-smelling nasal discharge in a young child?",
     "options": [
       "Acute maxillary sinusitis",
@@ -228,7 +228,7 @@
     "explanation": "Any pediatric patient presenting with unilateral, foul-smelling nasal discharge must be assumed to have an impacted foreign body until proven otherwise by thorough examination."
   },
   {
-    "id": 20,
+    "id": "ent_20",
     "question": "A neonate is born with severe respiratory distress and immediate cyanosis that dramatically improves whenever the child cries. Attempting to pass a 6 Fr suction catheter through the nares into the nasopharynx fails on both sides. What is the primary diagnosis?",
     "options": [
       "Laryngeal web",
@@ -240,7 +240,7 @@
     "explanation": "Neonates are obligate nasal breathers. Bilateral choanal atresia causes cyclic distress: cyanosis when resting/feeding (mouth closed), which clears instantly upon crying (breathing through the oral cavity)."
   },
   {
-    "id": 21,
+    "id": "ent_21",
     "question": "During an endoscopic sinus surgery, the surgeon opens the ethmoid bulla and notes an air-filled cell migrating along the roof of the maxillary sinus and the floor of the orbit, lateral to the uncinate process. This infraorbital ethmoid cell is prone to causing recurrent maxillary sinusitis by obstructing the natural ostium. What is this cell called?",
     "options": [
       "Haller cell",
@@ -252,7 +252,7 @@
     "explanation": "Haller cells are infraorbital ethmoid air cells that project along the orbital floor and maxillary sinus roof, directly impinging on the infundibulum channels."
   },
   {
-    "id": 22,
+    "id": "ent_22",
     "question": "A 35-year-old male patient presents with chronic nasal blockage and headaches. On anterior rhinoscopy, a large, solitary, pale, smooth, trilobed mass is seen emerging from the middle meatus, extending posteriorly into the choana and hanging down into the nasopharynx. It does not bleed on touch. What is the definitive treatment of choice for this condition?",
     "options": [
       "High-dose antihistamines for 3 months",
@@ -264,7 +264,7 @@
     "explanation": "An antrochoanal polyp is completely solitary and benign but non-responsive to medications long term. Complete endoscopic sinus surgery tracking its precise stalk back to the maxillary sinus wall is required."
   },
   {
-    "id": 23,
+    "id": "ent_23",
     "question": "A 48-year-old male presents with persistent nasal crusting, saddle nose deformity, and microscopic hematuria. Laboratory investigations reveal a positive c-ANCA (anti-neutrophil cytoplasmic antibody) titer. A biopsy of the nasal mucosa shows necrotizing granulomas with vasculitis. What is the diagnosis?",
     "options": [
       "Sarcoidosis",
@@ -276,7 +276,7 @@
     "explanation": "Granulomatosis with Polyangiitis (Wegener's) targets the upper airways (crusting, saddle nose), lower lungs, and kidneys, presenting with necrotizing vasculitis and c-ANCA positivity."
   },
   {
-    "id": 24,
+    "id": "ent_24",
     "question": "A patient undergoes an open rhinoplasty procedure. To address a bulbous nasal tip and adjust the rotation and projection, the surgeon works extensively on the structure that links the medial and lateral crura and dictates the highlight of the tip. This structure is known as the:",
     "options": [
       "Septal angle",
@@ -288,7 +288,7 @@
     "explanation": "The dome of the lower lateral (alar) cartilage links the medial and lateral crura and directly dictates the projection, definition, and highlights of the structural nasal tip."
   },
   {
-    "id": 25,
+    "id": "ent_25",
     "question": "A 22-year-old male presents with recurrent episodes of paroxysmal sneezing, severe watery rhinorrhea, and bilateral nasal congestion triggered by cold winds and spicy food. Skin prick testing and IgE levels are completely normal. Which autonomic nerve pathway carries the postganglionic parasympathetic secretomotor fibers to the nasal mucosa, responsible for these hypersecretory symptoms?",
     "options": [
       "Deep petrosal nerve",
