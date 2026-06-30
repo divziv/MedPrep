@@ -1,13 +1,298 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Prep | High-Yield PG Entrance Portal</title>
+  <!-- Tailwind & Global Styles processed by Vite -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Firebase Compat SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+</head>
+<body class="bg-[#F5F7FA] text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col font-sans transition-all duration-300">
 
+  <!-- Main Navigation Header -->
+  <header class="sticky top-0 z-40 bg-white/90 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/50 dark:border-slate-800/40 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto flex items-center justify-between h-16">
+      <!-- Logo -->
+      <a href="./index.html" class="flex items-center space-x-2">
+        <div class="p-2.5 bg-[#1565C0] text-white rounded-xl shadow-md shadow-blue-500/20">
+          <i data-lucide="stethoscope" class="w-5 h-5 animate-pulse"></i>
+        </div>
+        <div>
+          <span class="font-extrabold text-lg text-slate-900 dark:text-white tracking-tight block">Medical Prep</span>
+          <span class="text-[9px] uppercase tracking-wider font-semibold text-[#26A69A]">PG Grand Test Arena</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center space-x-6 text-sm font-semibold text-slate-600 dark:text-slate-300">
+        <a href="./index.html" class="hover:text-[#1565C0] transition-colors text-[#1565C0]">Home</a>
+        <a href="./neetpg.html" class="hover:text-[#1565C0] transition-colors">NEET PG</a>
+        <a href="./inicet.html" class="hover:text-[#1565C0] transition-colors">INI-CET</a>
+        <a href="./fmge.html" class="hover:text-[#1565C0] transition-colors">FMGE</a>
+        <a href="./dashboard.html" class="hover:text-[#1565C0] transition-colors">Progress</a>
+        <a href="./about.html" class="hover:text-[#1565C0] transition-colors">About</a>
+      </nav>
+
+      <!-- Auth, Mode Toggle and User State -->
+      <div class="flex items-center space-x-3">
+        <!-- Dark Mode Toggle -->
+        <button id="theme-toggle-btn" class="p-2 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full transition-all">
+          <i id="theme-icon" data-lucide="moon" class="w-4 h-4"></i>
+        </button>
+
+        <!-- Auth Indicator -->
+        <div id="user-profile-header" class="hidden items-center space-x-3">
+          <a href="./dashboard.html" class="flex items-center space-x-2.5">
+            <img id="header-avatar" class="w-8 h-8 rounded-full border border-[#26A69A]/30 object-cover" src="" alt="Profile">
+            <span id="header-name" class="hidden sm:inline text-xs font-bold text-slate-800 dark:text-slate-100 max-w-[100px] truncate"></span>
+          </a>
+          <button id="logout-btn" class="text-xs bg-slate-100 dark:bg-slate-800 hover:bg-rose-50 hover:text-rose-600 dark:hover:bg-rose-950/30 text-slate-600 dark:text-slate-400 font-bold px-3 py-1.5 rounded-lg border border-slate-200/50 dark:border-slate-800/40 transition-all">
+            Logout
+          </button>
+        </div>
+
+        <a id="header-login-btn" href="./login.html" class="text-xs bg-[#1565C0] hover:bg-blue-700 text-white font-bold px-4 py-2 rounded-xl shadow-md shadow-blue-500/10 transition-all">
+          Login / Signup
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Landing Section -->
+  <main class="flex-grow">
+    <!-- Hero Banner -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 text-center space-y-8">
+      <div class="inline-flex items-center space-x-1.5 bg-[#1565C0]/5 dark:bg-blue-500/10 text-[#1565C0] dark:text-blue-400 px-4 py-1.5 rounded-full border border-blue-500/10 font-bold text-xs">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+        <span>Advanced Random MCQ & Shuffling Algorithms Enabled</span>
+      </div>
+
+      <div class="space-y-4 max-w-3xl mx-auto">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white tracking-tight leading-[1.1]">
+          Master Your Medical PG Entrance Exams
+        </h1>
+        <p class="text-base sm:text-lg text-slate-500 dark:text-slate-400 font-medium">
+          Simulate official NEET PG, INI-CET, and FMGE grand tests with interactive timers, bookmarking, and instant performance analysis. Built on high-yield clinical vignettes.
+        </p>
+      </div>
+
+      <!-- Action CTAs -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="./login.html" id="cta-primary-btn" class="w-full sm:w-auto bg-[#1565C0] hover:bg-blue-700 text-white font-extrabold px-8 py-3.5 rounded-2xl shadow-lg shadow-blue-500/20 transform hover:-translate-y-0.5 transition-all text-sm flex items-center justify-center space-x-2">
+          <i data-lucide="log-in" class="w-4 h-4"></i>
+          <span>Get Started with Google Login</span>
+        </a>
+        <a href="./about.html" class="w-full sm:w-auto bg-white hover:bg-slate-50 dark:bg-slate-900 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 font-bold px-8 py-3.5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm transition-all text-sm flex items-center justify-center space-x-2">
+          <i data-lucide="book-open" class="w-4 h-4"></i>
+          <span>Learn More About Curriculums</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Interactive Exam Portals Cards Grid -->
+    <section class="bg-white dark:bg-slate-900/40 py-16 px-4 border-t border-b border-slate-200/50 dark:border-slate-800/40">
+      <div class="max-w-7xl mx-auto space-y-10">
+        <div class="text-center space-y-2">
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">Select Your Examination Platform</h2>
+          <p class="text-sm text-slate-500 dark:text-slate-400 font-medium">Each platform loads authentic exam-calibrated question packages</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- NEET PG -->
+          <div class="bg-[#F5F7FA] dark:bg-slate-900 p-6 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm flex flex-col justify-between space-y-6">
+            <div class="space-y-4">
+              <div class="w-12 h-12 bg-blue-100 dark:bg-blue-950/40 text-[#1565C0] rounded-2xl flex items-center justify-center">
+                <i data-lucide="award" class="w-6 h-6"></i>
+              </div>
+              <div class="space-y-1">
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white">NEET PG Practice Portal</h3>
+                <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                  National Eligibility cum Entrance Test. Focused heavily on high-yield general clinical practices, medicine, surgical guidelines, and anatomy foundations.
+                </p>
+              </div>
+            </div>
+            <a href="./neetpg.html" class="w-full bg-[#1565C0] hover:bg-blue-700 text-white text-center font-bold py-3 rounded-xl shadow-md shadow-blue-500/10 transition-all text-xs flex items-center justify-center space-x-1.5">
+              <span>Launch NEET PG Exam</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- INI-CET -->
+          <div class="bg-[#F5F7FA] dark:bg-slate-900 p-6 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm flex flex-col justify-between space-y-6">
+            <div class="space-y-4">
+              <div class="w-12 h-12 bg-teal-100 dark:bg-teal-950/40 text-[#26A69A] rounded-2xl flex items-center justify-center">
+                <i data-lucide="shield-check" class="w-6 h-6"></i>
+              </div>
+              <div class="space-y-1">
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white">INI-CET Practice Portal</h3>
+                <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                  Institute of National Importance Combined Entrance Test. Tailored with highly conceptual clinical vignette questions covering multivariable diagnostics.
+                </p>
+              </div>
+            </div>
+            <a href="./inicet.html" class="w-full bg-[#26A69A] hover:bg-teal-600 text-white text-center font-bold py-3 rounded-xl shadow-md shadow-teal-500/10 transition-all text-xs flex items-center justify-center space-x-1.5">
+              <span>Launch INI-CET Exam</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- FMGE -->
+          <div class="bg-[#F5F7FA] dark:bg-slate-900 p-6 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm flex flex-col justify-between space-y-6">
+            <div class="space-y-4">
+              <div class="w-12 h-12 bg-purple-100 dark:bg-purple-950/40 text-purple-600 rounded-2xl flex items-center justify-center">
+                <i data-lucide="globe" class="w-6 h-6"></i>
+              </div>
+              <div class="space-y-1">
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white">FMGE Practice Portal</h3>
+                <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                  Foreign Medical Graduates Examination. Covers screening examinations focusing on core facts, essential diagnosis, and safety guidelines.
+                </p>
+              </div>
+            </div>
+            <a href="./fmge.html" class="w-full bg-purple-600 hover:bg-purple-700 text-white text-center font-bold py-3 rounded-xl shadow-md shadow-purple-500/10 transition-all text-xs flex items-center justify-center space-x-1.5">
+              <span>Launch FMGE Exam</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Unique Features List -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
+      <div class="text-center space-y-2">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">Standard PG Grand Test Simulator Features</h2>
+        <p class="text-sm text-slate-500 dark:text-slate-400 font-medium">Fully aligned with premium test series criteria</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-100 dark:border-slate-800/50 shadow-sm space-y-2">
+          <i data-lucide="timer" class="w-6 h-6 text-[#1565C0]"></i>
+          <h4 class="font-bold text-slate-900 dark:text-white text-sm">Countdown Timers</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Paces your assessment exactly matching real clinical environments.</p>
+        </div>
+
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-100 dark:border-slate-800/50 shadow-sm space-y-2">
+          <i data-lucide="shuffle" class="w-6 h-6 text-[#26A69A]"></i>
+          <h4 class="font-bold text-slate-900 dark:text-white text-sm">Dynamic Shuffling</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Shuffles questions and options independently with recalculated correct keys.</p>
+        </div>
+
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-100 dark:border-slate-800/50 shadow-sm space-y-2">
+          <i data-lucide="bookmark" class="w-6 h-6 text-[#1565C0]"></i>
+          <h4 class="font-bold text-slate-900 dark:text-white text-sm">Bookmarks & Reviews</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Save questions for rapid lookup or mark items for active review prior to submission.</p>
+        </div>
+
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-100 dark:border-slate-800/50 shadow-sm space-y-2">
+          <i data-lucide="trending-up" class="w-6 h-6 text-[#26A69A]"></i>
+          <h4 class="font-bold text-slate-900 dark:text-white text-sm">Detailed Explanations</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Every answer reveals direct clinical pearls, diagnostic tips, and review panels.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Main Footer -->
+  <footer class="bg-white dark:bg-slate-900 border-t border-slate-200/50 dark:border-slate-800/40 py-8 px-4 text-center text-xs text-slate-500 dark:text-slate-400">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>&copy; 2026 Medical Prep. Built for high-yield postgraduate medical education.</p>
+      <div class="flex space-x-4">
+        <a href="./about.html" class="hover:underline">About</a>
+        <a href="./dashboard.html" class="hover:underline">Student Progress</a>
+        <a href="./login.html" class="hover:underline">Google Connection</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- App Entry Code -->
+  <script type="module">
+    import { onAuthStateChanged, logout } from "./js/auth.js";
+
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Dark Mode Sync
+    const isDark = localStorage.getItem("medical_prep_dark_mode") === "true";
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+      document.getElementById("theme-icon").setAttribute("data-lucide", "sun");
+    } else {
+      document.documentElement.classList.remove("dark");
+      document.getElementById("theme-icon").setAttribute("data-lucide", "moon");
+    }
+    lucide.createIcons();
+
+    // Dark Mode Switcher Event
+    document.getElementById("theme-toggle-btn").addEventListener("click", () => {
+      const currentlyDark = document.documentElement.classList.toggle("dark");
+      localStorage.setItem("medical_prep_dark_mode", currentlyDark);
+      
+      const icon = document.getElementById("theme-icon");
+      if (currentlyDark) {
+        icon.setAttribute("data-lucide", "sun");
+      } else {
+        icon.setAttribute("data-lucide", "moon");
+      }
+      lucide.createIcons();
+    });
+
+    // Authentication UI Sync
+    onAuthStateChanged((user) => {
+      const headerLoginBtn = document.getElementById("header-login-btn");
+      const userProfileHeader = document.getElementById("user-profile-header");
+      const ctaPrimaryBtn = document.getElementById("cta-primary-btn");
+
+      if (user) {
+        if (headerLoginBtn) headerLoginBtn.classList.add("hidden");
+        if (userProfileHeader) {
+          userProfileHeader.classList.remove("hidden");
+          userProfileHeader.classList.add("flex");
+        }
+        
+        // Update header details
+        const nameEl = document.getElementById("header-name");
+        if (nameEl) nameEl.textContent = user.displayName;
+        const avatarEl = document.getElementById("header-avatar");
+        if (avatarEl) avatarEl.src = user.photoURL;
+
+        // Update hero CTA button to go straight to progress
+        if (ctaPrimaryBtn) {
+          ctaPrimaryBtn.href = "./dashboard.html";
+          ctaPrimaryBtn.innerHTML = `
+            <i data-lucide="layout-dashboard" class="w-4 h-4"></i>
+            <span>Enter Student Dashboard</span>
+          `;
+          lucide.createIcons();
+        }
+      } else {
+        if (headerLoginBtn) headerLoginBtn.classList.remove("hidden");
+        if (userProfileHeader) {
+          userProfileHeader.classList.add("hidden");
+          userProfileHeader.classList.remove("flex");
+        }
+        if (ctaPrimaryBtn) {
+          ctaPrimaryBtn.href = "./login.html";
+          ctaPrimaryBtn.innerHTML = `
+            <i data-lucide="log-in" class="w-4 h-4"></i>
+            <span>Get Started with Google Login</span>
+          `;
+          lucide.createIcons();
+        }
+      }
+    });
+
+    // Logout Click Handlers
+    document.getElementById("logout-btn").addEventListener("click", async () => {
+      await logout();
+      window.location.reload();
+    });
+  </script>
+</body>
+</html>

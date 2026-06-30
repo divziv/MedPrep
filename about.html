@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Curriculum | Medical Prep</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Firebase Compat SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+</head>
+<body class="bg-[#F5F7FA] text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col font-sans transition-all duration-300">
+
+  <!-- Header Navigation -->
+  <header class="sticky top-0 z-40 bg-white/90 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/50 dark:border-slate-800/40 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto flex items-center justify-between h-16">
+      <a href="./index.html" class="flex items-center space-x-2">
+        <div class="p-2.5 bg-[#1565C0] text-white rounded-xl shadow-md">
+          <i data-lucide="stethoscope" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <span class="font-extrabold text-lg text-slate-900 dark:text-white tracking-tight block">Medical Prep</span>
+          <span class="text-[9px] uppercase tracking-wider font-semibold text-[#26A69A]">PG Grand Test Arena</span>
+        </div>
+      </a>
+
+      <!-- Navigation links -->
+      <nav class="hidden md:flex items-center space-x-6 text-sm font-semibold text-slate-600 dark:text-slate-300">
+        <a href="./index.html" class="hover:text-[#1565C0] transition-colors">Home</a>
+        <a href="./neetpg.html" class="hover:text-[#1565C0] transition-colors">NEET PG</a>
+        <a href="./inicet.html" class="hover:text-[#1565C0] transition-colors">INI-CET</a>
+        <a href="./fmge.html" class="hover:text-[#1565C0] transition-colors">FMGE</a>
+        <a href="./dashboard.html" class="hover:text-[#1565C0] transition-colors">Progress</a>
+        <a href="./about.html" class="hover:text-[#1565C0] transition-colors text-[#1565C0]">About</a>
+      </nav>
+
+      <!-- Mode Toggle and User -->
+      <div class="flex items-center space-x-3">
+        <button id="theme-toggle-btn" class="p-2 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full transition-all">
+          <i id="theme-icon" data-lucide="moon" class="w-4 h-4"></i>
+        </button>
+        <div class="flex items-center space-x-2">
+          <img id="header-avatar" class="w-8 h-8 rounded-full border border-[#26A69A]/30 object-cover" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=150" alt="Profile">
+          <span id="header-name" class="hidden sm:inline text-xs font-bold text-slate-800 dark:text-slate-100 max-w-[100px] truncate">Student</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Layout Container -->
+  <main class="flex-grow max-w-4xl w-full mx-auto px-4 sm:px-6 py-12 space-y-12 animate-fade-in">
+    
+    <!-- Title block -->
+    <div class="text-center space-y-3">
+      <h1 class="text-3xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight">The Curriculum & Algorithm Architecture</h1>
+      <p class="text-sm text-slate-500 dark:text-slate-400 font-medium max-w-xl mx-auto">Learn how Medical Prep delivers randomized grand tests with absolute scoring integrity.</p>
+    </div>
+
+    <!-- Syllabus Sections breakdown -->
+    <div class="bg-white dark:bg-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-lg space-y-6">
+      <h2 class="text-xl font-bold text-slate-900 dark:text-white flex items-center gap-2 border-b border-slate-100 dark:border-slate-800/50 pb-3">
+        <i data-lucide="book-open" class="text-[#1565C0] w-5 h-5"></i>
+        <span>Target Postgraduate Syllabus Curriculums</span>
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs sm:text-sm">
+        <div class="space-y-2">
+          <h4 class="font-bold text-slate-800 dark:text-slate-200">Medicine & Diagnostics</h4>
+          <p class="text-slate-500 dark:text-slate-400 leading-relaxed font-medium">
+            Deals with multi-system clinical scenarios, ECG diagnostics, CSF interpretations, and therapeutic choices for conditions across cardiology, neurology, and infectious pathologies.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="font-bold text-slate-800 dark:text-slate-200">General Surgery</h4>
+          <p class="text-slate-500 dark:text-slate-400 leading-relaxed font-medium">
+            Focuses heavily on acute abdomen migration diagnosis, recurrent laryngeal nerve landmarks, biliary structures, pancreatic oncology, and surgical emergency interventions (e.g. needle decompression).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="font-bold text-slate-800 dark:text-slate-200">Applied Anatomy</h4>
+          <p class="text-slate-500 dark:text-slate-400 leading-relaxed font-medium">
+            Emphasizes structural boundaries like the epiploic foramen, nerve injury consequences (wrist drop, winged scapula), muscle paralysis profiles, and tongue innervation mapping.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="font-bold text-slate-800 dark:text-slate-200">Clinical Pharmacology</h4>
+          <p class="text-slate-500 dark:text-slate-400 leading-relaxed font-medium">
+            Covers drug receptor dynamics, anticoagulant pathways, tuberculosis therapeutic toxicities (vitamin B6 depleting isoniazid neuropathies), and emergency toxicological protocols (acetylcysteine).
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shuffling Algorithm Explanation block -->
+    <div class="bg-white dark:bg-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-lg space-y-6">
+      <h2 class="text-xl font-bold text-slate-900 dark:text-white flex items-center gap-2 border-b border-slate-100 dark:border-slate-800/50 pb-3">
+        <i data-lucide="shuffle" class="text-[#26A69A] w-5 h-5"></i>
+        <span>MCQ & Option Shuffling Mechanics</span>
+      </h2>
+
+      <div class="space-y-4 text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed font-medium">
+        <p>
+          Every test attempt leverages an advanced <strong>Fisher-Yates Shuffling</strong> protocol running client-side. The sequence of clinical questions is completely randomized on every attempt, providing a fresh challenge and preventing visual key memorization.
+        </p>
+
+        <div class="bg-[#F5F7FA] dark:bg-slate-950 p-4 rounded-2xl border border-slate-200/50 dark:border-slate-800/40 font-mono text-[11px] space-y-1 text-slate-700 dark:text-slate-300">
+          <span class="text-slate-400 block font-bold">// Shuffling integrity update flow:</span>
+          <span>1. Questions loaded from JSON source files are scrambled into random array index positions.</span><br>
+          <span>2. Options (A, B, C, D) are shuffled dynamically per question.</span><br>
+          <span>3. The system maps the original correct answer's string to its new position.</span><br>
+          <span>4. Correct answer index is recalculated dynamically prior to score analysis.</span>
+        </div>
+
+        <p>
+          This ensures that options like "All of the above" or "A and B only" are converted to accurate specific statements and shuffled flawlessly while preserving absolute scoring accuracy down to the millisecond.
+        </p>
+      </div>
+    </div>
+
+    <!-- Offline Sync explanation -->
+    <div class="bg-white dark:bg-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-lg space-y-4">
+      <h3 class="font-bold text-sm sm:text-base text-slate-950 dark:text-white flex items-center gap-1.5">
+        <i data-lucide="wifi-off" class="w-4.5 h-4.5 text-purple-600"></i>
+        <span>Offline-First Capabilities & Storage Security</span>
+      </h3>
+      <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed font-medium">
+        We prioritize study continuity. If you lose connection or haven't connected Firebase Firestore credentials, the application switches seamlessly to <strong>Offline Mode</strong>. All attempts, study timer records, bookmarks, and completions are stored immediately inside your browser's Local Storage sandbox, preserving your hard work until you decide to connect a cloud backend.
+      </p>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-slate-900 border-t border-slate-200/50 dark:border-slate-800/40 py-6 text-center text-xs text-slate-500 dark:text-slate-400">
+    <p>&copy; 2026 Medical Prep. Built for NEET PG, INI-CET, and FMGE screening compatibility.</p>
+  </footer>
+
+  <!-- Page Logic Modules -->
+  <script type="module">
+    import { onAuthStateChanged } from "./js/auth.js";
+
+    // Initialize Icons
+    lucide.createIcons();
+
+    // Dark Mode Sync
+    const isDark = localStorage.getItem("medical_prep_dark_mode") === "true";
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+      document.getElementById("theme-icon").setAttribute("data-lucide", "sun");
+    } else {
+      document.documentElement.classList.remove("dark");
+      document.getElementById("theme-icon").setAttribute("data-lucide", "moon");
+    }
+    lucide.createIcons();
+
+    // Theme toggle btn
+    document.getElementById("theme-toggle-btn").addEventListener("click", () => {
+      const currentlyDark = document.documentElement.classList.toggle("dark");
+      localStorage.setItem("medical_prep_dark_mode", currentlyDark);
+      
+      const icon = document.getElementById("theme-icon");
+      if (currentlyDark) {
+        icon.setAttribute("data-lucide", "sun");
+      } else {
+        icon.setAttribute("data-lucide", "moon");
+      }
+      lucide.createIcons();
+    });
+
+    // Handle Auth Sync
+    onAuthStateChanged((user) => {
+      if (user) {
+        document.getElementById("header-name").textContent = user.displayName;
+        document.getElementById("header-avatar").src = user.photoURL;
+      } else {
+        // Redir to login if guest/user not logged in
+        window.location.href = "./login.html";
+      }
+    });
+  </script>
+</body>
+</html>

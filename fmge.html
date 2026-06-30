@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FMGE Grand Test Arena | Medical Prep</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/dashboard.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Firebase Compat SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+</head>
+<body class="bg-[#F5F7FA] text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col font-sans transition-all duration-300">
+
+  <!-- Header Navigation -->
+  <header class="sticky top-0 z-40 bg-white/90 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/50 dark:border-slate-800/40 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto flex items-center justify-between h-16">
+      <a href="./index.html" class="flex items-center space-x-2">
+        <div class="p-2.5 bg-purple-600 text-white rounded-xl shadow-md">
+          <i data-lucide="stethoscope" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <span class="font-extrabold text-lg text-slate-900 dark:text-white tracking-tight block">Medical Prep</span>
+          <span class="text-[9px] uppercase tracking-wider font-semibold text-[#26A69A]">PG Grand Test Arena</span>
+        </div>
+      </a>
+
+      <!-- Navigation links -->
+      <nav class="hidden md:flex items-center space-x-6 text-sm font-semibold text-slate-600 dark:text-slate-300">
+        <a href="./index.html" class="hover:text-purple-600 transition-colors">Home</a>
+        <a href="./neetpg.html" class="hover:text-purple-600 transition-colors">NEET PG</a>
+        <a href="./inicet.html" class="hover:text-purple-600 transition-colors">INI-CET</a>
+        <a href="./fmge.html" class="hover:text-purple-600 transition-colors text-purple-600">FMGE</a>
+        <a href="./dashboard.html" class="hover:text-purple-600 transition-colors">Progress</a>
+        <a href="./about.html" class="hover:text-purple-600 transition-colors">About</a>
+      </nav>
+
+      <!-- Mode Toggle and User -->
+      <div class="flex items-center space-x-3">
+        <button id="theme-toggle-btn" class="p-2 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full transition-all">
+          <i id="theme-icon" data-lucide="moon" class="w-4 h-4"></i>
+        </button>
+        <div class="flex items-center space-x-2">
+          <img id="header-avatar" class="w-8 h-8 rounded-full border border-purple-300 object-cover" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=150" alt="Profile">
+          <span id="header-name" class="hidden sm:inline text-xs font-bold text-slate-800 dark:text-slate-100 max-w-[100px] truncate">Student</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="flex-grow max-w-5xl w-full mx-auto px-4 sm:px-6 py-8">
+
+    <!-- SETUP SCREEN -->
+    <div id="quiz-setup-panel" class="bg-white dark:bg-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-lg space-y-6 max-w-2xl mx-auto">
+      <div class="text-center space-y-2 border-b border-slate-100 dark:border-slate-800/50 pb-4">
+        <span class="text-[10px] bg-purple-50 text-purple-600 dark:bg-purple-950/20 dark:text-purple-400 font-black px-3 py-1 rounded-full border border-purple-100">National Board of Examinations Screening Standards</span>
+        <h1 class="text-2xl font-black text-slate-900 dark:text-white tracking-tight">Configure FMGE Grand Session</h1>
+        <p class="text-xs text-slate-500 dark:text-slate-400 font-medium">Calibrated with core clinical screening algorithms and absolute pass assessment models</p>
+      </div>
+
+      <div class="space-y-4">
+        <!-- Subject Select -->
+        <div class="space-y-2">
+          <label class="text-xs font-black uppercase tracking-wider text-slate-500 block">Select Target Discipline</label>
+          <select id="subject-dropdown" class="w-full bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-100 text-xs sm:text-sm font-bold rounded-xl p-3 border border-slate-200 dark:border-slate-700 focus:outline-none">
+            <option value="Medicine">Medicine (Clinical vignette scenarios)</option>
+            <option value="Surgery">Surgery (Procedural, diagnostic landmarks)</option>
+            <option value="Anatomy">Anatomy (Physiological foundations, nerve pathways)</option>
+            <option value="Pharmacology">Pharmacology (Mechanism of action, toxicities)</option>
+          </select>
+        </div>
+
+        <!-- Question Count select -->
+        <div class="space-y-2">
+          <label class="text-xs font-black uppercase tracking-wider text-slate-500 block">Question Volume</label>
+          <div class="grid grid-cols-4 gap-2">
+            <button class="vol-btn bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 py-2 rounded-xl text-xs font-bold transition-all" data-volume="4">4 MCQs</button>
+            <button class="vol-btn bg-purple-600 text-white border-purple-600 py-2 rounded-xl text-xs font-bold transition-all" data-volume="5">5 MCQs</button>
+            <button class="vol-btn bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 py-2 rounded-xl text-xs font-bold transition-all" data-volume="10">10 MCQs</button>
+            <button class="vol-btn bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 py-2 rounded-xl text-xs font-bold transition-all" data-volume="15">15 MCQs</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resume active session notice if any -->
+      <div id="resume-session-panel" class="hidden bg-amber-50 dark:bg-amber-950/20 p-4 rounded-2xl border border-amber-100 dark:border-amber-900/40 items-center justify-between gap-4">
+        <div class="space-y-1">
+          <p class="text-xs font-bold text-amber-800 dark:text-amber-400">Suspended Session Detected! ⏱️</p>
+          <p class="text-[10px] text-slate-500 leading-normal">You have an active grand test attempt stored in your browser's sandbox cache.</p>
+        </div>
+        <button id="resume-quiz-btn" class="bg-amber-500 hover:bg-amber-600 text-white font-extrabold text-xs px-4 py-2 rounded-xl transition-all shadow-md">
+          Resume Session
+        </button>
+      </div>
+
+      <button id="start-quiz-btn" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-extrabold py-4 rounded-2xl shadow-lg shadow-purple-500/20 flex items-center justify-center space-x-2 text-sm sm:text-base">
+        <i data-lucide="play" class="w-5 h-5 fill-current"></i>
+        <span>Launch FMGE Exam Session</span>
+      </button>
+    </div>
+
+    <!-- ACTIVE QUIZ SCREEN -->
+    <div id="quiz-active-panel" class="hidden grid grid-cols-1 lg:grid-cols-4 gap-6 items-start">
+      
+      <!-- Left side: Question and Options Panel (3/4 cols) -->
+      <div class="lg:col-span-3 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-lg p-5 sm:p-6 space-y-6">
+        
+        <!-- Active Quiz Header Info -->
+        <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800/50 pb-4">
+          <div class="space-y-1">
+            <span id="active-quiz-exam" class="text-[9px] uppercase tracking-wider font-extrabold text-purple-600 block">FMGE Platform</span>
+            <span id="active-quiz-subject" class="text-xs font-bold text-slate-500 block">Medicine Vignette Series</span>
+          </div>
+
+          <!-- Timer & Indicators -->
+          <div class="flex items-center space-x-4">
+            <div id="countdown-timer" class="flex items-center space-x-1.5 bg-rose-50 text-rose-600 dark:bg-rose-950/20 dark:text-rose-400 font-mono text-sm font-extrabold px-3 py-1.5 rounded-xl border border-rose-100 dark:border-rose-900/40">
+              <i data-lucide="timer" class="w-4 h-4"></i>
+              <span id="timer-text">00:00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question Counter & Action Bookmarks -->
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider" id="question-index-indicator">Question 0 of 0</span>
+          
+          <div class="flex space-x-2">
+            <!-- Bookmark Button -->
+            <button id="bookmark-btn" class="flex items-center space-x-1.5 text-xs text-slate-400 hover:text-amber-500 dark:text-slate-500 dark:hover:text-amber-400 font-bold transition-colors">
+              <i data-lucide="bookmark" class="w-4 h-4"></i>
+              <span id="bookmark-btn-text">Bookmark</span>
+            </button>
+
+            <!-- Mark For Review Button -->
+            <button id="mark-review-btn" class="flex items-center space-x-1.5 text-xs text-slate-400 hover:text-purple-600 dark:text-slate-500 dark:hover:text-purple-400 font-bold transition-colors">
+              <i data-lucide="check-square" class="w-4 h-4"></i>
+              <span id="mark-review-btn-text">Mark For Review</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Active Question Text block -->
+        <div class="space-y-4">
+          <p id="active-question-text" class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-relaxed">
+            Question text loading...
+          </p>
+
+          <!-- 4 Shuffled Options list -->
+          <div id="options-container" class="grid grid-cols-1 gap-3">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </div>
+
+        <!-- Footer Navigation controls -->
+        <div class="flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800/50">
+          <button id="prev-btn" class="bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 text-xs font-bold px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 transition-colors flex items-center space-x-1">
+            <i data-lucide="chevron-left" class="w-4 h-4"></i>
+            <span>Previous</span>
+          </button>
+
+          <div class="flex space-x-2">
+            <button id="skip-btn" class="bg-slate-50 hover:bg-slate-100 dark:bg-slate-950 dark:hover:bg-slate-900 text-slate-500 text-xs font-bold px-4 py-2.5 rounded-xl transition-colors">
+              Skip Question
+            </button>
+            <button id="next-btn" class="bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 text-xs font-bold px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 transition-colors flex items-center space-x-1">
+              <span>Next</span>
+              <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+          <button id="submit-btn" class="bg-purple-600 hover:bg-purple-700 text-white text-xs font-extrabold px-5 py-2.5 rounded-xl shadow-md transition-colors">
+            Submit Grand Exam
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Right side: Session Progress Question Map Grid (1/4 cols) -->
+      <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-lg p-5 space-y-4">
+        <div class="border-b border-slate-100 dark:border-slate-800/50 pb-2">
+          <h4 class="font-extrabold text-sm text-slate-950 dark:text-white">Active Question Map</h4>
+          <p class="text-[10px] text-slate-500 mt-0.5">Click number to teleport directly to that MCQ</p>
+        </div>
+
+        <div id="question-grid-container" class="grid grid-cols-4 gap-2.5">
+          <!-- Populated dynamically via JS -->
+        </div>
+
+        <!-- Indicator Legends -->
+        <div class="space-y-1.5 pt-2 border-t border-slate-100 dark:border-slate-800/50 text-[10px]">
+          <div class="flex items-center space-x-2">
+            <span class="w-3.5 h-3.5 bg-blue-500 rounded-lg block"></span>
+            <span class="font-bold text-slate-600 dark:text-slate-400">Current Question</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <span class="w-3.5 h-3.5 bg-emerald-100 text-emerald-700 border border-emerald-200 rounded-lg block"></span>
+            <span class="font-bold text-slate-600 dark:text-slate-400">Answered Question</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <span class="w-3.5 h-3.5 bg-purple-100 text-purple-700 border border-purple-200 rounded-lg block"></span>
+            <span class="font-bold text-slate-600 dark:text-slate-400">Marked for Review</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <span class="w-3.5 h-3.5 bg-amber-100 text-amber-700 border border-amber-200 rounded-lg block"></span>
+            <span class="font-bold text-slate-600 dark:text-slate-400">Bookmarked Item</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- EXAM RESULT / SCORECARD SUMMARY SCREEN -->
+    <div id="quiz-result-panel" class="hidden max-w-3xl mx-auto space-y-8">
+      
+      <!-- Core Scorecard -->
+      <div class="bg-white dark:bg-slate-900 p-8 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-xl space-y-8 text-center">
+        <div class="space-y-2">
+          <div class="inline-flex p-4 bg-purple-50 dark:bg-purple-950/10 text-purple-600 rounded-full">
+            <i data-lucide="award" class="w-10 h-10"></i>
+          </div>
+          <h2 class="text-3xl font-black text-slate-900 dark:text-white tracking-tight">Exam Session Completed!</h2>
+          <p id="result-meta-info" class="text-xs text-slate-500 font-medium"></p>
+        </div>
+
+        <!-- Big stats grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-lg mx-auto bg-[#F5F7FA] dark:bg-slate-950 p-5 rounded-2xl border border-slate-200/40 dark:border-slate-800/30">
+          <div class="space-y-1">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Correct</span>
+            <span id="res-correct" class="text-lg font-black text-emerald-600">0</span>
+          </div>
+          <div class="space-y-1">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Incorrect</span>
+            <span id="res-incorrect" class="text-lg font-black text-rose-500">0</span>
+          </div>
+          <div class="space-y-1">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Skipped</span>
+            <span id="res-skipped" class="text-lg font-black text-slate-500">0</span>
+          </div>
+          <div class="space-y-1">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Accuracy</span>
+            <span id="res-accuracy" class="text-lg font-black text-purple-600">0%</span>
+          </div>
+        </div>
+
+        <!-- Navigation out -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+          <button id="restart-exam-btn" class="w-full sm:w-auto bg-purple-600 hover:bg-purple-700 text-white font-extrabold px-6 py-3 rounded-xl transition-all shadow-md text-xs">
+            Start Another Attempt
+          </button>
+          <a href="./dashboard.html" class="w-full sm:w-auto bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold px-6 py-3 rounded-xl transition-all text-xs">
+            Exit to Student Dashboard
+          </a>
+        </div>
+      </div>
+
+      <!-- Incorrect Questions Detailed Explanations Review section -->
+      <div id="incorrect-explanations-section" class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-lg p-6 space-y-4">
+        <div class="border-b border-slate-100 dark:border-slate-800/50 pb-3">
+          <h3 class="font-extrabold text-base text-slate-950 dark:text-white flex items-center gap-1.5">
+            <i data-lucide="book-open" class="w-4.5 h-4.5 text-rose-500"></i>
+            <span>Incorrect & Skipped Questions Review</span>
+          </h3>
+          <p class="text-xs text-slate-500 mt-0.5">Focus high-yield clinical pearls on topics you missed</p>
+        </div>
+
+        <div id="incorrect-items-list" class="space-y-6">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-slate-900 border-t border-slate-200/50 dark:border-slate-800/40 py-6 text-center text-xs text-slate-500 dark:text-slate-400">
+    <p>&copy; 2026 Medical Prep. Built for NEET PG, INI-CET, and FMGE screening compatibility.</p>
+  </footer>
+
+  <!-- Page Logic Modules -->
+  <script type="module">
+    import { onAuthStateChanged } from "./js/auth.js";
+    import { QuizSession } from "./js/quiz.js";
+
+    // Initialize Icons
+    lucide.createIcons();
+
+    // Dark Mode Sync
+    const isDark = localStorage.getItem("medical_prep_dark_mode") === "true";
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+      document.getElementById("theme-icon").setAttribute("data-lucide", "sun");
+    } else {
+      document.documentElement.classList.remove("dark");
+      document.getElementById("theme-icon").setAttribute("data-lucide", "moon");
+    }
+    lucide.createIcons();
+
+    // Theme toggle btn
+    document.getElementById("theme-toggle-btn").addEventListener("click", () => {
+      const currentlyDark = document.documentElement.classList.toggle("dark");
+      localStorage.setItem("medical_prep_dark_mode", currentlyDark);
+      
+      const icon = document.getElementById("theme-icon");
+      if (currentlyDark) {
+        icon.setAttribute("data-lucide", "sun");
+      } else {
+        icon.setAttribute("data-lucide", "moon");
+      }
+      lucide.createIcons();
+    });
+
+    // Handle Auth Sync
+    let currentUid = null;
+    onAuthStateChanged((user) => {
+      if (user) {
+        document.getElementById("header-name").textContent = user.displayName;
+        document.getElementById("header-avatar").src = user.photoURL;
+        currentUid = user.uid;
+      } else {
+        // Redir to login if guest/user not logged in
+        window.location.href = "./login.html";
+      }
+    });
+
+    // Volume options buttons interaction
+    let selectedVolume = 5;
+    const volBtns = document.querySelectorAll(".vol-btn");
+    volBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        volBtns.forEach(b => {
+          b.classList.remove("bg-purple-600", "text-white", "border-purple-600");
+          b.classList.add("bg-slate-50", "dark:bg-slate-800", "text-slate-800", "dark:text-slate-200", "border-slate-200", "dark:border-slate-700");
+        });
+        btn.classList.remove("bg-slate-50", "dark:bg-slate-800", "text-slate-800", "dark:text-slate-200", "border-slate-200", "dark:border-slate-700");
+        btn.classList.add("bg-purple-600", "text-white", "border-purple-600");
+        selectedVolume = parseInt(btn.getAttribute("data-volume"), 10);
+      });
+    });
+
+    // Active session instance
+    let activeSession = null;
+
+    // Load active quiz state from cache if exists
+    const storedSession = QuizSession.loadTemporarySession();
+    if (storedSession && storedSession.exam === "FMGE") {
+      const rPanel = document.getElementById("resume-session-panel");
+      if (rPanel) {
+        rPanel.classList.remove("hidden");
+        rPanel.classList.add("flex");
+      }
+
+      document.getElementById("resume-quiz-btn").onclick = () => {
+        setupAndStartSession(storedSession, true);
+      };
+    }
+
+    // Load and Start Quiz Session
+    document.getElementById("start-quiz-btn").addEventListener("click", async () => {
+      const subj = document.getElementById("subject-dropdown").value;
+      const jsonPath = `./quizzes/${subj.toLowerCase()}.json`;
+
+      try {
+        const response = await fetch(jsonPath);
+        if (!response.ok) throw new Error("Quiz file fetch failed!");
+        const questions = await response.json();
+        
+        const config = {
+          limit: selectedVolume,
+          onUpdate: updateQuizUI,
+          onComplete: handleQuizComplete
+        };
+
+        activeSession = new QuizSession(subj, "FMGE", questions, config);
+        setupAndStartSession(activeSession);
+      } catch (e) {
+        console.error(e);
+        alert(`Failed to load ${subj} questions from database.`);
+      }
+    });
+
+    function setupAndStartSession(sessionData, isResumed = false) {
+      document.getElementById("quiz-setup-panel").classList.add("hidden");
+      document.getElementById("quiz-active-panel").classList.remove("hidden");
+
+      if (isResumed) {
+        // Hydrate manual Session from stored cached schema
+        activeSession = new QuizSession(sessionData.subject, sessionData.exam, sessionData.questions, {
+          limit: sessionData.questions.length,
+          onUpdate: updateQuizUI,
+          onComplete: handleQuizComplete
+        });
+        activeSession.currentIndex = sessionData.currentIndex;
+        activeSession.userAnswers = sessionData.userAnswers;
+        activeSession.bookmarks = sessionData.bookmarks;
+        activeSession.markedForReview = sessionData.markedForReview;
+        activeSession.timeRemaining = sessionData.timeRemaining;
+      }
+
+      activeSession.start();
+    }
+
+    // Update Live Active Quiz UI
+    function updateQuizUI() {
+      if (!activeSession) return;
+
+      const q = activeSession.getCurrentQuestion();
+      
+      // Update Header Titles
+      document.getElementById("active-quiz-subject").textContent = `${activeSession.subject} Vignette Block`;
+      document.getElementById("question-index-indicator").textContent = `Question ${activeSession.currentIndex + 1} of ${activeSession.questions.length}`;
+      
+      // Update Timer Text
+      const m = Math.floor(activeSession.timeRemaining / 60);
+      const s = activeSession.timeRemaining % 60;
+      document.getElementById("timer-text").textContent = `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+
+      // Update question text
+      document.getElementById("active-question-text").textContent = q.question;
+
+      // Update Options
+      const optionsContainer = document.getElementById("options-container");
+      optionsContainer.innerHTML = "";
+      
+      const selectedIndex = activeSession.getSelectedOption();
+
+      q.options.forEach((opt, idx) => {
+        const optBtn = document.createElement("button");
+        const isSelected = selectedIndex === idx;
+
+        let optClass = "bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700 border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-100";
+        if (isSelected) {
+          optClass = "bg-purple-50/80 hover:bg-purple-100/90 dark:bg-purple-950/20 border-purple-500 text-purple-600 dark:text-purple-400 font-bold";
+        }
+
+        optBtn.className = `w-full text-left p-4 rounded-xl border transition-all text-xs sm:text-sm flex items-start gap-3 ${optClass}`;
+        optBtn.innerHTML = `
+          <span class="w-6 h-6 rounded-full flex items-center justify-center border font-mono text-xs shrink-0 ${isSelected ? "bg-purple-600 border-purple-600 text-white" : "bg-slate-100 dark:bg-slate-900 border-slate-300 dark:border-slate-700 text-slate-500"}">${String.fromCharCode(65 + idx)}</span>
+          <span class="pt-0.5 leading-relaxed">${opt}</span>
+        `;
+
+        optBtn.onclick = () => {
+          activeSession.selectOption(idx);
+        };
+        optionsContainer.appendChild(optBtn);
+      });
+
+      // Update bookmarks UI
+      const bookmarked = activeSession.isBookmarked();
+      const bookmarkText = document.getElementById("bookmark-btn-text");
+      const bookmarkBtn = document.getElementById("bookmark-btn");
+      if (bookmarked) {
+        bookmarkText.textContent = "Bookmarked";
+        bookmarkBtn.className = "flex items-center space-x-1.5 text-xs text-amber-500 font-bold transition-colors";
+      } else {
+        bookmarkText.textContent = "Bookmark";
+        bookmarkBtn.className = "flex items-center space-x-1.5 text-xs text-slate-400 hover:text-amber-500 dark:text-slate-500 font-bold transition-colors";
+      }
+
+      // Update Mark For Review UI
+      const reviewed = activeSession.isMarkedForReview();
+      const reviewText = document.getElementById("mark-review-btn-text");
+      const reviewBtn = document.getElementById("mark-review-btn");
+      if (reviewed) {
+        reviewText.textContent = "Marked for Review";
+        reviewBtn.className = "flex items-center space-x-1.5 text-xs text-purple-600 font-bold transition-colors";
+      } else {
+        reviewText.textContent = "Mark for Review";
+        reviewBtn.className = "flex items-center space-x-1.5 text-xs text-slate-400 hover:text-purple-600 dark:text-slate-500 font-bold transition-colors";
+      }
+
+      // Render Question Teleport Grid
+      const gridContainer = document.getElementById("question-grid-container");
+      gridContainer.innerHTML = "";
+
+      activeSession.questions.forEach((item, idx) => {
+        const gridBtn = document.createElement("button");
+        const hasAnswered = activeSession.userAnswers[item.id] !== undefined;
+        const isCurrent = activeSession.currentIndex === idx;
+        const isBookmarked = activeSession.isBookmarked(item.id);
+        const isMarkedForReview = activeSession.isMarkedForReview(item.id);
+
+        let btnClass = "bg-slate-100 hover:bg-slate-200 text-slate-600 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-300";
+        if (isCurrent) {
+          btnClass = "bg-purple-600 text-white shadow-md font-extrabold";
+        } else if (isMarkedForReview) {
+          btnClass = "bg-purple-100 text-purple-700 border border-purple-200 dark:bg-purple-950/40 dark:text-purple-400";
+        } else if (isBookmarked) {
+          btnClass = "bg-amber-100 text-amber-700 border border-amber-200 dark:bg-amber-950/40 dark:text-amber-400";
+        } else if (hasAnswered) {
+          btnClass = "bg-emerald-100 text-emerald-700 border border-emerald-200 dark:bg-emerald-950/40 dark:text-emerald-400";
+        }
+
+        gridBtn.className = `w-10 h-10 rounded-xl flex items-center justify-center text-xs font-bold transition-all ${btnClass}`;
+        gridBtn.textContent = idx + 1;
+        gridBtn.onclick = () => {
+          activeSession.goToQuestion(idx);
+        };
+        gridContainer.appendChild(gridBtn);
+      });
+
+      lucide.createIcons();
+    }
+
+    // Bind Active Controls events
+    document.getElementById("prev-btn").addEventListener("click", () => activeSession?.prevQuestion());
+    document.getElementById("next-btn").addEventListener("click", () => activeSession?.nextQuestion());
+    document.getElementById("skip-btn").addEventListener("click", () => activeSession?.skipQuestion());
+    document.getElementById("bookmark-btn").addEventListener("click", () => activeSession?.toggleBookmark());
+    document.getElementById("mark-review-btn").addEventListener("click", () => activeSession?.toggleMarkForReview());
+    
+    document.getElementById("submit-btn").addEventListener("click", () => {
+      const unanswered = activeSession.questions.length - Object.keys(activeSession.userAnswers).length;
+      let confirmMsg = "Are you absolutely sure you want to submit your test session?";
+      if (unanswered > 0) {
+        confirmMsg = `You have ${unanswered} unanswered questions remaining. Are you sure you want to submit?`;
+      }
+      if (confirm(confirmMsg)) {
+        activeSession.submit();
+      }
+    });
+
+    // Handle Quiz Finished Submission
+    function handleQuizComplete(stats) {
+      document.getElementById("quiz-active-panel").classList.add("hidden");
+      document.getElementById("quiz-result-panel").classList.remove("hidden");
+
+      // Set stats text
+      document.getElementById("res-correct").textContent = stats.correct;
+      document.getElementById("res-incorrect").textContent = stats.incorrect;
+      document.getElementById("res-skipped").textContent = stats.skipped;
+      document.getElementById("res-accuracy").textContent = `${stats.accuracy}%`;
+
+      document.getElementById("result-meta-info").textContent = `${activeSession.subject} Test Series | FMGE Screening Evaluation model`;
+
+      // Render Wrong Questions review panel
+      const wrongList = document.getElementById("incorrect-items-list");
+      wrongList.innerHTML = "";
+
+      if (stats.wrongQuestions.length === 0 && stats.skipped === 0) {
+        wrongList.innerHTML = `
+          <div class="p-6 bg-emerald-50 dark:bg-emerald-950/10 border border-emerald-100 dark:border-emerald-900/30 rounded-2xl text-center text-xs text-emerald-800 dark:text-emerald-400 font-bold">
+            Outstanding! Perfect score recorded. You got 100% accurate decisions! 🩺🎉
+          </div>
+        `;
+      } else {
+        // List wrong questions
+        stats.wrongQuestions.forEach((wq, idx) => {
+          const item = document.createElement("div");
+          item.className = "p-5 bg-rose-50/50 dark:bg-rose-950/10 border border-rose-100 dark:border-rose-900/30 rounded-2xl space-y-3";
+          item.innerHTML = `
+            <div class="flex items-start justify-between">
+              <span class="text-[10px] font-bold bg-rose-100 text-rose-700 px-2.5 py-0.5 rounded-full">Incorrect Decision</span>
+              <span class="text-xs text-slate-400 font-mono">ID: ${wq.id}</span>
+            </div>
+            <p class="text-xs sm:text-sm font-semibold text-slate-900 dark:text-slate-100">${wq.question}</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+              <div class="p-2.5 bg-red-50/60 dark:bg-red-950/20 rounded-xl border border-red-100/40">
+                <span class="text-red-700 dark:text-red-400 font-bold block mb-1">Your Selected Answer:</span>
+                <span class="text-slate-600 dark:text-slate-300">${wq.userAnswerText}</span>
+              </div>
+              <div class="p-2.5 bg-emerald-50/60 dark:bg-emerald-950/20 rounded-xl border border-emerald-100/40">
+                <span class="text-emerald-700 dark:text-emerald-400 font-bold block mb-1">Correct Medical Key:</span>
+                <span class="text-slate-600 dark:text-slate-300">${wq.correctAnswerText}</span>
+              </div>
+            </div>
+            <div class="pt-3 border-t border-slate-200/50 dark:border-slate-800/40 space-y-1.5">
+              <span class="text-xs font-bold text-purple-600 block flex items-center gap-1.5">
+                <i data-lucide="info" class="w-4 h-4"></i> Clinical Pearl Explanation:
+              </span>
+              <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-medium bg-white dark:bg-slate-950 p-3 rounded-xl border border-slate-100 dark:border-slate-800/60">${wq.explanation}</p>
+            </div>
+          `;
+          wrongList.appendChild(item);
+        });
+
+        // Add skipped questions too for full coverage!
+        const skippedQuestions = activeSession.questions.filter(q => activeSession.userAnswers[q.id] === undefined);
+        skippedQuestions.forEach((sq) => {
+          const item = document.createElement("div");
+          item.className = "p-5 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700/60 rounded-2xl space-y-3";
+          item.innerHTML = `
+            <div class="flex items-start justify-between">
+              <span class="text-[10px] font-bold bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300 px-2.5 py-0.5 rounded-full">Skipped Question</span>
+              <span class="text-xs text-slate-400 font-mono">ID: ${sq.id}</span>
+            </div>
+            <p class="text-xs sm:text-sm font-semibold text-slate-900 dark:text-slate-100">${sq.question}</p>
+            <div class="p-2.5 bg-emerald-50/60 dark:bg-emerald-950/20 rounded-xl border border-emerald-100/40 text-xs">
+              <span class="text-emerald-700 dark:text-emerald-400 font-bold block mb-1">Correct Medical Key:</span>
+              <span class="text-slate-600 dark:text-slate-300">${sq.options[sq.correct]}</span>
+            </div>
+            <div class="pt-3 border-t border-slate-200/50 dark:border-slate-800/40 space-y-1.5">
+              <span class="text-xs font-bold text-[#1565C0] block flex items-center gap-1.5">
+                <i data-lucide="info" class="w-4 h-4"></i> Clinical Pearl Explanation:
+              </span>
+              <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-medium bg-white dark:bg-slate-950 p-3 rounded-xl border border-slate-100 dark:border-slate-800/60">${sq.explanation}</p>
+            </div>
+          `;
+          wrongList.appendChild(item);
+        });
+      }
+
+      lucide.createIcons();
+    }
+
+    // Restart exam button click handler
+    document.getElementById("restart-exam-btn").onclick = () => {
+      window.location.reload();
+    };
+
+  </script>
+</body>
+</html>

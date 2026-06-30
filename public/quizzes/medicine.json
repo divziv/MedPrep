@@ -1,0 +1,62 @@
+[
+  {
+    "id": 101,
+    "question": "A 54-year-old male presents with acute onset of severe substernal chest pain radiating to his left arm, associated with diaphoresis. His ECG shows ST-segment elevation in leads II, III, and aVF. Which coronary artery is most likely occluded?",
+    "options": [
+      "Left anterior descending artery (LAD)",
+      "Left circumflex artery (LCX)",
+      "Right coronary artery (RCA)",
+      "Left main coronary artery"
+    ],
+    "correct": 2,
+    "explanation": "ST elevation in II, III, and aVF corresponds to an inferior wall myocardial infarction, which is most commonly caused by occlusion of the Right Coronary Artery (RCA)."
+  },
+  {
+    "id": 102,
+    "question": "A 45-year-old female presents with progressive fatiguable ptosis, diplopia, and proximal muscle weakness that worsens towards the end of the day. The ice pack test improves her symptoms. What is the primary pathophysiology?",
+    "options": [
+      "Autoantibodies against presynaptic voltage-gated calcium channels",
+      "Autoantibodies against postsynaptic nicotinic acetylcholine receptors",
+      "Demyelination of central motor pathways",
+      "Infiltration of inflammatory cells in the muscular endplates"
+    ],
+    "correct": 1,
+    "explanation": "The patient has Myasthenia Gravis, which is caused by autoantibodies directed against postsynaptic nicotinic acetylcholine receptors (AChR) on the motor endplate."
+  },
+  {
+    "id": 103,
+    "question": "Which of the following ECG changes is most characteristic of severe hyperkalemia?",
+    "options": [
+      "Prominent U waves and ST depression",
+      "QT interval prolongation",
+      "Peaked T waves and widened QRS complexes",
+      "Delta waves with shortened PR interval"
+    ],
+    "correct": 2,
+    "explanation": "Severe hyperkalemia leads to peaked T waves, widening of the QRS complex, flattened P waves, and ultimately a sine-wave pattern."
+  },
+  {
+    "id": 104,
+    "question": "A patient presenting with fever, headache, altered mental status, and neck stiffness has CSF analysis showing high opening pressure, extremely low glucose, and marked neutrophilic pleocytosis. What is the most likely diagnosis?",
+    "options": [
+      "Viral meningitis",
+      "Fungal meningitis",
+      "Acute bacterial meningitis",
+      "Tubercular meningitis"
+    ],
+    "correct": 2,
+    "explanation": "Bacterial meningitis CSF reveals low glucose (<40 mg/dL), high protein, and neutrophilic pleocytosis, whereas viral meningitis CSF usually has normal glucose and lymphocytic pleocytosis."
+  },
+  {
+    "id": 105,
+    "question": "What is the drug of choice for the immediate management of acute status epilepticus in a hospital setting?",
+    "options": [
+      "Oral Phenytoin",
+      "Intravenous Lorazepam",
+      "Intramuscular Valproic acid",
+      "Oral Carbamazepine"
+    ],
+    "correct": 1,
+    "explanation": "Intravenous benzodiazepines (such as Lorazepam or Diazepam) are the first-line choice for terminating status epilepticus immediately due to their rapid onset."
+  }
+]

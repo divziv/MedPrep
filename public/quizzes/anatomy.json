@@ -1,0 +1,62 @@
+[
+  {
+    "id": 301,
+    "question": "A patient is unable to abduct their arm beyond 15 degrees. Which nerve is most likely damaged?",
+    "options": [
+      "Suprascapular nerve",
+      "Axillary nerve",
+      "Long thoracic nerve",
+      "Musculocutaneous nerve"
+    ],
+    "correct": 1,
+    "explanation": "Initiation of abduction (first 15 degrees) is done by the supraspinatus muscle (suprascapular nerve). Abduction up to 90 degrees is primarily performed by the deltoid muscle, which is innervated by the axillary nerve."
+  },
+  {
+    "id": 302,
+    "question": "A fracture of the midshaft of the humerus is most likely to injure which nerve and artery?",
+    "options": [
+      "Axillary nerve and posterior circumflex humeral artery",
+      "Radial nerve and profunda brachii artery",
+      "Median nerve and brachial artery",
+      "Ulnar nerve and superior ulnar collateral artery"
+    ],
+    "correct": 1,
+    "explanation": "The radial nerve and profunda brachii artery run in the radial (spiral) groove of the humerus and are at high risk of injury during a midshaft humeral fracture, leading to wrist drop."
+  },
+  {
+    "id": 303,
+    "question": "Which muscle of the tongue is NOT innervated by the hypoglossal nerve (CN XII)?",
+    "options": [
+      "Genioglossus",
+      "Hyoglossus",
+      "Styloglossus",
+      "Palatoglossus"
+    ],
+    "correct": 3,
+    "explanation": "All intrinsic and extrinsic muscles of the tongue are innervated by the hypoglossal nerve (CN XII), EXCEPT the palatoglossus, which is innervated by the vagus nerve (CN X) via the pharyngeal plexus."
+  },
+  {
+    "id": 304,
+    "question": "What structure forms the anterior boundary of the epiploic foramen (Foramen of Winslow)?",
+    "options": [
+      "Inferior vena cava",
+      "Caudate lobe of liver",
+      "First part of duodenum",
+      "Free border of the lesser omentum containing the portal triad"
+    ],
+    "correct": 3,
+    "explanation": "The anterior boundary of the epiploic foramen is formed by the free border of the lesser omentum, which contains the portal triad (portal vein, hepatic artery, bile duct)."
+  },
+  {
+    "id": 305,
+    "question": "A patient presents with 'winging of the scapula' due to damage during a mastectomy. Which muscle is paralyzed?",
+    "options": [
+      "Trapezius",
+      "Latissimus dorsi",
+      "Serratus anterior",
+      "Pectoralis major"
+    ],
+    "correct": 2,
+    "explanation": "Winging of the scapula is caused by injury to the long thoracic nerve, which innervates the serratus anterior muscle. This muscle holds the medial border of the scapula against the thoracic wall."
+  }
+]

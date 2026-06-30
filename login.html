@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Medical Prep Portal</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Firebase Compat SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+</head>
+<body class="bg-[#F5F7FA] text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col font-sans transition-all duration-300">
+
+  <!-- Header Navigation -->
+  <header class="bg-white/90 dark:bg-slate-900/95 border-b border-slate-200/50 dark:border-slate-800/40 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto flex items-center justify-between h-16">
+      <a href="./index.html" class="flex items-center space-x-2">
+        <div class="p-2.5 bg-[#1565C0] text-white rounded-xl shadow-md shadow-blue-500/20">
+          <i data-lucide="stethoscope" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <span class="font-extrabold text-lg text-slate-900 dark:text-white tracking-tight block">Medical Prep</span>
+          <span class="text-[9px] uppercase tracking-wider font-semibold text-[#26A69A]">PG Grand Test Arena</span>
+        </div>
+      </a>
+
+      <!-- Dark Mode Toggle -->
+      <button id="theme-toggle-btn" class="p-2 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full transition-all">
+        <i id="theme-icon" data-lucide="moon" class="w-4 h-4"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Login Card Section -->
+  <main class="flex-grow flex items-center justify-center px-4 py-12">
+    <div class="bg-white dark:bg-slate-900 p-8 sm:p-10 rounded-3xl border border-slate-200/50 dark:border-slate-800/50 shadow-xl max-w-md w-full space-y-8">
+      
+      <!-- Logo brand representation -->
+      <div class="text-center space-y-2">
+        <div class="inline-flex p-4 bg-[#1565C0]/5 dark:bg-blue-500/10 text-[#1565C0] dark:text-blue-400 rounded-full mb-2">
+          <i data-lucide="shield-check" class="w-8 h-8"></i>
+        </div>
+        <h2 class="text-2xl font-black text-slate-900 dark:text-white tracking-tight">Connect Your Account</h2>
+        <p class="text-xs text-slate-500 dark:text-slate-400 font-medium">Synchronize progress, bookmarks, and scores across devices securely</p>
+      </div>
+
+      <!-- Login Buttons -->
+      <div class="space-y-4">
+        <!-- Google Login -->
+        <button id="google-login-btn" class="w-full bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-extrabold py-3.5 px-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm transition-all text-xs sm:text-sm flex items-center justify-center space-x-3">
+          <img class="w-5 h-5" src="https://www.gstatic.com/images/branding/product/1x/gsa_64dp.png" alt="Google">
+          <span>Sign In with Google Account</span>
+        </button>
+
+        <div class="relative flex items-center justify-center py-2">
+          <div class="absolute inset-0 flex items-center"><span class="w-full border-t border-slate-200 dark:border-slate-800"></span></div>
+          <span class="relative bg-white dark:bg-slate-900 px-3 text-[10px] text-slate-400 font-bold uppercase tracking-wider">or</span>
+        </div>
+
+        <!-- Offline / Guest Connection -->
+        <button id="guest-login-btn" class="w-full bg-[#1565C0] hover:bg-blue-700 text-white font-extrabold py-3.5 px-4 rounded-xl shadow-md shadow-blue-500/10 transition-all text-xs sm:text-sm flex items-center justify-center space-x-2">
+          <i data-lucide="user" class="w-4 h-4"></i>
+          <span>Continue as Guest Aspirant (Offline Mode)</span>
+        </button>
+      </div>
+
+      <!-- Security Advisory -->
+      <div class="bg-slate-50 dark:bg-slate-950 p-4 rounded-2xl border border-slate-200/40 dark:border-slate-800/40 space-y-1.5">
+        <div class="flex items-center space-x-1.5 text-[11px] font-bold text-[#1565C0] dark:text-blue-400">
+          <i data-lucide="info" class="w-3.5 h-3.5"></i>
+          <span>Database & Privacy Protocol</span>
+        </div>
+        <p class="text-[10px] text-slate-500 dark:text-slate-400 leading-relaxed font-medium">
+          No medical passwords are stored. Progress metrics are synced securely to Firebase Firestore under your unique Google UID. Local guest progress is preserved within your local browser sandbox.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-slate-900 border-t border-slate-200/50 dark:border-slate-800/40 py-6 text-center text-xs text-slate-500 dark:text-slate-400">
+    <p>&copy; 2026 Medical Prep. Fully compatible with Google Pages hosting standards.</p>
+  </footer>
+
+  <!-- Code Logic -->
+  <script type="module">
+    import { loginWithGoogle, getCurrentUser } from "./js/auth.js";
+
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Dark Mode Sync
+    const isDark = localStorage.getItem("medical_prep_dark_mode") === "true";
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+      document.getElementById("theme-icon").setAttribute("data-lucide", "sun");
+    } else {
+      document.documentElement.classList.remove("dark");
+      document.getElementById("theme-icon").setAttribute("data-lucide", "moon");
+    }
+    lucide.createIcons();
+
+    // Dark Mode Toggle
+    document.getElementById("theme-toggle-btn").addEventListener("click", () => {
+      const currentlyDark = document.documentElement.classList.toggle("dark");
+      localStorage.setItem("medical_prep_dark_mode", currentlyDark);
+      
+      const icon = document.getElementById("theme-icon");
+      if (currentlyDark) {
+        icon.setAttribute("data-lucide", "sun");
+      } else {
+        icon.setAttribute("data-lucide", "moon");
+      }
+      lucide.createIcons();
+    });
+
+    // Handle Google Login Click
+    document.getElementById("google-login-btn").addEventListener("click", async () => {
+      try {
+        const user = await loginWithGoogle();
+        if (user) {
+          window.location.href = "./dashboard.html";
+        }
+      } catch (e) {
+        alert("Google Authentication failed. Please ensure Firebase properties are set up correctly or continue using the Guest mode.");
+      }
+    });
+
+    // Handle Guest Login Click
+    document.getElementById("guest-login-btn").addEventListener("click", async () => {
+      // Sets a mock guest user and forwards
+      localStorage.setItem("medical_prep_guest_user", JSON.stringify({
+        uid: "guest_student_123",
+        displayName: "Guest Aspirant",
+        email: "aspirant@medicalprep.edu",
+        photoURL: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=150&auto=format&fit=crop&q=80",
+        isGuest: true
+      }));
+      window.location.href = "./dashboard.html";
+    });
+
+    // If already logged in, skip login page
+    const existingUser = getCurrentUser();
+    if (existingUser) {
+      window.location.href = "./dashboard.html";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard | Medical Prep</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/dashboard.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Chart.js for beautiful analytics -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Firebase Compat SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+</head>
+<body class="bg-[#F5F7FA] text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col font-sans transition-all duration-300">
+
+  <!-- Header Navigation -->
+  <header class="sticky top-0 z-40 bg-white/90 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/50 dark:border-slate-800/40 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto flex items-center justify-between h-16">
+      <a href="./index.html" class="flex items-center space-x-2">
+        <div class="p-2.5 bg-[#1565C0] text-white rounded-xl shadow-md shadow-blue-500/20">
+          <i data-lucide="stethoscope" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <span class="font-extrabold text-lg text-slate-900 dark:text-white tracking-tight block">Medical Prep</span>
+          <span class="text-[9px] uppercase tracking-wider font-semibold text-[#26A69A]">PG Grand Test Arena</span>
+        </div>
+      </a>
+
+      <!-- Navigation links -->
+      <nav class="hidden md:flex items-center space-x-6 text-sm font-semibold text-slate-600 dark:text-slate-300">
+        <a href="./index.html" class="hover:text-[#1565C0] transition-colors">Home</a>
+        <a href="./neetpg.html" class="hover:text-[#1565C0] transition-colors">NEET PG</a>
+        <a href="./inicet.html" class="hover:text-[#1565C0] transition-colors">INI-CET</a>
+        <a href="./fmge.html" class="hover:text-[#1565C0] transition-colors">FMGE</a>
+        <a href="./dashboard.html" class="hover:text-[#1565C0] transition-colors text-[#1565C0]">Progress</a>
+        <a href="./about.html" class="hover:text-[#1565C0] transition-colors">About</a>
+      </nav>
+
+      <!-- Auth, Mode Toggle and User State -->
+      <div class="flex items-center space-x-3">
+        <!-- Dark Mode Toggle -->
+        <button id="theme-toggle-btn" class="p-2 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full transition-all">
+          <i id="theme-icon" data-lucide="moon" class="w-4 h-4"></i>
+        </button>
+
+        <!-- Profile display & logout -->
+        <div class="flex items-center space-x-3">
+          <div class="flex items-center space-x-2.5">
+            <img id="header-avatar" class="w-8 h-8 rounded-full border border-[#26A69A]/30 object-cover" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=150" alt="Profile">
+            <span id="header-name" class="hidden sm:inline text-xs font-bold text-slate-800 dark:text-slate-100 max-w-[100px] truncate">Student</span>
+          </div>
+          <button id="logout-btn" class="text-xs bg-slate-100 dark:bg-slate-800 hover:bg-rose-50 hover:text-rose-600 dark:hover:bg-rose-950/30 text-slate-600 dark:text-slate-400 font-bold px-3 py-1.5 rounded-lg border border-slate-200/50 dark:border-slate-800/40 transition-all">
+            Logout
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Dashboard Content Layout -->
+  <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    
+    <!-- Welcome Header Banner -->
+    <div class="bg-gradient-to-r from-[#1565C0] to-[#26A69A] rounded-3xl p-6 sm:p-8 text-white shadow-lg space-y-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <div class="space-y-1">
+        <h1 class="text-2xl sm:text-3xl font-black tracking-tight flex items-center gap-2">
+          <span>Welcome Back,</span>
+          <span id="welcome-name">Doctor</span>! 👋
+        </h1>
+        <p class="text-xs sm:text-sm text-blue-50/80 font-medium">Your clinical entrance analytics and grand test launchpad is fully loaded.</p>
+        <p id="welcome-email" class="text-[10px] text-teal-100/70 font-mono"></p>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <a href="./neetpg.html" class="bg-white hover:bg-slate-50 text-[#1565C0] font-extrabold text-xs px-4 py-2.5 rounded-xl transition-all shadow-md">
+          Start NEET PG Test
+        </a>
+        <a href="./inicet.html" class="bg-[#1e1b29]/30 hover:bg-[#1e1b29]/50 border border-white/20 text-white font-extrabold text-xs px-4 py-2.5 rounded-xl transition-all">
+          Start INI-CET Test
+        </a>
+      </div>
+    </div>
+
+    <!-- Stats Summary Cards Grid -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+      <!-- Total Quizzes Card -->
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm flex items-center gap-4">
+        <div class="w-12 h-12 bg-blue-50 dark:bg-blue-950/40 rounded-2xl flex items-center justify-center text-[#1565C0] dark:text-blue-400 shrink-0">
+          <i data-lucide="book-open" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <p class="text-[10px] uppercase font-bold text-slate-400 dark:text-slate-500 tracking-wider">Quizzes Finished</p>
+          <p id="stat-quizzes-val" class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">0</p>
+        </div>
+      </div>
+
+      <!-- MCQs Attempted Card -->
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm flex items-center gap-4">
+        <div class="w-12 h-12 bg-teal-50 dark:bg-teal-950/40 rounded-2xl flex items-center justify-center text-[#26A69A] dark:text-teal-400 shrink-0">
+          <i data-lucide="check-circle" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <p class="text-[10px] uppercase font-bold text-slate-400 dark:text-slate-500 tracking-wider">MCQs Attempted</p>
+          <p id="stat-solved-val" class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">0</p>
+        </div>
+      </div>
+
+      <!-- Average Accuracy Card -->
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm flex items-center gap-4">
+        <div class="w-12 h-12 bg-emerald-50 dark:bg-emerald-950/40 rounded-2xl flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">
+          <i data-lucide="trending-up" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <p class="text-[10px] uppercase font-bold text-slate-400 dark:text-slate-500 tracking-wider">Average Accuracy</p>
+          <p id="stat-accuracy-val" class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">0%</p>
+        </div>
+      </div>
+
+      <!-- Study Time Card -->
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm flex items-center gap-4">
+        <div class="w-12 h-12 bg-purple-50 dark:bg-purple-950/40 rounded-2xl flex items-center justify-center text-purple-600 dark:text-purple-400 shrink-0">
+          <i data-lucide="timer" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <p class="text-[10px] uppercase font-bold text-slate-400 dark:text-slate-500 tracking-wider">Study Time Today</p>
+          <p id="stat-study-time-val" class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">0m</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Charts and Syllabus Meters Main Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+      
+      <!-- Primary Charts Area (Left columns) -->
+      <div class="lg:col-span-2 space-y-8">
+        
+        <!-- Chart 1: Performance Trend Line Chart -->
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm space-y-4">
+          <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800/50 pb-3">
+            <h3 class="font-extrabold text-base text-slate-950 dark:text-white flex items-center gap-1.5">
+              <i data-lucide="activity" class="w-4 h-4 text-[#1565C0]"></i>
+              <span>Performance Trend Line Chart</span>
+            </h3>
+            <span class="text-[10px] font-bold bg-[#1565C0]/5 text-[#1565C0] dark:bg-blue-950/40 dark:text-blue-400 px-2.5 py-1 rounded-full">Last 10 Attempts</span>
+          </div>
+          <div class="h-64 relative">
+            <canvas id="trendChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Charts Row: Pie Chart (Attempt Status) & Bar Chart (Subject Comparison) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          
+          <!-- Chart 2: Question status pie chart -->
+          <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800/50 pb-3">
+              <h3 class="font-extrabold text-base text-slate-950 dark:text-white flex items-center gap-1.5">
+                <i data-lucide="pie-chart" class="w-4 h-4 text-[#26A69A]"></i>
+                <span>MCQs Attemped Status</span>
+              </h3>
+            </div>
+            <div class="h-56 relative">
+              <canvas id="distributionChart"></canvas>
+            </div>
+          </div>
+
+          <!-- Chart 3: Subject comparison bar chart -->
+          <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800/50 pb-3">
+              <h3 class="font-extrabold text-base text-slate-950 dark:text-white flex items-center gap-1.5">
+                <i data-lucide="bar-chart-2" class="w-4 h-4 text-[#1565C0]"></i>
+                <span>Subject comparison chart</span>
+              </h3>
+            </div>
+            <div class="h-56 relative">
+              <canvas id="comparisonChart"></canvas>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Syllabus Meters & Settings Sidebar (Right Column) -->
+      <div class="space-y-8">
+        
+        <!-- Quiz Completion Syllabus progress -->
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm space-y-5">
+          <div class="border-b border-slate-100 dark:border-slate-800/50 pb-3">
+            <h3 class="font-extrabold text-base text-slate-950 dark:text-white flex items-center gap-1.5">
+              <i data-lucide="award" class="w-4 h-4 text-[#26A69A]"></i>
+              <span>Quiz Syllabus Completion</span>
+            </h3>
+            <p class="text-[10px] text-slate-500 mt-0.5">Increases by completing respective subject quizzes</p>
+          </div>
+
+          <div class="space-y-5">
+            <!-- Medicine -->
+            <div class="space-y-1.5">
+              <div class="flex justify-between text-xs font-bold text-slate-700 dark:text-slate-300">
+                <span>Medicine</span>
+                <span id="progress-text-medicine" class="text-blue-600 dark:text-blue-400">0%</span>
+              </div>
+              <div id="progress-unicode-medicine" class="font-mono text-xs text-slate-500 dark:text-slate-400 block tracking-tight">░░░░░░░░░░ 0%</div>
+              <div class="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden">
+                <div id="progress-bar-medicine" class="bg-[#1565C0] h-full rounded-full transition-all duration-500" style="width: 0%"></div>
+              </div>
+            </div>
+
+            <!-- Surgery -->
+            <div class="space-y-1.5">
+              <div class="flex justify-between text-xs font-bold text-slate-700 dark:text-slate-300">
+                <span>Surgery</span>
+                <span id="progress-text-surgery" class="text-indigo-600 dark:text-indigo-400">0%</span>
+              </div>
+              <div id="progress-unicode-surgery" class="font-mono text-xs text-slate-500 dark:text-slate-400 block tracking-tight">░░░░░░░░░░ 0%</div>
+              <div class="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden">
+                <div id="progress-bar-surgery" class="bg-indigo-600 h-full rounded-full transition-all duration-500" style="width: 0%"></div>
+              </div>
+            </div>
+
+            <!-- Anatomy -->
+            <div class="space-y-1.5">
+              <div class="flex justify-between text-xs font-bold text-slate-700 dark:text-slate-300">
+                <span>Anatomy</span>
+                <span id="progress-text-anatomy" class="text-teal-600 dark:text-teal-400">0%</span>
+              </div>
+              <div id="progress-unicode-anatomy" class="font-mono text-xs text-slate-500 dark:text-slate-400 block tracking-tight">░░░░░░░░░░ 0%</div>
+              <div class="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden">
+                <div id="progress-bar-anatomy" class="bg-[#26A69A] h-full rounded-full transition-all duration-500" style="width: 0%"></div>
+              </div>
+            </div>
+
+            <!-- Pharmacology -->
+            <div class="space-y-1.5">
+              <div class="flex justify-between text-xs font-bold text-slate-700 dark:text-slate-300">
+                <span>Pharmacology</span>
+                <span id="progress-text-pharmacology" class="text-purple-600 dark:text-purple-400">0%</span>
+              </div>
+              <div id="progress-unicode-pharmacology" class="font-mono text-xs text-slate-500 dark:text-slate-400 block tracking-tight">░░░░░░░░░░ 0%</div>
+              <div class="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden">
+                <div id="progress-bar-pharmacology" class="bg-purple-600 h-full rounded-full transition-all duration-500" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Subject Strengths summary card -->
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm space-y-4">
+          <div class="border-b border-slate-100 dark:border-slate-800/50 pb-3">
+            <h3 class="font-extrabold text-base text-slate-950 dark:text-white flex items-center gap-1.5">
+              <i data-lucide="gauge" class="w-4 h-4 text-purple-600"></i>
+              <span>Subject diagnostics</span>
+            </h3>
+          </div>
+
+          <div class="grid grid-cols-1 gap-3 text-xs">
+            <div class="p-3 bg-emerald-50/60 dark:bg-emerald-950/10 border border-emerald-100/60 dark:border-emerald-900/30 rounded-xl space-y-1">
+              <span class="text-emerald-800 dark:text-emerald-400 font-extrabold block">Best Subject:</span>
+              <span id="stat-best-subject" class="font-bold text-slate-700 dark:text-slate-200 block">No data yet</span>
+            </div>
+            <div class="p-3 bg-amber-50/60 dark:bg-amber-950/10 border border-amber-100/60 dark:border-amber-900/30 rounded-xl space-y-1">
+              <span class="text-amber-800 dark:text-amber-400 font-extrabold block">Weakest Subject:</span>
+              <span id="stat-weakest-subject" class="font-bold text-slate-700 dark:text-slate-200 block">No data yet</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Overall Settings Card -->
+        <div id="settings-panel" class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm space-y-5">
+          <div class="border-b border-slate-100 dark:border-slate-800/50 pb-3">
+            <h3 class="font-extrabold text-base text-slate-950 dark:text-white flex items-center gap-1.5">
+              <i data-lucide="settings" class="w-4 h-4 text-slate-700 dark:text-slate-300"></i>
+              <span>Overall Settings</span>
+            </h3>
+          </div>
+
+          <div class="space-y-4 text-xs">
+            
+            <!-- Restart Topic dropdown -->
+            <div class="space-y-2">
+              <label class="font-extrabold text-slate-700 dark:text-slate-300 uppercase tracking-wider block">Restart Topic Progress</label>
+              <div class="flex gap-2">
+                <select id="reset-subject-select" class="flex-grow bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 p-2 rounded-xl focus:outline-none">
+                  <option value="Medicine">Restart Medicine</option>
+                  <option value="Surgery">Restart Surgery</option>
+                  <option value="Anatomy">Restart Anatomy</option>
+                  <option value="Pharmacology">Restart Pharmacology</option>
+                </select>
+                <button id="reset-subject-btn" class="bg-slate-100 hover:bg-amber-50 hover:text-amber-600 dark:bg-slate-800 dark:hover:bg-amber-950/30 border border-slate-200 dark:border-slate-700 px-4 rounded-xl font-bold transition-all">
+                  Reset
+                </button>
+              </div>
+              <p class="text-[9px] text-slate-400 leading-relaxed font-medium">Resetting only clears scores, completions, and attempts for the selected subject. Rest stays untouched.</p>
+            </div>
+
+            <!-- Reset Entire Progress -->
+            <div class="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-800/50">
+              <label class="font-extrabold text-slate-700 dark:text-slate-300 uppercase tracking-wider block">Wipe Platform Progress</label>
+              <button id="reset-all-btn" class="w-full bg-rose-50 border border-rose-200/60 hover:bg-rose-100 text-rose-600 dark:bg-rose-950/20 dark:border-rose-900/30 dark:text-rose-400 py-2.5 rounded-xl font-extrabold transition-all text-xs">
+                Reset Entire Progress Completely
+              </button>
+            </div>
+
+            <!-- Firebase Connection credentials helper (Custom Config String) -->
+            <div class="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-800/50">
+              <label class="font-extrabold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center justify-between">
+                <span>Firebase Credentials Config</span>
+                <span id="firebase-badge" class="text-[9px] px-2 py-0.5 rounded-full bg-rose-50 text-rose-600 border border-rose-200 font-bold">Disconnected</span>
+              </label>
+              <textarea id="firebase-config-input" class="w-full font-mono text-[9px] bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-2.5 h-20 focus:outline-none" placeholder='{"apiKey": "...", "projectId": "...", "authDomain": "..."}'></textarea>
+              <button id="save-fb-config-btn" class="w-full bg-[#1565C0] hover:bg-blue-700 text-white font-bold py-2 rounded-xl shadow-md transition-all text-xs">
+                Save credentials & Initialize Firebase
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Recent Quizzes List Table Card -->
+    <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200/40 dark:border-slate-800/60 shadow-sm overflow-hidden">
+      <div class="px-6 py-4 border-b border-slate-100 dark:border-slate-800/50 bg-slate-50/50 dark:bg-slate-800/10 flex items-center justify-between">
+        <h3 class="font-extrabold text-base text-slate-950 dark:text-white flex items-center gap-1.5">
+          <i data-lucide="history" class="w-4.5 h-4.5 text-[#1565C0]"></i>
+          <span>Recent Quiz Sessions</span>
+        </h3>
+        <span class="text-[10px] font-bold text-slate-500">Live Grand Test Logs</span>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-slate-50/30 dark:bg-slate-800/20 text-slate-400 dark:text-slate-500 uppercase tracking-wider text-[9px] font-black border-b border-slate-100 dark:border-slate-800/50">
+              <th class="px-6 py-4">Subject</th>
+              <th class="px-6 py-4">Exam Block</th>
+              <th class="px-6 py-4">Date Completed</th>
+              <th class="px-6 py-4">Score Summary</th>
+              <th class="px-6 py-4">Duration Taken</th>
+            </tr>
+          </thead>
+          <tbody id="recent-attempts-table-body" class="divide-y divide-slate-50 dark:divide-slate-800/40">
+            <!-- Populated dynamically via JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-slate-900 border-t border-slate-200/50 dark:border-slate-800/40 py-6 px-4 text-center text-xs text-slate-500 dark:text-slate-400">
+    <p>&copy; 2026 Medical Prep. Built with Chart.js analytics and fully responsive layouts.</p>
+  </footer>
+
+  <!-- Page Logic Modules -->
+  <script type="module">
+    import { onAuthStateChanged, logout } from "./js/auth.js";
+    import { populateDashboard, startStudyTimeTracker } from "./js/dashboard.js";
+    import { resetSubjectProgress, resetAllProgress } from "./js/progress.js";
+    import { isFirebaseEnabled } from "./js/firebase.js";
+
+    // Initialize Icons
+    lucide.createIcons();
+
+    // Dark Mode Sync
+    const isDark = localStorage.getItem("medical_prep_dark_mode") === "true";
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+      document.getElementById("theme-icon").setAttribute("data-lucide", "sun");
+    } else {
+      document.documentElement.classList.remove("dark");
+      document.getElementById("theme-icon").setAttribute("data-lucide", "moon");
+    }
+    lucide.createIcons();
+
+    // Dark Mode switch
+    document.getElementById("theme-toggle-btn").addEventListener("click", () => {
+      const currentlyDark = document.documentElement.classList.toggle("dark");
+      localStorage.setItem("medical_prep_dark_mode", currentlyDark);
+      
+      const icon = document.getElementById("theme-icon");
+      if (currentlyDark) {
+        icon.setAttribute("data-lucide", "sun");
+      } else {
+        icon.setAttribute("data-lucide", "moon");
+      }
+      lucide.createIcons();
+    });
+
+    // Populate current Firebase credentials to setting input
+    const storedConfig = localStorage.getItem("medical_prep_firebase_config");
+    if (storedConfig) {
+      document.getElementById("firebase-config-input").value = storedConfig;
+    }
+    const fbBadge = document.getElementById("firebase-badge");
+    if (isFirebaseEnabled) {
+      fbBadge.textContent = "Connected";
+      fbBadge.className = "text-[9px] px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-600 border border-emerald-200 font-bold";
+    }
+
+    // Save Firebase Credentials config Click Handler
+    document.getElementById("save-fb-config-btn").addEventListener("click", () => {
+      const text = document.getElementById("firebase-config-input").value.trim();
+      if (!text) {
+        localStorage.removeItem("medical_prep_firebase_config");
+        alert("Credentials deleted! Reverted to Local Storage Fallback Mode.");
+        window.location.reload();
+        return;
+      }
+      try {
+        JSON.parse(text); // validation
+        localStorage.setItem("medical_prep_firebase_config", text);
+        alert("Firebase credentials saved successfully! Reloading to establish connections...");
+        window.location.reload();
+      } catch (e) {
+        alert("Invalid JSON format! Please supply proper configuration brackets and parameters.");
+      }
+    });
+
+    // Handle Authentication State Change
+    onAuthStateChanged((user) => {
+      if (!user) {
+        // Redir to login if not logged in
+        window.location.href = "./login.html";
+        return;
+      }
+
+      // Populate user info
+      document.getElementById("header-name").textContent = user.displayName;
+      document.getElementById("header-avatar").src = user.photoURL;
+      document.getElementById("welcome-name").textContent = user.displayName;
+      document.getElementById("welcome-email").textContent = user.email;
+
+      // Populate dashboard stats and charts
+      populateDashboard(user.uid);
+
+      // Start automatic study time clock updates
+      startStudyTimeTracker(user.uid);
+
+      // Bind Reset Subject Click Event
+      document.getElementById("reset-subject-btn").onclick = async () => {
+        const sub = document.getElementById("reset-subject-select").value;
+        if (confirm(`Are you absolutely sure you want to restart all history and completion records for ${sub}?`)) {
+          await resetSubjectProgress(user.uid, sub);
+          alert(`${sub} progress has been successfully cleared.`);
+          window.location.reload();
+        }
+      };
+
+      // Bind Reset All Click Event
+      document.getElementById("reset-all-btn").onclick = async () => {
+        if (confirm("Are you absolutely sure you want to wipe ALL clinical quiz attempts and progress metrics? This action cannot be undone.")) {
+          await resetAllProgress(user.uid);
+          alert("All progress metrics have been successfully reset.");
+          window.location.reload();
+        }
+      };
+    });
+
+    // Handle Logout Action
+    document.getElementById("logout-btn").addEventListener("click", async () => {
+      await logout();
+      window.location.href = "./login.html";
+    });
+  </script>
+</body>
+</html>

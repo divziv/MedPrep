@@ -1,0 +1,62 @@
+[
+  {
+    "id": 401,
+    "question": "Which of the following is a competitive antagonist at the histamine H2 receptors, commonly used to treat peptic ulcer disease?",
+    "options": [
+      "Omeprazole",
+      "Cimetidine",
+      "Diphenhydramine",
+      "Misoprostol"
+    ],
+    "correct": 1,
+    "explanation": "Cimetidine, Ranitidine, and Famotidine are H2 receptor antagonists that decrease gastric acid secretion. Omeprazole is a proton pump inhibitor."
+  },
+  {
+    "id": 402,
+    "question": "What is the primary mechanism of action of the widely used anticoagulant Warfarin?",
+    "options": [
+      "Direct inhibition of Factor Xa",
+      "Inhibition of Vitamin K epoxide reductase",
+      "Direct thrombin inhibition",
+      "Binding to Antithrombin III and accelerating its action"
+    ],
+    "correct": 1,
+    "explanation": "Warfarin acts by inhibiting Vitamin K epoxide reductase (VKORC1), thereby reducing active Vitamin K stores needed for synthesis of coagulation factors II, VII, IX, and X."
+  },
+  {
+    "id": 403,
+    "question": "A patient with pulmonary tuberculosis develops peripheral neuropathy during treatment. Which vitamin deficiency is associated with this adverse effect, and which drug causes it?",
+    "options": [
+      "Vitamin B12 deficiency caused by Rifampin",
+      "Vitamin B6 deficiency caused by Isoniazid",
+      "Vitamin B1 deficiency caused by Ethambutol",
+      "Vitamin C deficiency caused by Pyrazinamide"
+    ],
+    "correct": 1,
+    "explanation": "Isoniazid (INH) inhibits the activation of Pyridoxine (Vitamin B6), leading to a drug-induced peripheral neuropathy which can be prevented by co-administering Pyridoxine."
+  },
+  {
+    "id": 404,
+    "question": "Which anti-arrhythmic class primarily blocks potassium channels and prolongs the action potential duration?",
+    "options": [
+      "Class I (e.g., Lidocaine)",
+      "Class II (e.g., Metoprolol)",
+      "Class III (e.g., Amiodarone)",
+      "Class IV (e.g., Verapamil)"
+    ],
+    "correct": 2,
+    "explanation": "Class III anti-arrhythmic agents, such as Amiodarone, Sotalol, and Dofetilide, primarily act by blocking potassium channels, thereby prolonging cardiac repolarization and action potential duration."
+  },
+  {
+    "id": 405,
+    "question": "What is the toxic manifestation and treatment for Acetaminophen (Paracetamol) overdose?",
+    "options": [
+      "Nephrotoxicity, treated with Hemodialysis",
+      "Hepatotoxicity, treated with N-acetylcysteine",
+      "Ototoxicity, treated with Loop diuretics",
+      "Cardiotoxicity, treated with Sodium bicarbonate"
+    ],
+    "correct": 1,
+    "explanation": "Acetaminophen overdose leads to the accumulation of toxic metabolite NAPQI, causing acute hepatic necrosis (hepatotoxicity). It is treated with N-acetylcysteine (NAC) which restores hepatic glutathione stores."
+  }
+]

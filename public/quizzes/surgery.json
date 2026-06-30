@@ -1,0 +1,62 @@
+[
+  {
+    "id": 201,
+    "question": "A 28-year-old male presents to the emergency department with acute abdominal pain starting in the periumbilical region and migrating to the right lower quadrant, accompanied by low-grade fever and anorexia. What is the most likely diagnosis?",
+    "options": [
+      "Acute Cholecystitis",
+      "Acute Appendicitis",
+      "Perforated Peptic Ulcer",
+      "Acute Diverticulitis"
+    ],
+    "correct": 1,
+    "explanation": "Pain migrating from the periumbilical region to the right lower quadrant (McBurney's point) accompanied by anorexia, nausea, and fever is the classic presentation of acute appendicitis."
+  },
+  {
+    "id": 202,
+    "question": "During a thyroidectomy, a patient suffers injury to the recurrent laryngeal nerve. What is the most expected clinical presentation of a unilateral injury?",
+    "options": [
+      "Aphonia",
+      "Hoarseness of voice",
+      "Stridor and airway compromise",
+      "Dysphagia"
+    ],
+    "correct": 1,
+    "explanation": "Unilateral recurrent laryngeal nerve injury leads to hoarseness of voice. Bilateral recurrent laryngeal nerve injury would cause dyspnea, stridor, or airway obstruction."
+  },
+  {
+    "id": 203,
+    "question": "A 65-year-old female presents with pain in the right upper quadrant, fever with chills, and jaundice (Charcot's triad). What is the most likely diagnosis?",
+    "options": [
+      "Acute Cholecystitis",
+      "Acute Cholangitis",
+      "Biliary Colic",
+      "Carcinoma of Head of Pancreas"
+    ],
+    "correct": 1,
+    "explanation": "Charcot's triad consisting of right upper quadrant pain, fever, and jaundice indicates acute cholangitis, a bacterial infection of an obstructed biliary tree."
+  },
+  {
+    "id": 204,
+    "question": "Which of the following is the most common site of a pancreatic adenocarcinoma?",
+    "options": [
+      "Head of the pancreas",
+      "Body of the pancreas",
+      "Tail of the pancreas",
+      "Uncinate process"
+    ],
+    "correct": 0,
+    "explanation": "Approximately 60-70% of pancreatic adenocarcinomas arise in the head of the pancreas, frequently presenting with painless obstructive jaundice."
+  },
+  {
+    "id": 205,
+    "question": "A 40-year-old male is involved in a motor vehicle collision and presents with respiratory distress, decreased breath sounds on the left side, and hyperresonance to percussion on the same side. What is the immediate treatment?",
+    "options": [
+      "Obtain an urgent chest X-ray",
+      "Needle thoracocentesis in the second intercostal space",
+      "Endotracheal intubation",
+      "Pericardiocentesis"
+    ],
+    "correct": 1,
+    "explanation": "The clinical presentation of respiratory distress, absent breath sounds, and hyperresonance is suggestive of a tension pneumothorax. The immediate treatment is needle decompression (thoracocentesis) before obtaining an X-ray."
+  }
+]

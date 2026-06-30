@@ -1,6 +1,6 @@
 {
-  "name": "Medical PG Prep Portal",
-  "description": "An interactive PG medical exam preparation portal with customizable themes (including a special Lilac mode), adaptive quizzes, and detailed performance analytics across Cardiology, Neurology, and Obstetrics.",
+  "name": "Medical Prep",
+  "description": "An interactive medical exam preparation portal for NEET PG, INI-CET, and FMGE, featuring Google Sign-In, progress tracking with Firestore, interactive charts, and random question/option shuffling.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
